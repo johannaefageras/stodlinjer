@@ -62,30 +62,33 @@ function normalizeTags(tags) {
   return unique.length ? unique : undefined;
 }
 
-function mapSupportLines(data) {
+function mapSupportData(data) {
   if (!Array.isArray(data)) return [];
-  return data.map((item, index) => {
-    const title = item.name || `Supportline ${item.id ?? index + 1}`;
-    const fallbackId = item.id ?? (slugify(title) || index + 1);
-    const parts = [];
-    if (item.description) parts.push(item.description);
-    if (item.available) parts.push(`Tillgänglighet: ${item.available}`);
-    if (item.number) parts.push(`Telefon: ${item.number}`);
-    if (item.url) parts.push(`Mer info: ${item.url}`);
+  return data
+    .filter((item) => item && item.active !== false)
+    .map((item, index) => {
+      const title = item.title || item.name || `Supportline ${item.id ?? index + 1}`;
+      const fallbackId = item.id ?? (slugify(title) || index + 1);
+      const availabilityLabel = item.availability?.label;
+      const parts = [];
+      if (item.description) parts.push(item.description);
+      if (availabilityLabel) parts.push(`Tillgänglighet: ${availabilityLabel}`);
+      if (item.phone) parts.push(`Telefon: ${item.phone}`);
+      if (item.resource?.url) parts.push(`Mer info: ${item.resource.url}`);
 
-    return {
-      id: `supportline-${fallbackId}`,
-      title,
-      type: 'supportline',
-      samling: null,
-      content: parts.join('\n'),
-      tags: normalizeTags([
-        'supportline',
-        item.category,
-        ...(Array.isArray(item.tags) ? item.tags : [])
-      ])
-    };
-  });
+      return {
+        id: `supportline-${fallbackId}`,
+        title,
+        type: 'supportline',
+        samling: null,
+        content: parts.join('\n'),
+        tags: normalizeTags([
+          'supportline',
+          item.category,
+          ...(Array.isArray(item.tags) ? item.tags : [])
+        ])
+      };
+    });
 }
 
 function mapQuotes(data) {
@@ -155,7 +158,8 @@ function mapGenericDataset(name, data) {
 }
 
 function mapJsonDataset(name, data) {
-  if (name === 'support-lines') return mapSupportLines(data);
+  if (name === 'supportData') return mapSupportData(data);
+  if (name === 'support-lines') return [];
   if (name === 'quotes') return mapQuotes(data);
   if (name === 'samlingar') return mapSamlingar(data);
   return mapGenericDataset(name, data);

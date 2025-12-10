@@ -1,12 +1,15 @@
 const BASE_URL = window.BASE_URL || '';
 const CHATBOT_CONFIG = window.CHATBOT_CONFIG || { apiUrl: '', externalSources: [] };
+const configuredSources = Array.isArray(CHATBOT_CONFIG.externalSources)
+  ? CHATBOT_CONFIG.externalSources.slice()
+  : [];
 
 const chatbotState = {
   isOpen: false,
   isSending: false,
   messages: [],
   contentIndex: [],
-  sources: CHATBOT_CONFIG.externalSources || []
+  sources: configuredSources.slice()
 };
 
 function getRandomGreeting() {
@@ -18,6 +21,39 @@ const CHATBOT_COPY = {
   unavailable:
     'Jag saknar AI-anslutning just nu, men här är innehåll jag hittade som matchar din fråga.'
 };
+
+function normalizeSupportLine(line) {
+  if (!line) return null;
+  const url = line.resource?.url;
+  const openingHours = line.availability?.openingHours;
+  return {
+    title: line.title || line.name,
+    url,
+    type: line.resource?.type || (url ? 'link' : 'link'),
+    contactTypes: Array.isArray(line.contactTypes) ? line.contactTypes : undefined,
+    phone: line.phone,
+    hoursLabel: line.availability?.label,
+    hours: line.availability?.label,
+    timezone: line.availability?.timezone,
+    openingHours: Array.isArray(openingHours) ? openingHours : undefined
+  };
+}
+
+async function loadSupportSources() {
+  try {
+    const res = await fetch(`${BASE_URL}/data/supportData.json`, { cache: 'no-cache' });
+    if (!res.ok) throw new Error(`Kunde inte ladda data (${res.status})`);
+    const data = await res.json();
+    if (!Array.isArray(data)) return;
+    const supportSources = data
+      .filter((line) => line && line.active !== false)
+      .map(normalizeSupportLine)
+      .filter((source) => source && (source.title || source.url || source.phone));
+    chatbotState.sources = [...supportSources, ...configuredSources];
+  } catch (err) {
+    console.warn('Kunde inte ladda supportData.json för chatbotten:', err);
+  }
+}
 
 function renderMessage(logEl, { role, content, sources = [] }) {
   const row = document.createElement('div');
@@ -263,4 +299,5 @@ function initChatbot() {
   });
 }
 
+loadSupportSources();
 document.addEventListener('DOMContentLoaded', initChatbot);

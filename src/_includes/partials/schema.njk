@@ -182,25 +182,27 @@
 {% endif %}
 
 {# Support lines as Organizations with ContactPoints - for homepage #}
-{% if page.url == "/" and supportLines %}
+{% if page.url == "/" and supportData %}
+{%- set activeSupportLines = supportData | rejectattr('active', 'equalto', false) %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "ItemList",
   "name": "Svenska stödlinjer",
   "description": "Lista över stödlinjer och hjälpresurser i Sverige för psykisk ohälsa, kriser och svåra livssituationer.",
-  "numberOfItems": {{ supportLines | length }},
+  "numberOfItems": {{ activeSupportLines | length }},
   "itemListElement": [
-    {%- for line in supportLines %}
+    {%- for line in activeSupportLines %}
+    {%- set resourceUrl = line.resource and line.resource.url %}
     {
       "@type": "ListItem",
       "position": {{ loop.index }},
       "item": {
         "@type": "Organization",
-        "name": "{{ line.name | escape }}",
+        "name": "{{ line.title | escape }}",
         "description": "{{ line.description | striptags | escape }}",
-        {%- if line.url %}
-        "url": "{{ line.url }}",
+        {%- if resourceUrl %}
+        "url": "{{ resourceUrl }}",
         {%- endif %}
         "areaServed": {
           "@type": "Country",
@@ -208,7 +210,9 @@
         },
         "contactPoint": {
           "@type": "ContactPoint",
-          "telephone": "{{ line.number }}",
+          {%- if line.phone %}
+          "telephone": "{{ line.phone }}",
+          {%- endif %}
           "contactType": "customer support",
           "areaServed": "SE",
           "availableLanguage": "Swedish"

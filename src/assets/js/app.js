@@ -96,13 +96,14 @@ async function loadSupportLines() {
   showLoadingState();
 
   try {
-    const res = await fetch(`${BASE_URL}/data/supportLines.json`, { cache: 'no-cache' });
+    const res = await fetch(`${BASE_URL}/data/supportData.json`, { cache: 'no-cache' });
     if (!res.ok) throw new Error(`Kunde inte ladda data (${res.status})`);
-    state.lines = await res.json();
+    const data = await res.json();
+    state.lines = Array.isArray(data) ? data.filter((line) => line.active !== false) : [];
     hideLoadingState();
     renderLines();
   } catch (err) {
-    console.error('Fel vid laddning av support-lines.json:', err);
+    console.error('Fel vid laddning av supportData.json:', err);
     hideLoadingState();
 
     const info = document.getElementById('resultsInfo');
@@ -142,13 +143,17 @@ function filterLines() {
 
   const q = state.searchQuery.trim().toLowerCase();
   if (q) {
-    filtered = filtered.filter(
-      (line) =>
-        (line.name && line.name.toLowerCase().includes(q)) ||
-        (line.description && line.description.toLowerCase().includes(q)) ||
-        (line.number && line.number.toLowerCase().includes(q)) ||
-        (line.tags && line.tags.some((tag) => tag.toLowerCase().includes(q)))
-    );
+    filtered = filtered.filter((line) => {
+      const haystackParts = [
+        line.title,
+        line.description,
+        line.phone,
+        line.category,
+        line.availability?.label,
+        ...(Array.isArray(line.tags) ? line.tags : [])
+      ];
+      return haystackParts.some((value) => value && value.toString().toLowerCase().includes(q));
+    });
   }
 
   return filtered;
@@ -189,12 +194,13 @@ function renderLines() {
 
   const categoryIcon = (category) => {
     const map = {
-      psykiskhalsa: '<i class="far far-brain"></i>',
+      'psykisk-halsa': '<i class="far far-brain"></i>',
       'barn-unga': '<i class="far far-children"></i>',
       vald: '<i class="far far-shield-halved"></i>',
       missbruk: '<i class="far far-wine-bottle"></i>',
-      anhöriga: '<i class="far far-people-roof"></i>',
-      aldre: '<i class="far far-person-cane"></i>'
+      anhoriga: '<i class="far far-people-roof"></i>',
+      aldre: '<i class="far far-person-cane"></i>',
+      ovrigt: '<i class="far far-circle-info"></i>'
     };
     return map[category] || '<i class="far far-life-ring"></i>';
   };
@@ -210,7 +216,10 @@ function renderLines() {
       ? '<span class="badge-urgent badge-urgent-corner" aria-label="Akut"><i class="far far-bolt"></i><span>Akut</span></span>'
       : '';
 
-    const telHref = (line.number || '').toString().replace(/[^+\d]/g, '');
+    const phone = (line.phone || '').toString().trim();
+    const telHref = phone ? phone.replace(/[^+\d]/g, '') : '';
+    const resourceUrl = line.resource?.url;
+    const availabilityLabel = line.availability?.label;
 
     article.innerHTML = `
       ${urgentBadge}
@@ -220,25 +229,27 @@ function renderLines() {
           <div>
             <h3 class="text-lg font-bold mb-1" itemprop="name">
               ${
-                line.url
-                  ? `<a href="${line.url}" target="_blank" rel="noopener noreferrer" class="card-title-link">${line.name}</a>`
-                  : line.name
+                resourceUrl
+                  ? `<a href="${resourceUrl}" target="_blank" rel="noopener noreferrer" class="card-title-link">${line.title}</a>`
+                  : line.title
               }
             </h3>
-            <div class="card-meta"><i class="far far-clock"></i><span itemprop="hoursAvailable">${
-              line.available
-            }</span></div>
+            ${
+              availabilityLabel
+                ? `<div class="card-meta"><i class="far far-clock"></i><span itemprop="hoursAvailable">${availabilityLabel}</span></div>`
+                : ''
+            }
           </div>
         </div>
       </div>
 
       ${
-        line.number
+        phone
           ? `<a href="tel:${telHref}"
              class="card-number"
-             itemprop="telephone" aria-label="Ring ${line.name} på ${line.number}">
+             itemprop="telephone" aria-label="Ring ${line.title} på ${phone}">
             <i class="far far-phone"></i>
-            <span>${line.number}</span>
+            <span>${phone}</span>
           </a>`
           : ''
       }
