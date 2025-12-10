@@ -1,5 +1,9 @@
 {% macro articleCard(post) %}
   {% set samlingInfo = (post.data.samling | getSamling) or { title: post.data.samling, icon: 'fas fas-folder' } %}
+  {% set readingTime = post.data.readingTime %}
+  {% if not readingTime and post.templateContent %}
+    {% set readingTime = post.templateContent | readingTime ~ ' min' %}
+  {% endif %}
   <article class="article-card" data-samling-item="{{ post.data.samling }}">
     <div class="article-card-top">
       {% if post.data.samling %}
@@ -12,7 +16,16 @@
           <span>{{ samlingInfo.title }}</span>
         </a>
       {% endif %}
-      <span class="article-date">{{ post.date | formatDate }}</span>
+      <div class="article-card-meta">
+        <span class="article-date">{{ post.date | formatDate }}</span>
+        {% if readingTime %}
+          <span class="meta-divider" aria-hidden="true"></span>
+          <span class="article-reading-time">
+            <i class="far far-clock" aria-hidden="true"></i>
+            {{ readingTime }}
+          </span>
+        {% endif %}
+      </div>
     </div>
 
     <h3 class="article-card-title">
