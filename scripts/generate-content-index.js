@@ -176,6 +176,15 @@ async function readJsonData() {
   return entries;
 }
 
+/**
+ * Strip date prefix from filename to match Eleventy's URL generation.
+ * Eleventy removes YYYY-MM-DD- prefixes from filenames when generating URLs.
+ * e.g., "2025-11-12-my-article" becomes "my-article"
+ */
+function stripDatePrefix(filename) {
+  return filename.replace(/^\d{4}-\d{2}-\d{2}-/, '');
+}
+
 async function readArticles() {
   const files = await fg('**/*.md', { cwd: ARTICLES_DIR });
   const entries = [];
@@ -184,7 +193,15 @@ async function readArticles() {
     const filePath = path.join(ARTICLES_DIR, file);
     const raw = await fs.readFile(filePath, 'utf8');
     const parsed = matter(raw);
-    const relativeId = file.replace(/\.md$/, '').split(path.sep).join('/');
+    
+    // Build the URL path matching Eleventy's output structure:
+    // - Add /artiklar/ prefix
+    // - Strip date prefix from filename
+    // e.g., "samtalsstod/2025-11-12-my-article.md" -> "artiklar/samtalsstod/my-article"
+    const parts = file.replace(/\.md$/, '').split(path.sep);
+    const lastPart = parts[parts.length - 1];
+    parts[parts.length - 1] = stripDatePrefix(lastPart);
+    const relativeId = 'artiklar/' + parts.join('/');
 
     const textBody = markdownToText(parsed.content || '');
     const description = parsed.data.description ? parsed.data.description.trim() : '';
