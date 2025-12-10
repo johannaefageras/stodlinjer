@@ -63,7 +63,7 @@
 }
 
 .card-number {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -72,10 +72,10 @@
   background: var(--pill);
   border: none;
   color: var(--accent);
-  font-weight: 800;
+  font-weight: 700;
   text-decoration: none;
-  font-family: 'Söhne', system-ui, sans-serif;
-  letter-spacing: 0.02em;
+  font-family: 'Nikkei Journal', 'Georgia', 'Times New Roman', serif;
+  letter-spacing: 0.018em;
 }
 
 .card-number svg {
@@ -115,8 +115,8 @@ h3 a.card-title-link {
 }
 
 .phone-number {
-  font-family: 'Söhne', system-ui, sans-serif;
-  font-weight: 800;
+  font-family: 'Nikkei Journal', 'Georgia', 'Times New Roman', serif;
+  font-weight: 700;
   font-variant-numeric: tabular-nums;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.05em;
 }

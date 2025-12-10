@@ -1,0 +1,237 @@
+/* Thin (100) */
+@font-face {
+  font-family: 'Nikkei Journal';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-Thin.eot');
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-Thin.woff2') format('woff2'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-Thin.woff') format('woff'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-Thin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nikkei Journal';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-ThinItalic.eot');
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-ThinItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-ThinItalic.woff2') format('woff2'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-ThinItalic.woff') format('woff'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-ThinItalic.ttf') format('truetype');
+}
+
+/* ExtraLight (200) */
+@font-face {
+  font-family: 'Nikkei Journal';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-ExtraLight.eot');
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-ExtraLight.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-ExtraLight.woff2') format('woff2'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-ExtraLight.woff') format('woff'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nikkei Journal';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-ExtraLightItalic.eot');
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-ExtraLightItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-ExtraLightItalic.woff2') format('woff2'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-ExtraLightItalic.woff') format('woff'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-ExtraLightItalic.ttf') format('truetype');
+}
+
+/* Light (300) */
+@font-face {
+  font-family: 'Nikkei Journal';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-Light.eot');
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-Light.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-Light.woff2') format('woff2'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-Light.woff') format('woff'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nikkei Journal';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-LightItalic.eot');
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-LightItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-LightItalic.woff2') format('woff2'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-LightItalic.woff') format('woff'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-LightItalic.ttf') format('truetype');
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: 'Nikkei Journal';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-Regular.eot');
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-Regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-Regular.woff2') format('woff2'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-Regular.woff') format('woff'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nikkei Journal';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-RegularItalic.eot');
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-RegularItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-RegularItalic.woff2') format('woff2'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-RegularItalic.woff') format('woff'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-RegularItalic.ttf') format('truetype');
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: 'Nikkei Journal';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-Medium.eot');
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-Medium.woff2') format('woff2'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-Medium.woff') format('woff'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nikkei Journal';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-MediumItalic.eot');
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-MediumItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-MediumItalic.woff2') format('woff2'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-MediumItalic.woff') format('woff'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-MediumItalic.ttf') format('truetype');
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: 'Nikkei Journal';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-SemiBold.eot');
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-SemiBold.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-SemiBold.woff2') format('woff2'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-SemiBold.woff') format('woff'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nikkei Journal';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-SemiBoldItalic.eot');
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-SemiBoldItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-SemiBoldItalic.woff2') format('woff2'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-SemiBoldItalic.woff') format('woff'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-SemiBoldItalic.ttf') format('truetype');
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: 'Nikkei Journal';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-Bold.eot');
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-Bold.woff2') format('woff2'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-Bold.woff') format('woff'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nikkei Journal';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-BoldItalic.eot');
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-BoldItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-BoldItalic.woff2') format('woff2'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-BoldItalic.woff') format('woff'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-BoldItalic.ttf') format('truetype');
+}
+
+/* ExtraBold (800) */
+@font-face {
+  font-family: 'Nikkei Journal';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-ExtraBold.eot');
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-ExtraBold.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-ExtraBold.woff2') format('woff2'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-ExtraBold.woff') format('woff'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nikkei Journal';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-ExtraBoldItalic.eot');
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-ExtraBoldItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-ExtraBoldItalic.woff2') format('woff2'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-ExtraBoldItalic.woff') format('woff'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-ExtraBoldItalic.ttf') format('truetype');
+}
+
+/* Black (900) */
+@font-face {
+  font-family: 'Nikkei Journal';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-Black.eot');
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-Black.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-Black.woff2') format('woff2'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-Black.woff') format('woff'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nikkei Journal';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-BlackItalic.eot');
+  src: url('../../fonts/nikkei-journal/NikkeiJournal-BlackItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-BlackItalic.woff2') format('woff2'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-BlackItalic.woff') format('woff'),
+    url('../../fonts/nikkei-journal/NikkeiJournal-BlackItalic.ttf') format('truetype');
+}

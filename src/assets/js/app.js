@@ -114,10 +114,10 @@ async function loadSupportLines() {
     if (grid) {
       grid.innerHTML = `
         <div class="surface-card p-6 md:col-span-2 xl:col-span-3 text-center">
-          <p class="text-lg font-bold mb-2"><i class="far far-triangle-exclamation text-amber-500"></i> Kunde inte ladda stödlinjer</p>
+          <p class="text-lg font-semibold mb-2"><i class="fas fa-triangle-exclamation text-amber-500"></i> Kunde inte ladda stödlinjer</p>
           <p class="muted text-sm mb-4">Försök ladda om sidan eller kontakta oss om problemet kvarstår.</p>
           <button onclick="location.reload()" class="category-btn is-active">
-            <i class="far far-rotate-right"></i> Ladda om
+            <i class="fas fa-rotate-right"></i> Ladda om
           </button>
         </div>
       `;
@@ -194,15 +194,15 @@ function renderLines() {
 
   const categoryIcon = (category) => {
     const map = {
-      'psykisk-halsa': '<i class="far far-brain"></i>',
-      'barn-unga': '<i class="far far-children"></i>',
-      vald: '<i class="far far-shield-halved"></i>',
-      missbruk: '<i class="far far-wine-bottle"></i>',
-      anhoriga: '<i class="far far-people-roof"></i>',
-      aldre: '<i class="far far-person-cane"></i>',
-      ovrigt: '<i class="far far-circle-info"></i>'
+      'psykisk-halsa': '<i class="fas fa-brain"></i>',
+      'barn-unga': '<i class="fas fa-children"></i>',
+      vald: '<i class="fas fa-shield-halved"></i>',
+      missbruk: '<i class="fas fa-wine-bottle"></i>',
+      anhoriga: '<i class="fas fa-people-roof"></i>',
+      aldre: '<i class="fas fa-person-cane"></i>',
+      ovrigt: '<i class="fas fa-circle-info"></i>'
     };
-    return map[category] || '<i class="far far-life-ring"></i>';
+    return map[category] || '<i class="fas fa-life-ring"></i>';
   };
 
   filtered.forEach((line) => {
@@ -213,7 +213,7 @@ function renderLines() {
 
     // Urgent badge - only rendered once, positioned in top-right corner
     const urgentBadge = line.urgent
-      ? '<span class="badge-urgent badge-urgent-corner" aria-label="Akut"><i class="far far-bolt"></i><span>Akut</span></span>'
+      ? '<span class="badge-urgent badge-urgent-corner" aria-label="Akut"><i class="fas fa-bolt"></i><span>Akut</span></span>'
       : '';
 
     const phone = (line.phone || '').toString().trim();
@@ -227,7 +227,7 @@ function renderLines() {
         <div class="card-title">
           <span class="card-icon">${categoryIcon(line.category)}</span>
           <div>
-            <h3 class="text-lg font-bold mb-1" itemprop="name">
+            <h3 class="text-lg font-semibold mb-1" itemprop="name">
               ${
                 resourceUrl
                   ? `<a href="${resourceUrl}" target="_blank" rel="noopener noreferrer" class="card-title-link">${line.title}</a>`
@@ -236,7 +236,7 @@ function renderLines() {
             </h3>
             ${
               availabilityLabel
-                ? `<div class="card-meta"><i class="far far-clock"></i><span itemprop="hoursAvailable">${availabilityLabel}</span></div>`
+                ? `<div class="card-meta"><i class="fas fa-clock"></i><span itemprop="hoursAvailable">${availabilityLabel}</span></div>`
                 : ''
             }
           </div>
@@ -248,7 +248,7 @@ function renderLines() {
           ? `<a href="tel:${telHref}"
              class="card-number"
              itemprop="telephone" aria-label="Ring ${line.title} på ${phone}">
-            <i class="far far-phone"></i>
+            <i class="fas fa-phone"></i>
             <span>${phone}</span>
           </a>`
           : ''
@@ -392,13 +392,13 @@ function initArticleFilters() {
 
     const prev = makeLink(
       state.page - 1,
-      '<i class="far far-arrow-left" aria-hidden="true"></i> Föregående',
+      '<i class="fas fa-arrow-left" aria-hidden="true"></i> Föregående',
       state.page === 1,
       'prev'
     );
     const next = makeLink(
       state.page + 1,
-      `Nästa <i class="far far-arrow-right" aria-hidden="true"></i>`,
+      `Nästa <i class="fas fa-arrow-right" aria-hidden="true"></i>`,
       state.page === totalPages,
       'next'
     );

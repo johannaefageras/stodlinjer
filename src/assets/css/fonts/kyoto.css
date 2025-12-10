@@ -1,0 +1,224 @@
+/* Thin (100) */
+@font-face {
+  font-family: 'Kyoto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url('../../fonts/kyoto/Kyoto-Thin.eot');
+  src: url('../../fonts/kyoto/Kyoto-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/kyoto/Kyoto-Thin.woff2') format('woff2'),
+    url('../../fonts/kyoto/Kyoto-Thin.woff') format('woff'),
+    url('../../fonts/kyoto/Kyoto-Thin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kyoto';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url('../../fonts/kyoto/Kyoto-ThinItalic.eot');
+  src: url('../../fonts/kyoto/Kyoto-ThinItalic.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/kyoto/Kyoto-ThinItalic.woff2') format('woff2'),
+    url('../../fonts/kyoto/Kyoto-ThinItalic.woff') format('woff'),
+    url('../../fonts/kyoto/Kyoto-ThinItalic.ttf') format('truetype');
+}
+
+/* ExtraLight (200) */
+@font-face {
+  font-family: 'Kyoto';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url('../../fonts/kyoto/Kyoto-ExtraLight.eot');
+  src: url('../../fonts/kyoto/Kyoto-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/kyoto/Kyoto-ExtraLight.woff2') format('woff2'),
+    url('../../fonts/kyoto/Kyoto-ExtraLight.woff') format('woff'),
+    url('../../fonts/kyoto/Kyoto-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kyoto';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url('../../fonts/kyoto/Kyoto-ExtraLightItalic.eot');
+  src: url('../../fonts/kyoto/Kyoto-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/kyoto/Kyoto-ExtraLightItalic.woff2') format('woff2'),
+    url('../../fonts/kyoto/Kyoto-ExtraLightItalic.woff') format('woff'),
+    url('../../fonts/kyoto/Kyoto-ExtraLightItalic.ttf') format('truetype');
+}
+
+/* Light (300) */
+@font-face {
+  font-family: 'Kyoto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('../../fonts/kyoto/Kyoto-Light.eot');
+  src: url('../../fonts/kyoto/Kyoto-Light.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/kyoto/Kyoto-Light.woff2') format('woff2'),
+    url('../../fonts/kyoto/Kyoto-Light.woff') format('woff'),
+    url('../../fonts/kyoto/Kyoto-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kyoto';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url('../../fonts/kyoto/Kyoto-LightItalic.eot');
+  src: url('../../fonts/kyoto/Kyoto-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/kyoto/Kyoto-LightItalic.woff2') format('woff2'),
+    url('../../fonts/kyoto/Kyoto-LightItalic.woff') format('woff'),
+    url('../../fonts/kyoto/Kyoto-LightItalic.ttf') format('truetype');
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: 'Kyoto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../../fonts/kyoto/Kyoto-Regular.eot');
+  src: url('../../fonts/kyoto/Kyoto-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/kyoto/Kyoto-Regular.woff2') format('woff2'),
+    url('../../fonts/kyoto/Kyoto-Regular.woff') format('woff'),
+    url('../../fonts/kyoto/Kyoto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kyoto';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../../fonts/kyoto/Kyoto-RegularItalic.eot');
+  src: url('../../fonts/kyoto/Kyoto-RegularItalic.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/kyoto/Kyoto-RegularItalic.woff2') format('woff2'),
+    url('../../fonts/kyoto/Kyoto-RegularItalic.woff') format('woff'),
+    url('../../fonts/kyoto/Kyoto-RegularItalic.ttf') format('truetype');
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: 'Kyoto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../../fonts/kyoto/Kyoto-Medium.eot');
+  src: url('../../fonts/kyoto/Kyoto-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/kyoto/Kyoto-Medium.woff2') format('woff2'),
+    url('../../fonts/kyoto/Kyoto-Medium.woff') format('woff'),
+    url('../../fonts/kyoto/Kyoto-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kyoto';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../../fonts/kyoto/Kyoto-MediumItalic.eot');
+  src: url('../../fonts/kyoto/Kyoto-MediumItalic.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/kyoto/Kyoto-MediumItalic.woff2') format('woff2'),
+    url('../../fonts/kyoto/Kyoto-MediumItalic.woff') format('woff'),
+    url('../../fonts/kyoto/Kyoto-MediumItalic.ttf') format('truetype');
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: 'Kyoto';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../../fonts/kyoto/Kyoto-SemiBold.eot');
+  src: url('../../fonts/kyoto/Kyoto-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/kyoto/Kyoto-SemiBold.woff2') format('woff2'),
+    url('../../fonts/kyoto/Kyoto-SemiBold.woff') format('woff'),
+    url('../../fonts/kyoto/Kyoto-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kyoto';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../../fonts/kyoto/Kyoto-SemiBoldItalic.eot');
+  src: url('../../fonts/kyoto/Kyoto-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/kyoto/Kyoto-SemiBoldItalic.woff2') format('woff2'),
+    url('../../fonts/kyoto/Kyoto-SemiBoldItalic.woff') format('woff'),
+    url('../../fonts/kyoto/Kyoto-SemiBoldItalic.ttf') format('truetype');
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: 'Kyoto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../fonts/kyoto/Kyoto-Bold.eot');
+  src: url('../../fonts/kyoto/Kyoto-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/kyoto/Kyoto-Bold.woff2') format('woff2'),
+    url('../../fonts/kyoto/Kyoto-Bold.woff') format('woff'),
+    url('../../fonts/kyoto/Kyoto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kyoto';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../fonts/kyoto/Kyoto-BoldItalic.eot');
+  src: url('../../fonts/kyoto/Kyoto-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/kyoto/Kyoto-BoldItalic.woff2') format('woff2'),
+    url('../../fonts/kyoto/Kyoto-BoldItalic.woff') format('woff'),
+    url('../../fonts/kyoto/Kyoto-BoldItalic.ttf') format('truetype');
+}
+
+/* ExtraBold (800) */
+@font-face {
+  font-family: 'Kyoto';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('../../fonts/kyoto/Kyoto-ExtraBold.eot');
+  src: url('../../fonts/kyoto/Kyoto-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/kyoto/Kyoto-ExtraBold.woff2') format('woff2'),
+    url('../../fonts/kyoto/Kyoto-ExtraBold.woff') format('woff'),
+    url('../../fonts/kyoto/Kyoto-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kyoto';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url('../../fonts/kyoto/Kyoto-ExtraBoldItalic.eot');
+  src: url('../../fonts/kyoto/Kyoto-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/kyoto/Kyoto-ExtraBoldItalic.woff2') format('woff2'),
+    url('../../fonts/kyoto/Kyoto-ExtraBoldItalic.woff') format('woff'),
+    url('../../fonts/kyoto/Kyoto-ExtraBoldItalic.ttf') format('truetype');
+}
+
+/* Black (900) */
+@font-face {
+  font-family: 'Kyoto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('../../fonts/kyoto/Kyoto-Black.eot');
+  src: url('../../fonts/kyoto/Kyoto-Black.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/kyoto/Kyoto-Black.woff2') format('woff2'),
+    url('../../fonts/kyoto/Kyoto-Black.woff') format('woff'),
+    url('../../fonts/kyoto/Kyoto-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kyoto';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url('../../fonts/kyoto/Kyoto-BlackItalic.eot');
+  src: url('../../fonts/kyoto/Kyoto-BlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/kyoto/Kyoto-BlackItalic.woff2') format('woff2'),
+    url('../../fonts/kyoto/Kyoto-BlackItalic.woff') format('woff'),
+    url('../../fonts/kyoto/Kyoto-BlackItalic.ttf') format('truetype');
+}

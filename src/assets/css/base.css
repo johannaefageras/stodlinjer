@@ -129,17 +129,16 @@
 body {
   margin: 0;
   min-height: 100vh;
-  font-family: 'Söhne', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
-    sans-serif;
+  font-family: 'Nikkei Journal', 'Georgia', 'Times New Roman', serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 16.5px;
   background: var(--bg);
   background-image: var(--bg-pattern);
   color: var(--text);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  line-height: 1.55;
-  letter-spacing: 0.005em;
+  line-height: 1.6;
+  letter-spacing: 0.004em;
 }
 
 /* Solid background variant for home/contact */
@@ -161,62 +160,62 @@ body.solid-bg-shell {
 }
 
 /* ==========================================================================
-   Typography Scale & Rhythm for Söhne
+   Typography Scale & Rhythm for Nikkei Journal
    ========================================================================== */
 
 .page-shell h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  letter-spacing: -0.025em;
-  line-height: 1.2;
+  font-size: 2.05rem;
+  font-weight: 600;
+  letter-spacing: -0.016em;
+  line-height: 1.24;
   color: var(--text);
   margin: 0;
 }
 
 .page-shell h2 {
-  font-size: 1.5rem;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  line-height: 1.35;
+  font-size: 1.54rem;
+  font-weight: 600;
+  letter-spacing: -0.013em;
+  line-height: 1.34;
   color: var(--text);
   margin: 0;
 }
 
 .page-shell h3 {
-  font-size: 1.25rem;
-  font-weight: 700;
-  letter-spacing: -0.015em;
+  font-size: 1.29rem;
+  font-weight: 600;
+  letter-spacing: -0.009em;
   line-height: 1.3;
   color: var(--text);
   margin: 0;
 }
 
 .page-shell h4 {
-  font-size: 1.125rem;
-  font-weight: 700;
-  letter-spacing: -0.01em;
-  line-height: 1.35;
+  font-size: 1.16rem;
+  font-weight: 600;
+  letter-spacing: -0.006em;
+  line-height: 1.34;
   color: var(--text);
   margin: 0;
 }
 
 /* Large display headings (hero sections) */
 .page-shell .text-3xl {
-  font-size: 1.875rem !important;
-  letter-spacing: -0.03em !important;
-  line-height: 1.15 !important;
+  font-size: 1.95rem !important;
+  letter-spacing: -0.022em !important;
+  line-height: 1.18 !important;
 }
 
 .page-shell .text-4xl {
-  font-size: 2.25rem !important;
-  letter-spacing: -0.035em !important;
+  font-size: 2.35rem !important;
+  letter-spacing: -0.028em !important;
   line-height: 1.1 !important;
 }
 
 @media (min-width: 640px) {
   .page-shell .sm\:text-4xl {
-    font-size: 2.25rem !important;
-    letter-spacing: -0.035em !important;
+    font-size: 2.35rem !important;
+    letter-spacing: -0.028em !important;
     line-height: 1.1 !important;
   }
 }
@@ -224,21 +223,21 @@ body.solid-bg-shell {
 /* Body text */
 .page-shell p,
 .page-shell li {
-  font-weight: 500;
-  line-height: 1.45;
-  letter-spacing: 0.005em;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.006em;
 }
 
 .page-shell .muted {
   font-weight: 400;
-  line-height: 1.45;
-  letter-spacing: 0.005em;
+  line-height: 1.5;
+  letter-spacing: 0.004em;
 }
 
 .page-shell .text-lg {
-  font-size: 1.0625rem !important;
-  line-height: 1.2 !important;
-  letter-spacing: 0.005em !important;
+  font-size: 1.08rem !important;
+  line-height: 1.35 !important;
+  letter-spacing: 0.004em !important;
 }
 
 .page-shell .text-sm {
@@ -248,10 +247,10 @@ body.solid-bg-shell {
 }
 
 .page-shell .text-xs {
-  font-size: 1rem !important;
-  line-height: 1.45 !important;
-  letter-spacing: 0.015em !important;
-  font-weight: 800;
+  font-size: 1.04rem !important;
+  line-height: 1.5 !important;
+  letter-spacing: 0.01em !important;
+  font-weight: 600 !important;
 }
 
 /* Strong/bold text */
@@ -260,7 +259,7 @@ body.solid-bg-shell {
   font-weight: 700;
 }
 
-/* Medium weight for UI elements (Söhne supports full weight range) */
+/* Medium weight for UI elements (Nikkei Journal supports full weight range) */
 .page-shell .font-semibold {
   font-weight: 600 !important;
 }
@@ -270,7 +269,7 @@ body.solid-bg-shell {
 }
 
 .page-shell .font-extrabold {
-  font-weight: 800 !important;
+  font-weight: 700 !important;
 }
 
 /* Normalize Tailwind text utility when theme switches */
@@ -287,10 +286,10 @@ body.solid-bg-shell {
    ========================================================================== */
 
 .phone-number {
-  font-family: 'Söhne', system-ui, sans-serif;
-  font-weight: 800;
+  font-family: 'Nikkei Journal', 'Georgia', 'Times New Roman', serif;
+  font-weight: 700;
   font-variant-numeric: tabular-nums;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
   font-feature-settings: 'tnum' 1;
 }
 

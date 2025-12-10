@@ -4,20 +4,20 @@
   "permalink": "/{{ page.filePathStem }}/",
   "pageClass": "article-shell",
   "header": {
-    "icon": "far far-book-open",
+    "icon": "fas fa-book-open",
     "label": "Kunskap & artiklar",
     "title": "Fördjupning om stöd",
     "subtitle": "Fördjupade guider och råd kopplade till svenska stödlinjer.",
     "links": [
       {
         "url": "/",
-        "icon": "far far-house",
+        "icon": "fas fa-house",
         "text": "Startsida",
         "aria": "Till startsidan"
       },
       {
         "url": "/artiklar/",
-        "icon": "far far-newspaper",
+        "icon": "fas fa-newspaper",
         "text": "Artiklar",
         "aria": "Till artiklar och guider"
       }

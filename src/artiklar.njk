@@ -6,17 +6,17 @@ permalink: "/artiklar/"
 pageClass: "archive-shell"
 articlesPerPage: 9
 header:
-  icon: "far far-newspaper"
+  icon: "fas fa-newspaper"
   label: "Artiklar & guider"
   title: "Fördjupa dig"
   subtitle: "Samlade råd, steg-för-steg-guider och förklaringar kring stödlinjer."
   links:
     - url: "/"
-      icon: "far far-house"
+      icon: "fas fa-house"
       text: "Startsida"
       aria: "Till startsidan"
     - url: "/kontakt/"
-      icon: "far far-envelope-open-text"
+      icon: "fas fa-envelope-open-text"
       text: "Kontakt"
       aria: "Kontakta oss"
 ---
@@ -38,8 +38,8 @@ header:
   <section class="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
     <div class="surface-card strong-card p-6 sm:p-8 article-hero">
       <div class="article-hero-text">
-        <p class="pill w-fit"><i class="far far-lightbulb"></i> Kunskap som går att använda</p>
-        <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white mb-3">
+        <p class="pill w-fit"><i class="fas fa-lightbulb"></i> Kunskap som går att använda</p>
+        <h2 class="text-3xl sm:text-4xl font-semibold text-slate-900 dark:text-white mb-3">
           Artiklar och guider om tryggt stöd
         </h2>
         <p class="muted text-lg max-w-3xl">
@@ -48,8 +48,8 @@ header:
           ämnen som passar din situation.
         </p>
         <div class="hero-chips">
-          <span class="stat-chip"><i class="far far-newspaper"></i> {{ totalArticles }} artiklar</span>
-          <span class="stat-chip"><i class="far far-list-check"></i> {{ samlingar | length }} samlingar</span>
+          <span class="stat-chip"><i class="fas fa-newspaper"></i> {{ totalArticles }} artiklar</span>
+          <span class="stat-chip"><i class="fas fa-list-check"></i> {{ samlingar | length }} samlingar</span>
         </div>
       </div>
     </div>
@@ -73,7 +73,7 @@ header:
           aria-pressed="true"
           type="button"
         >
-          <span><i class="far far-asterisk"></i> Alla samlingar</span>
+          <span><i class="fas fa-asterisk"></i> Alla samlingar</span>
         </button>
         {% for item in samlingar %}
           {% set count = 0 %}

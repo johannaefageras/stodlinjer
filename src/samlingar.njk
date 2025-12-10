@@ -9,17 +9,17 @@ eleventyComputed:
   title: "{{ samling.title }} | Artiklar | Stödlinjer Sverige"
   description: "{{ samling.description or samling.summary }}"
   header:
-    icon: "{{ samling.icon or 'far far-books' }}"
+    icon: "{{ samling.icon or 'fas fa-books' }}"
     label: "Samling"
     title: "Samling: {{ samling.title }}"
     subtitle: "{{ samling.summary }}"
     links:
       - url: "/artiklar/"
-        icon: "far far-newspaper"
+        icon: "fas fa-newspaper"
         text: "Alla artiklar"
         aria: "Till artikelarkivet"
       - url: "/"
-        icon: "far far-house"
+        icon: "fas fa-house"
         text: "Startsida"
         aria: "Till startsidan"
 ---
@@ -37,7 +37,7 @@ eleventyComputed:
       <div class="flex flex-wrap items-start justify-between gap-4">
         <div class="flex flex-col gap-2">
           <p class="pill w-fit"><i class="{{ samling.icon }}"></i> Samling</p>
-          <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white mb-1">
+          <h2 class="text-3xl sm:text-4xl font-semibold text-slate-900 dark:text-white mb-1">
             {{ samling.title }}
           </h2>
           {% if samling.description %}
@@ -45,9 +45,9 @@ eleventyComputed:
           {% endif %}
         </div>
         <div class="hero-chips">
-          <span class="stat-chip"><i class="far far-newspaper"></i> {{ samling.items | length }} artiklar</span>
+          <span class="stat-chip"><i class="fas fa-newspaper"></i> {{ samling.items | length }} artiklar</span>
           <a class="stat-chip inline-link" href="{{ baseUrl }}/artiklar/">
-            <i class="far far-arrow-left"></i> Till arkivet
+            <i class="fas fa-arrow-left"></i> Till arkivet
           </a>
         </div>
       </div>

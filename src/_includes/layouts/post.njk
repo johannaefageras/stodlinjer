@@ -5,7 +5,7 @@
 {% endblock %}
 
 {% block content %}
-  {% set samlingInfo = (samling | getSamling) or { title: samling, icon: 'far far-folder' } %}
+  {% set samlingInfo = (samling | getSamling) or { title: samling, icon: 'fas fa-folder' } %}
   {% set estimatedReadingTime = readingTime %}
   {% if not estimatedReadingTime and content %}
     {% set estimatedReadingTime = content | readingTime ~ ' min' %}
@@ -25,10 +25,10 @@
         <h1 class="post-title">{{ title }}</h1>
 
         <div class="post-meta">
-          <span><i class="far far-calendar"></i> {{ date | formatDate }}</span>
+          <span><i class="fas fa-calendar"></i> {{ date | formatDate }}</span>
           {% if estimatedReadingTime %}
             <span class="meta-divider" aria-hidden="true"></span>
-            <span><i class="far far-clock"></i> {{ estimatedReadingTime }}</span>
+            <span><i class="fas fa-clock"></i> {{ estimatedReadingTime }}</span>
           {% endif %}
           {% if samling %}
             <span class="meta-divider" aria-hidden="true"></span>
@@ -51,7 +51,7 @@
         {% if references %}
           <div class="post-references">
             <p class="text-xs uppercase tracking-wide flex items-center gap-2">
-              <i class="far far-book" aria-hidden="true"></i> Referenser
+              <i class="fas fa-book" aria-hidden="true"></i> Referenser
             </p>
             <ol class="reference-list">
               {% for ref in references %}
