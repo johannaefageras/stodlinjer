@@ -5,9 +5,6 @@ Thumbs.db
 .idea/
 .chatdata/
 
-# Git
-.gitattributes
-.git/
 # Node
 node_modules/
 npm-debug.log*
