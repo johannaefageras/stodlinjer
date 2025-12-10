@@ -96,7 +96,7 @@ async function loadSupportLines() {
   showLoadingState();
 
   try {
-    const res = await fetch(`${BASE_URL}/data/support-lines.json`, { cache: 'no-cache' });
+    const res = await fetch(`${BASE_URL}/data/supportLines.json`, { cache: 'no-cache' });
     if (!res.ok) throw new Error(`Kunde inte ladda data (${res.status})`);
     state.lines = await res.json();
     hideLoadingState();
