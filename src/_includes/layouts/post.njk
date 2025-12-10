@@ -5,7 +5,7 @@
 {% endblock %}
 
 {% block content %}
-  {% set samlingInfo = (samling | getSamling) or { title: samling, icon: 'fas fas-folder' } %}
+  {% set samlingInfo = (samling | getSamling) or { title: samling, icon: 'far far-folder' } %}
   {% set estimatedReadingTime = readingTime %}
   {% if not estimatedReadingTime and content %}
     {% set estimatedReadingTime = content | readingTime ~ ' min' %}
@@ -51,7 +51,7 @@
         {% if references %}
           <div class="post-references">
             <p class="text-xs uppercase tracking-wide flex items-center gap-2">
-              <i class="fas fas-book" aria-hidden="true"></i> Referenser
+              <i class="far far-book" aria-hidden="true"></i> Referenser
             </p>
             <ol class="reference-list">
               {% for ref in references %}

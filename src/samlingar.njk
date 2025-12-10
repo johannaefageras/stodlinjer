@@ -9,17 +9,17 @@ eleventyComputed:
   title: "{{ samling.title }} | Artiklar | Stödlinjer Sverige"
   description: "{{ samling.description or samling.summary }}"
   header:
-    icon: "{{ samling.icon or 'fas fas-books' }}"
+    icon: "{{ samling.icon or 'far far-books' }}"
     label: "Samling"
     title: "Samling: {{ samling.title }}"
     subtitle: "{{ samling.summary }}"
     links:
       - url: "/artiklar/"
-        icon: "fas fas-newspaper"
+        icon: "far far-newspaper"
         text: "Alla artiklar"
         aria: "Till artikelarkivet"
       - url: "/"
-        icon: "fas fas-house"
+        icon: "far far-house"
         text: "Startsida"
         aria: "Till startsidan"
 ---
@@ -45,9 +45,9 @@ eleventyComputed:
           {% endif %}
         </div>
         <div class="hero-chips">
-          <span class="stat-chip"><i class="fas fas-newspaper"></i> {{ samling.items | length }} artiklar</span>
+          <span class="stat-chip"><i class="far far-newspaper"></i> {{ samling.items | length }} artiklar</span>
           <a class="stat-chip inline-link" href="{{ baseUrl }}/artiklar/">
-            <i class="fas fas-arrow-left"></i> Till arkivet
+            <i class="far far-arrow-left"></i> Till arkivet
           </a>
         </div>
       </div>

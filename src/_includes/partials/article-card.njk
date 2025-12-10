@@ -1,5 +1,5 @@
 {% macro articleCard(post) %}
-  {% set samlingInfo = (post.data.samling | getSamling) or { title: post.data.samling, icon: 'fas fas-folder' } %}
+  {% set samlingInfo = (post.data.samling | getSamling) or { title: post.data.samling, icon: 'far far-folder' } %}
   {% set readingTime = post.data.readingTime %}
   {% if not readingTime and post.templateContent %}
     {% set readingTime = post.templateContent | readingTime ~ ' min' %}
@@ -12,20 +12,11 @@
           href="{{ baseUrl }}/samlingar/{{ post.data.samling }}/"
           aria-label="Visa fler artiklar i samlingen {{ samlingInfo.title }}"
         >
-          <i class="{{ samlingInfo.icon or 'fas fas-folder' }}"></i>
+          <i class="{{ samlingInfo.icon or 'far far-folder' }}"></i>
           <span>{{ samlingInfo.title }}</span>
         </a>
       {% endif %}
-      <div class="article-card-meta">
-        <span class="article-date">{{ post.date | formatDate }}</span>
-        {% if readingTime %}
-          <span class="meta-divider" aria-hidden="true"></span>
-          <span class="article-reading-time">
-            <i class="far far-clock" aria-hidden="true"></i>
-            {{ readingTime }}
-          </span>
-        {% endif %}
-      </div>
+      <span class="article-date">{{ post.date | formatDate }}</span>
     </div>
 
     <h3 class="article-card-title">
@@ -37,10 +28,16 @@
     {% endif %}
 
     <div class="article-card-footer">
+      {% if readingTime %}
+        <span class="article-reading-time">
+          <i class="far far-clock" aria-hidden="true"></i>
+          {{ readingTime }}
+        </span>
+      {% endif %}
       <a class="read-more" href="{{ baseUrl }}{{ post.url }}">
         <span>Fortsätt läs</span>
         <i class="fas fas-arrow-right" aria-hidden="true"></i>
       </a>
     </div>
-  </article>
+  </article>far far-
 {% endmacro %}

@@ -113,10 +113,10 @@ async function loadSupportLines() {
     if (grid) {
       grid.innerHTML = `
         <div class="surface-card p-6 md:col-span-2 xl:col-span-3 text-center">
-          <p class="text-lg font-bold mb-2"><i class="fas fas-triangle-exclamation text-amber-500"></i> Kunde inte ladda stödlinjer</p>
+          <p class="text-lg font-bold mb-2"><i class="far far-triangle-exclamation text-amber-500"></i> Kunde inte ladda stödlinjer</p>
           <p class="muted text-sm mb-4">Försök ladda om sidan eller kontakta oss om problemet kvarstår.</p>
           <button onclick="location.reload()" class="category-btn is-active">
-            <i class="fas fas-rotate-right"></i> Ladda om
+            <i class="far far-rotate-right"></i> Ladda om
           </button>
         </div>
       `;
@@ -189,14 +189,14 @@ function renderLines() {
 
   const categoryIcon = (category) => {
     const map = {
-      psykiskhalsa: '<i class="fas fas-brain"></i>',
-      'barn-unga': '<i class="fas fas-children"></i>',
-      vald: '<i class="fas fas-shield-halved"></i>',
-      missbruk: '<i class="fas fas-wine-bottle"></i>',
-      anhöriga: '<i class="fas fas-people-roof"></i>',
-      aldre: '<i class="fas fas-person-cane"></i>'
+      psykiskhalsa: '<i class="far far-brain"></i>',
+      'barn-unga': '<i class="far far-children"></i>',
+      vald: '<i class="far far-shield-halved"></i>',
+      missbruk: '<i class="far far-wine-bottle"></i>',
+      anhöriga: '<i class="far far-people-roof"></i>',
+      aldre: '<i class="far far-person-cane"></i>'
     };
-    return map[category] || '<i class="fas fas-life-ring"></i>';
+    return map[category] || '<i class="far far-life-ring"></i>';
   };
 
   filtered.forEach((line) => {
@@ -207,7 +207,7 @@ function renderLines() {
 
     // Urgent badge - only rendered once, positioned in top-right corner
     const urgentBadge = line.urgent
-      ? '<span class="badge-urgent badge-urgent-corner" aria-label="Akut"><i class="fas fas-bolt"></i><span>Akut</span></span>'
+      ? '<span class="badge-urgent badge-urgent-corner" aria-label="Akut"><i class="far far-bolt"></i><span>Akut</span></span>'
       : '';
 
     const telHref = (line.number || '').toString().replace(/[^+\d]/g, '');
@@ -237,7 +237,7 @@ function renderLines() {
           ? `<a href="tel:${telHref}"
              class="card-number"
              itemprop="telephone" aria-label="Ring ${line.name} på ${line.number}">
-            <i class="fas fas-phone"></i>
+            <i class="far far-phone"></i>
             <span>${line.number}</span>
           </a>`
           : ''
@@ -360,9 +360,7 @@ function initArticleFilters() {
   };
 
   const getFilteredCards = () =>
-    cards.filter(
-      (card) => state.filter === 'all' || card.dataset.samlingItem === state.filter
-    );
+    cards.filter((card) => state.filter === 'all' || card.dataset.samlingItem === state.filter);
 
   const renderPaginationControls = (totalPages) => {
     if (!paginationEl) return;
@@ -376,18 +374,20 @@ function initArticleFilters() {
       if (disabled) {
         return `<span class="pagination-link is-disabled">${label}</span>`;
       }
-      return `<a class="pagination-link" href="#" data-page="${page}"${rel ? ` rel="${rel}"` : ''}>${label}</a>`;
+      return `<a class="pagination-link" href="#" data-page="${page}"${
+        rel ? ` rel="${rel}"` : ''
+      }>${label}</a>`;
     };
 
     const prev = makeLink(
       state.page - 1,
-      '<i class="fas fas-arrow-left" aria-hidden="true"></i> Föregående',
+      '<i class="far far-arrow-left" aria-hidden="true"></i> Föregående',
       state.page === 1,
       'prev'
     );
     const next = makeLink(
       state.page + 1,
-      `Nästa <i class="fas fas-arrow-right" aria-hidden="true"></i>`,
+      `Nästa <i class="far far-arrow-right" aria-hidden="true"></i>`,
       state.page === totalPages,
       'next'
     );
