@@ -547,5 +547,5 @@ Nu förstår du hur Stödlinjer lever på internet! Sista guiden handlar om olik
 
 ---
 
-**Föregående:** [Kom igång](07-kom-igang.md)
-**Nästa:** [Produktionssättning](09-deploy.md)
+**Gå tillbaka till:** [Kom igång](07-kom-igang.md)
+**eller gå vidare till:** [Produktionssättning](09-deploy.md)

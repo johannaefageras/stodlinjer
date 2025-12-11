@@ -334,8 +334,8 @@ tags: [artikel, samtalsstod, psykisk-halsa]
 ```yaml
 ---
 author:
-  name: Anna Andersson
-  email: anna@example.com
+  name: Johanna Fagerås
+  email: johanna@gmail.com
 header:
   icon: far fa-book
   label: Artiklar
@@ -945,5 +945,5 @@ Nästa guide handlar om hur du strukturerar och använder JSON-data i projektet!
 
 ---
 
-**Föregående:** [Eleventy](03-eleventy.md)
-**Nästa:** [JSON & data](05-json-data.md)
+**Gå tillbaka till:** [Eleventy](03-eleventy.md)
+**eller gå vidare till:** [JSON & data](05-json-data.md)

@@ -529,5 +529,5 @@ Lycka till! Du kommer göra ett fantastiskt jobb! 💪
 
 ---
 
-**Föregående:** [Projektstruktur](06-projektstruktur.md)
-**Nästa:** [Netlify & backend](08-netlify-backend.md)
+**Gå tillbaka till:** [Projektstruktur](06-projektstruktur.md)
+**eller gå vidare till:** [Netlify & backend](08-netlify-backend.md)

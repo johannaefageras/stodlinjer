@@ -89,5 +89,4 @@ _Senast uppdaterad: 11 december 2025_
 
 ---
 
-**Föregående:** Ingen (första sidan)
-**Nästa:** [Ordlista](01-ordlista.md)
+**Gå vidare till:** [Ordlista](01-ordlista.md)

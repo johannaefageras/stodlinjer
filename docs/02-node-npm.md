@@ -374,5 +374,5 @@ Nu har du koll på grunderna! I nästa guide tittar vi på Eleventy — verktyge
 
 ---
 
-**Föregående:** [Ordlista](01-ordlista.md)
-**Nästa:** [Eleventy](03-eleventy.md)
+**Gå tillbaka till:** [Ordlista](01-ordlista.md)
+**eller gå vidare till:** [Eleventy](03-eleventy.md)

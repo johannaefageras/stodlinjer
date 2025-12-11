@@ -415,14 +415,14 @@ Låt säga att du har:
 ```yaml
 ---
 title: Min artikel
-author: Anna Andersson
+author: Johanna Fagerås
 ---
 ```
 
 Resultatet för `min-artikel.md`:
 
 - `title` = "Min artikel" (från frontmatter)
-- `author` = "Anna Andersson" (frontmatter vinner över directory data)
+- `author` = "Johanna Fagerås" (frontmatter vinner över directory data)
 - `layout` = "layouts/post.njk" (från directory data)
 
 Men för en _annan_ artikel utan `author` i frontmatter:
@@ -612,5 +612,5 @@ Nästa steg är att lära dig mallspråket Nunjucks och hur du skriver innehåll
 
 ---
 
-**Föregående:** [Node.js & npm](02-node-npm.md)
-**Nästa:** [Nunjucks, Markdown & Frontmatter](04-nunjucks-markdown.md)
+**Gå tillbaka till:** [Node.js & npm](02-node-npm.md)
+**eller gå vidare till:** [Nunjucks, Markdown & Frontmatter](04-nunjucks-markdown.md)

@@ -360,5 +360,5 @@ _Saknar du något begrepp? Hör av dig så lägger vi till det!_ ✨
 
 ---
 
-**Föregående:** [Index](INDEX.md)
-**Nästa:** [Node.js & npm](02-node-npm.md)
+**Gå tillbaka till:** [Index](00-index.md)
+**eller gå vidare till:** [Node.js & npm](02-node-npm.md)

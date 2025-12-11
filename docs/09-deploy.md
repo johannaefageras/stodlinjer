@@ -511,5 +511,5 @@ _Har du frågor eller feedback på dokumentationen? Hör av dig!_
 
 ---
 
-**Föregående:** [Netlify & backend](08-netlify-backend.md)
-**Nästa:** [Bonus: PC/Windows-checklista](10-pc-checklista.md)
+**Gå tillbaka till:** [Netlify & backend](08-netlify-backend.md)
+**eller gå vidare till:** [Bonusguide för PC-användare](10-pc-checklista.md)

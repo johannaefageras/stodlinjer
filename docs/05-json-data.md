@@ -804,5 +804,5 @@ Nu har du koll på hur data fungerar! Nästa guide tar en detaljerad titt på hu
 
 ---
 
-**Föregående:** [Nunjucks, Markdown & Frontmatter](04-nunjucks-markdown.md)
-**Nästa:** [Projektstruktur](06-projektstruktur.md)
+**Gå tillbaka till:** [Nunjucks, Markdown & Frontmatter](04-nunjucks-markdown.md)
+**eller gå vidare till:** [Projektstruktur](06-projektstruktur.md)

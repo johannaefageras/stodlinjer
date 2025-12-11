@@ -647,5 +647,5 @@ Nu vet du var allt finns! Nästa guide tar dig igenom hur du får projektet att 
 
 ---
 
-**Föregående:** [JSON & data](05-json-data.md)
-**Nästa:** [Kom igång](07-kom-igang.md)
+**Gå tillbaka till:** [JSON & data](05-json-data.md)
+**eller gå vidare till:** [Kom igång](07-kom-igang.md)

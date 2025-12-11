@@ -76,5 +76,4 @@ git config --global core.autocrlf input
 
 ---
 
-**Föregående:** [Produktionssättning](09-deploy.md)
-**Nästa:** Ingen (sista sidan)
+**Gå tillbaka till:** [Produktionssättning](09-deploy.md)
