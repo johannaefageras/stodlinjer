@@ -14,12 +14,11 @@
   <section class="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12 article-shell">
     <article class="surface-card strong-card post-shell">
       <header class="post-header">
-        <p class="post-kicker">
-          <span>Artikel</span>
-          {% if samling %}
-            <span class="post-kicker-dot" aria-hidden="true"></span>
-            <span>{{ samlingInfo.title }}</span>
-          {% endif %}
+        <div class="post-icon" aria-hidden="true">
+          <i class="fa-solid fa-books"></i>
+        </div>
+        <p class="sr-only">
+          Artikel{% if samling %} – {{ samlingInfo.title }}{% endif %}
         </p>
 
         <h1 class="post-title">{{ title }}</h1>

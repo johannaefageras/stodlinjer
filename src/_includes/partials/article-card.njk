@@ -4,7 +4,12 @@
   {% if not readingTime and post.templateContent %}
     {% set readingTime = post.templateContent | readingTime ~ ' min' %}
   {% endif %}
-  <article class="article-card" data-samling-item="{{ post.data.samling }}">
+  <article
+    class="article-card"
+    data-samling-item="{{ post.data.samling }}"
+    data-title="{{ post.data.title | escape }}"
+    data-description="{{ (post.data.description or '') | striptags | escape }}"
+  >
     <div class="article-card-top">
       {% if post.data.samling %}
         <a

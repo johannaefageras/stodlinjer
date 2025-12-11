@@ -304,27 +304,15 @@
   }
 }
 
-.post-kicker {
+.post-icon {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  justify-content: center;
   margin: 0;
-  padding: 6px 14px;
-  font-size: 0.82rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--muted);
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  background: var(--pill);
-}
-
-.post-kicker-dot {
-  width: 5px;
-  height: 5px;
-  border-radius: 999px;
-  background: var(--muted);
-  display: inline-block;
+  font-size: 2.4rem;
+  line-height: 1;
+  color: var(--accent);
+  margin-bottom: 6px;
 }
 
 .post-title {
@@ -397,7 +385,7 @@
 
 @media (min-width: 720px) {
   .post-body {
-    padding: 42px 48px 48px;
+    padding: 42px 48px 68px;
   }
 }
 

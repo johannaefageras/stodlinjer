@@ -54,44 +54,95 @@ header:
       </div>
     </div>
 
+    <div class="surface-card search-panel p-5 sm:p-6 mt-6">
+      <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between mb-4">
+        <div>
+          <h2 class="text-xl sm:text-2xl font-semibold text-slate-900 dark:text-white">
+            Sök bland artiklar
+          </h2>
+          <p class="text-sm muted mb-0">
+            Sök i titlar och beskrivningar eller filtrera på samling.
+          </p>
+        </div>
+        <div class="flex flex-wrap gap-2 sm:gap-3 items-center text-sm muted-soft">
+          <span class="stat-chip"><i class="fas fa-newspaper"></i> {{ totalArticles }} artiklar</span>
+          <span class="stat-chip"><i class="fas fa-list-check"></i> {{ samlingar | length }} samlingar</span>
+        </div>
+      </div>
+
+      <div class="space-y-4">
+        <div class="search-shell">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+            class="text-slate-400"
+          >
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="m21 21-4.3-4.3"></path>
+          </svg>
+          <label for="articleSearchInput" class="sr-only">Sök bland artiklar</label>
+          <input
+            type="search"
+            id="articleSearchInput"
+            placeholder="Sök artiklar, t.ex. kris, bemötande, våld..."
+            aria-label="Sök bland artiklar och guider"
+          />
+        </div>
+
+        <div class="space-y-2">
+          <p class="text-xs uppercase tracking-wide text-[var(--muted)] font-semibold mb-0">
+            Filtrera efter samling
+          </p>
+          <div class="filter-row" role="group" aria-label="Filtrera artiklar på samling">
+            <button
+              class="category-btn is-active"
+              data-samling-filter="all"
+              aria-pressed="true"
+              type="button"
+            >
+              <span><i class="fas fa-asterisk"></i> Alla samlingar</span>
+            </button>
+            {% for item in samlingar %}
+              {% set count = 0 %}
+              {% for group in collections.samlingar %}
+                {% if group.slug == item.slug %}
+                  {% set count = group.items | length %}
+                {% endif %}
+              {% endfor %}
+              <button
+                class="category-btn"
+                data-samling-filter="{{ item.slug }}"
+                aria-pressed="false"
+                type="button"
+              >
+                <span><i class="{{ item.icon }}"></i> {{ item.title }}</span>
+                <span class="filter-count">{{ count }}</span>
+              </button>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="surface-card p-5 sm:p-6 mt-6">
       <div class="filter-header">
         <div>
           <p class="text-xs uppercase tracking-wide text-[var(--muted)] font-semibold mb-1">
-            Filtrera efter samling
+            Artiklar &amp; guider
           </p>
-          <p class="muted text-sm mb-0">Samlingar samlar artiklar på samma tema.</p>
+          <p class="muted text-sm mb-0">Resultat baserat på sökning och vald samling.</p>
         </div>
         <span class="muted text-sm" id="articleCount">
           Visar 1-{{ initialEnd }} av {{ totalArticles }} artiklar
         </span>
-      </div>
-      <div class="filter-row" role="group" aria-label="Filtrera artiklar på samling">
-        <button
-          class="category-btn is-active"
-          data-samling-filter="all"
-          aria-pressed="true"
-          type="button"
-        >
-          <span><i class="fas fa-asterisk"></i> Alla samlingar</span>
-        </button>
-        {% for item in samlingar %}
-          {% set count = 0 %}
-          {% for group in collections.samlingar %}
-            {% if group.slug == item.slug %}
-              {% set count = group.items | length %}
-            {% endif %}
-          {% endfor %}
-          <button
-            class="category-btn"
-            data-samling-filter="{{ item.slug }}"
-            aria-pressed="false"
-            type="button"
-          >
-            <span><i class="{{ item.icon }}"></i> {{ item.title }}</span>
-            <span class="filter-count">{{ count }}</span>
-          </button>
-        {% endfor %}
       </div>
 
       <div class="article-grid" data-article-grid data-page-size="{{ articlesPerPage }}">

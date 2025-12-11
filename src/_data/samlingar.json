@@ -33,5 +33,12 @@
     "summary": "Längre, tematiska artiklar som förklarar komplexa ämnen med tydlighet, forskning och sammanhang.",
     "description": "Fördjupande och evidensbaserade texter som utforskar viktiga teman inom psykisk hälsa, våld, beroende och anhörigstöd. Här får du sammanhang, bakgrund och förståelse genom längre artiklar som går bortom det grundläggande och ger en bredare kunskapsbild.",
     "icon": "fas fa-books"
+  },
+  {
+    "slug": "rattigheter-skydd",
+    "title": "Rättigheter & skydd",
+    "summary": "Tydlig vägledning om dina rättigheter, vilket skydd som finns och hur samhällets stöd fungerar i praktiken.",
+    "description": "Evidensbaserad och begriplig information om lagar, rättigheter och skydd när det gäller psykisk ohälsa, våld, beroende och utsatthet. Här får du stöd i att förstå vad du har rätt till, hur olika verksamheter fungerar och vilka vägar som finns för att få tryggt och säkert stöd.",
+    "icon": "fas fa-scale-balanced"
   }
 ]

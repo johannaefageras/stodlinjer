@@ -351,13 +351,36 @@ function initArticleFilters() {
   const grid = document.querySelector('[data-article-grid]');
   const filterButtons = Array.from(document.querySelectorAll('[data-samling-filter]'));
   const paginationEl = document.querySelector('[data-pagination]');
+  const searchInput = document.getElementById('articleSearchInput');
 
-  if (!grid || !filterButtons.length) return;
+  if (!grid || (!filterButtons.length && !searchInput)) return;
 
-  const cards = Array.from(grid.querySelectorAll('[data-samling-item]'));
+  // Shuffle cards on each load so the grid and pagination start in a random order
+  const shuffleArray = (items) => {
+    for (let i = items.length - 1; i > 0; i -= 1) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [items[i], items[j]] = [items[j], items[i]];
+    }
+    return items;
+  };
+
+  const shuffledElements = shuffleArray(Array.from(grid.querySelectorAll('[data-samling-item]')));
+
+  const cards = shuffledElements.map((el) => ({
+    el,
+    samling: el.dataset.samlingItem || 'all',
+    title: (el.dataset.title || '').toLowerCase(),
+    description: (el.dataset.description || '').toLowerCase()
+  }));
+
+  const fragment = document.createDocumentFragment();
+  shuffledElements.forEach((el) => fragment.appendChild(el));
+  grid.innerHTML = '';
+  grid.appendChild(fragment);
   const counter = document.getElementById('articleCount');
   const state = {
     filter: 'all',
+    query: '',
     page: 1,
     pageSize: parseInt(grid.dataset.pageSize, 10) || 9
   };
@@ -371,7 +394,12 @@ function initArticleFilters() {
   };
 
   const getFilteredCards = () =>
-    cards.filter((card) => state.filter === 'all' || card.dataset.samlingItem === state.filter);
+    cards.filter(({ samling, title, description }) => {
+      const matchesFilter = state.filter === 'all' || samling === state.filter;
+      if (!state.query) return matchesFilter;
+      const matchesQuery = title.includes(state.query) || description.includes(state.query);
+      return matchesFilter && matchesQuery;
+    });
 
   const renderPaginationControls = (totalPages) => {
     if (!paginationEl) return;
@@ -419,11 +447,11 @@ function initArticleFilters() {
       state.page = totalPages;
     }
 
-    cards.forEach((card) => card.classList.add('hidden'));
+    cards.forEach(({ el }) => el.classList.add('hidden'));
 
     const start = (state.page - 1) * state.pageSize;
     const visible = filteredCards.slice(start, start + state.pageSize);
-    visible.forEach((card) => card.classList.remove('hidden'));
+    visible.forEach(({ el }) => el.classList.remove('hidden'));
 
     if (counter) {
       const startDisplay = filteredCards.length ? start + 1 : 0;
@@ -432,7 +460,7 @@ function initArticleFilters() {
         : 0;
       counter.textContent = filteredCards.length
         ? `Visar ${startDisplay}-${endDisplay} av ${filteredCards.length} artiklar`
-        : 'Inga artiklar matchar filtret';
+        : 'Inga artiklar matchar sökningen eller filtret';
     }
 
     renderPaginationControls(totalPages);
@@ -440,6 +468,9 @@ function initArticleFilters() {
 
   const initial = filterButtons.find((btn) => btn.classList.contains('is-active'));
   state.filter = initial ? initial.dataset.samlingFilter || 'all' : 'all';
+  if (searchInput) {
+    state.query = (searchInput.value || '').trim().toLowerCase();
+  }
   setFilterButtonState(state.filter);
   render();
 
@@ -453,6 +484,14 @@ function initArticleFilters() {
       render();
     });
   });
+
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      state.query = (e.target.value || '').trim().toLowerCase();
+      state.page = 1;
+      render();
+    });
+  }
 
   if (paginationEl) {
     paginationEl.addEventListener('click', (e) => {
