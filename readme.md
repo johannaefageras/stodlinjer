@@ -12,6 +12,8 @@ Ibland känns livet övermäktigt. Det kan handla om ångest, depression, ensamh
 
 Byggt med **Eleventy (11ty)** och Nunjucks-mallar, med data i JSON-filer under `src/_data/`.
 
+📚 **Dokumentation:** Se `docs/` → [docs/INDEX.md](docs/INDEX.md) för läsordning och guider.
+
 ---
 
 ## ✨ Funktioner
