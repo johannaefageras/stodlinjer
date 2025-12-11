@@ -12,7 +12,7 @@ Ibland känns livet övermäktigt. Det kan handla om ångest, depression, ensamh
 
 Byggt med **Eleventy (11ty)** och Nunjucks-mallar, med data i JSON-filer under `src/_data/`.
 
-📚 **Dokumentation:** Se `docs/` → [docs/INDEX.md](docs/INDEX.md) för läsordning och guider.
+📚 **Dokumentation:** Se `docs/` → [docs/index](docs/00-index.md) för läsordning och guider.
 
 ---
 
@@ -135,15 +135,15 @@ All data finns i `src/_data/supportData.json`. Filen innehåller både de stödl
 
 ### Tillgängliga kategorier
 
-| Kategori               | Värde            |
-| ---------------------- | ---------------- |
-| 🧠 Psykisk hälsa       | `psykisk-halsa`  |
-| 👶 Barn & unga         | `barn-unga`      |
-| 🛡️ Våld & utsatthet    | `vald`           |
-| 🍷 Missbruk & beroende | `missbruk`       |
-| 🧓 Äldre               | `aldre`          |
-| 👥 Anhöriga            | `anhoriga`       |
-| ℹ️ Övrigt              | `ovrigt`         |
+| Kategori               | Värde           |
+| ---------------------- | --------------- |
+| 🧠 Psykisk hälsa       | `psykisk-halsa` |
+| 👶 Barn & unga         | `barn-unga`     |
+| 🛡️ Våld & utsatthet    | `vald`          |
+| 🍷 Missbruk & beroende | `missbruk`      |
+| 🧓 Äldre               | `aldre`         |
+| 👥 Anhöriga            | `anhoriga`      |
+| ℹ️ Övrigt              | `ovrigt`        |
 
 ### Tillgängliga taggar
 
