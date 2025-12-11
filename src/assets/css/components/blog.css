@@ -1,3 +1,4 @@
+@layer components {
 .article-hero {
   position: relative;
   overflow: hidden;
@@ -518,4 +519,5 @@
   line-height: 1.52;
   font-family: 'Kyoto', 'Georgia', 'Times New Roman', serif;
   letter-spacing: 0.006em;
+}
 }

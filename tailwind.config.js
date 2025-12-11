@@ -1,6 +1,6 @@
-// Tailwind CDN configuration for Athletics font
-window.tailwind = window.tailwind || {};
-window.tailwind.config = {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ['./src/**/*.{njk,md,html,js}'],
   darkMode: 'class',
   theme: {
     extend: {
@@ -23,7 +23,7 @@ window.tailwind.config = {
         light: '300',
         normal: '400',
         medium: '500',
-        semibold: '500', // Athletics has no 600, map to medium
+        semibold: '500',
         bold: '700',
         extrabold: '800',
         black: '900'
@@ -43,8 +43,10 @@ window.tailwind.config = {
         loose: '1.75'
       },
       boxShadow: {
-        glow: '0 10px 50px rgba(79,70,229,0.3)'
+        // Softer purple glow for hotline cards
+        glow: '0 12px 30px rgba(79,70,229,0.16)'
       }
     }
-  }
+  },
+  plugins: []
 };

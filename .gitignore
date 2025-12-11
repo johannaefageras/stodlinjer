@@ -19,6 +19,7 @@ pnpm-debug.log*
 # Build output / cache
 site/
 .cache/
+src/assets/css/tailwind-built.css
 
 # Package manager files
 package-lock.json

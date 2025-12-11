@@ -1,3 +1,4 @@
+@layer components {
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -211,4 +212,5 @@
     align-self: stretch;
     justify-content: flex-start;
   }
+}
 }

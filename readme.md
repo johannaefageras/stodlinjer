@@ -43,10 +43,18 @@ Lokalt utvecklingsläge med live-reload:
 npm run serve
 ```
 
+(`serve` kör både Tailwind --watch och Eleventy-servern.)
+
 Bygg statisk sajt (output till `site/`):
 
 ```bash
 npm run build
+```
+
+Bygg enbart stilarna (genererar `src/assets/css/tailwind-built.css`):
+
+```bash
+npm run build:css
 ```
 
 Generera innehållsindexet som används av stödchatten (laddar artiklar + JSON-data till `.chatdata/content-index.json`):
@@ -73,10 +81,12 @@ src/
 │   ├── layouts/base.njk
 │   └── partials/           # Header, footer, sektioner m.m.
 └── assets/
-    ├── css/                # base.css, main.css (+ komponent-partials)
-    ├── js/                 # app.js, tailwind-config.js
+    ├── css/                # base.css, themes.css, components/, tailwind.css (entry -> tailwind-built.css)
+    ├── js/                 # app.js, chatbot.js
     └── fonts/              # Ikon- och typsnitts-filer
 ```
+
+Tailwind/PostCSS-konfiguration: `tailwind.config.js`, `postcss.config.js`
 
 Chatbotens innehållsindex skrivs till `.chatdata/content-index.json` (genereras, inte manuellt redigerad).
 

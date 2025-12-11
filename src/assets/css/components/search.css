@@ -1,3 +1,4 @@
+@layer components {
 .search-shell {
   display: flex;
   align-items: center;
@@ -92,4 +93,5 @@
   background: var(--accent);
   color: var(--on-accent);
   border-color: var(--accent);
+}
 }

@@ -1,3 +1,4 @@
+@layer components {
 .footer-shell {
   margin-top: auto;
   background: var(--card);
@@ -81,4 +82,5 @@
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+}
 }

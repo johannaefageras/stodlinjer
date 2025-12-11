@@ -1,3 +1,4 @@
+@layer components {
 .quote-block {
   position: relative;
   background: var(--card) !important;
@@ -81,4 +82,5 @@
 
 :root[data-theme='dark'] .quote-block {
   background: var(--card);
+}
 }

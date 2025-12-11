@@ -1,3 +1,4 @@
+@layer base {
 :root {
   /* Light theme */
   --bg: #f8f7fc;
@@ -337,4 +338,5 @@ button:focus-visible {
   .sm\:pb-7 {
     padding-bottom: 1rem !important;
   }
+}
 }

@@ -1,3 +1,4 @@
+@layer components {
 .support-card {
   background: var(--card);
   border: none;
@@ -119,4 +120,5 @@ h3 a.card-title-link {
   font-weight: 700;
   font-variant-numeric: tabular-nums;
   letter-spacing: 0.05em;
+}
 }
