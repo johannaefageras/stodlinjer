@@ -16,15 +16,15 @@ references:
 
 Empati är en grundläggande mänsklig förmåga som möjliggör sociala band, samarbete och omsorg. Den är central för alla former av stödarbete, inklusive det stöd som erbjuds via hjälp- och stödlinjer. Att förstå vad empati faktiskt är, hur den fungerar i hjärnan och varför den kan svikta under perioder av stor påfrestning som utmattning, är viktigt både för den som söker stöd och för den som ger det.
 
-## Vad är empati? De två huvudkomponenterna
+## Vad är empati? de två huvudkomponenterna
 
 Forskning inom psykologi och neurovetenskap delar vanligen upp empati i två huvudkomponenter: kognitiv empati och affektiv empati (Decety & Jackson, 2004; Zaki, 2014).
 
-### Kognitiv empati (Att förstå)
+### Kognitiv empati (att förstå)
 
 Den **kognitiva empatin** handlar om intellektuell förståelse. Det är förmågan att inta en annans perspektiv, förstå deras tankar, känslor och intentioner. Detta kallas ibland också "mentaliseringsförmåga" eller "Theory of Mind" (ToM). Det är den del av empatin som låter dig säga: "Jag förstår _varför_ du känner så" (Shamay-Tsoory, 2009). Denna process engagerar främst områden i hjärnans **prefrontala cortex**, som är ansvariga för komplex problemlösning och planering.
 
-### Affektiv empati (Att känna)
+### Affektiv empati (att känna)
 
 Den **affektiva empatin** (eller emotionell empati) är förmågan att dela eller känna igenom en annans känslomässiga tillstånd. Det är den omedelbara, instinktiva responsen där du känner dig berörd av en annan persons glädje eller smärta. Denna komponent underlättas i stor utsträckning av **spegelneuronssystemet** i hjärnan, som automatiskt simulerar en annans känsla i vårt eget nervsystem. När du ser någon skada sig, och du omedelbart känner en liten stöt av smärta i din egen kropp, är det affektiv empati i arbete (Decety & Jackson, 2004).
 
@@ -32,7 +32,7 @@ Kognitiv och affektiv empati fungerar tillsammans. För att fullt ut känna med 
 
 ---
 
-## När empati blir för mycket: Skillnaden mot medkänsla
+## När empati blir för mycket: skillnaden mot medkänsla
 
 När den affektiva empatin är mycket stark och vi absorberar en annan persons lidande utan skydd, kan det leda till **empatisk stress** eller **personlig smärta** (Decety & Jackson, 2004). Detta är en risk, särskilt för personer som arbetar med stöd. Om du känner dig överväldigad av den andres smärta, skapar du ett inre lidande som blockerar din förmåga att hjälpa effektivt.
 

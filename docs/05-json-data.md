@@ -42,7 +42,7 @@ Ett objekt omges av klammerparenteser och innehåller "nycklar" (namn) kopplade 
 
 ```json
 {
-  "name": "Mind Självmordslinjen",
+  "name": "Självmordslinjen",
   "phone": "90101",
   "available": "Dygnet runt",
   "isActive": true
@@ -93,7 +93,7 @@ JSON blir kraftfullt när du kombinerar objekt och arrayer:
 
 ```json
 {
-  "name": "Mind Självmordslinjen",
+  "name": "Självmordslinjen",
   "phone": "90101",
   "hours": {
     "weekdays": "Dygnet runt",
@@ -248,7 +248,7 @@ I vilken mall som helst kan du nu skriva:
 [
   {
     "id": "mind-sjalvmordslinjen",
-    "name": "Mind Självmordslinjen",
+    "name": "Självmordslinjen",
     "description": "Stöd för dig som har tankar på att ta ditt liv, eller är orolig för någon annan.",
     "number": "90101",
     "available": "Dygnet runt, alla dagar",
@@ -380,7 +380,7 @@ Detta är projektets kärndata — alla stödlinjer med kontaktinformation.
 [
   {
     "id": "mind-sjalvmordslinjen",
-    "name": "Mind Självmordslinjen",
+    "name": "Självmordslinjen",
     "description": "Stöd för dig som har tankar på att ta ditt liv.",
     "number": "90101",
     "available": "Dygnet runt, alla dagar",
@@ -638,7 +638,7 @@ Bestäm dig för en stil och håll dig till den:
 [
   {
     "id": "mind-sjalvmordslinjen",
-    "name": "Mind Självmordslinjen"
+    "name": "Självmordslinjen"
   }
 ]
 ```

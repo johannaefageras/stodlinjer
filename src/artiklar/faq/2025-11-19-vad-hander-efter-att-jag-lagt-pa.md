@@ -13,14 +13,14 @@ references:
 
 Din anonymitet och integritet är högsta prioritet för stödlinjerna, vilket är anledningen till att de inte kan se ditt telefonnummer.
 
-### Din Anonymitet och Kontroll
+### Din anonymitet och kontroll
 
 När samtalet är över sker följande:
 
 - **Ingen Uppföljning:** Eftersom stödlinjen inte ser ditt nummer, kan de inte ringa tillbaka till dig. De inleder aldrig en uppföljning utanför samtalet, såvida du inte befinner dig i en akut livshotande situation och larmar 112.
 - **Volontärens Roll:** Volontärerna och den utbildade personalen har tystnadsplikt och är anonyma. De lyssnar på dig med respekt och utan att döma. De går vidare till nästa person som söker stöd.
 
-### Din Vägledning Framåt
+### Din vägledning framåt
 
 Du har makten att bestämma nästa steg. Om du känner att du behöver prata igen, finns linjen kvar för dig:
 

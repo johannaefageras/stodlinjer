@@ -161,7 +161,7 @@ IVO kan också ingripa om kommunen systematiskt brister i sitt ansvar för heml�
 
 Kommunerna är skyldiga att rapportera till IVO när beslut om bistånd inte har verkställts inom tre månader. Om du har fått ett beslut om boende som inte verkställs ska kommunen alltså rapportera detta. Kommunen kan också bli skyldig att betala en sanktionsavgift om beslut inte verkställs.
 
-### JO-anmälan
+### Jo-anmälan
 
 Om du anser att socialtjänsten har handlat felaktigt kan du anmäla till Justitieombudsmannen (JO). JO granskar att myndigheter följer lagar och regler och kan kritisera kommuner som brister i sitt ansvar.
 

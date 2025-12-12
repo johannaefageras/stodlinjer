@@ -19,7 +19,7 @@ Våld i nära relationer är sällan en isolerad händelse, utan snarare ett dyn
 
 Cykeln är i grunden en psykologisk fälla där utövaren växlar mellan att bestraffa och att belöna. Denna berg- och dalbana av känslor gör att den utsatta personen börjar tro på utövarens löften om förändring, vilket hela tiden nollställer upplevelsen av våldet och gör att hoppet alltid överlever verkligheten.
 
-### 1. Våldets Verkliga Omfång: Kontroll som Vapen
+### 1. Våldets verkliga omfång: kontroll som vapen
 
 För att förstå cykeln, måste vi först avfärda myten att våld enbart handlar om fysiska slag. Våld i nära relationer är ett komplext mönster av kontroll, hot och kränkning som syftar till att dominera den utsattas liv.
 
@@ -31,23 +31,23 @@ Våldet utövas ofta genom:
 
 Detta icke-fysiska våld är lika allvarligt som det fysiska. Våld i form av kränkning är en etablerad riskfaktor för psykisk ohälsa, suicid och beroendeproblematik, vilket understryker dess förödande inverkan på den utsattas hälsa. Även om både kvinnor och män utsätts, drabbas kvinnor oftare av upprepat och mer allvarligt våld.
 
-### 2. Cykelns Faser: Fällan av Spänning och Försoning
+### 2. Cykelns faser: fällan av spänning och försoning
 
 Våldscykeln beskrivs vanligtvis i tre faser. Det är den upprepade växlingen mellan dessa faser som skapar den psykologiska förvirring som leder till normalisering.
 
-### Fas A: Spänningsbyggnad
+### Fas a: spänningsbyggnad
 
 I denna fas ökar utövarens irritation och aggressivitet gradvis. Det är en tid av ständig oro, där den utsatta försöker anpassa sitt beteende i ett försök att undvika explosionen. Den utsatta personen går på tå och försöker ta reda på vad som krävs för att hålla utövaren lugn. Denna anspänning är mentalt utmattande.
 
-### Fas B: Våldsutbrottet (Explosionen)
+### Fas b: våldsutbrottet (explosionen)
 
 Den ökade spänningen kulminerar i ett våldsamt utbrott – som kan vara fysiskt, psykiskt eller en kombination. I denna fas förlorar den utsatta all känsla av kontroll och kan uppleva akut rädsla för sitt liv. Efter denna fas är den emotionella och fysiska skadan ett faktum.
 
-### Fas C: Ånger och Försoning (Smekmånadsfasen)
+### Fas c: ånger och försoning (smekmånadsfasen)
 
 Denna fas är den mest förrädiska delen av cykeln. Efter utbrottet kan utövaren visa djup ånger, lova att förändras, be om förlåtelse, och vara överdrivet kärleksfull och generös. Denna växling mellan extremt våld och plötslig värme skapar ett starkt känslomässigt band och förvirrar den utsatta. Hoppet om att ”det var sista gången” och att ”hen älskar mig egentligen” nollställer upplevelsen av våldet och gör det lättare att uthärda nästa cykel. Utan denna fas av försoning skulle relationen snabbt brytas.
 
-### 3. Normaliseringsprocessen: Nedbrytning av Autonomi
+### 3. Normaliseringsprocessen: nedbrytning av autonomi
 
 När cykeln upprepas, blir den utsatta personen gradvis mer utmattad och isolerad. Normaliseringen sker genom att den inre kompassen – känslan för vad som är rätt och fel – bryts ner.
 
@@ -55,7 +55,7 @@ När cykeln upprepas, blir den utsatta personen gradvis mer utmattad och isolera
 - **Skuldbeläggning:** Den utsatta börjar ta på sig ansvaret för utövarens handlingar, i linje med utövarens budskap. Detta leder till att den utsatta börjar tro att om de bara hade gjort si eller så, hade våldet aldrig inträffat.
 - **Kontrollförlust:** Den konstanta växlingen mellan rädsla och hopp bryter ner den utsattas känsla av **autonomi** (självbestämmande). Känslan av att inte kunna påverka situationen är djupt traumatiserande, och påtvingade åtgärder eller snabba påtryckningar från omgivningen kan snarare förstärka symtomen än lindra dem.
 
-### 4. Att Bryta Cykeln: Återta Kontrollen
+### 4. Att bryta cykeln: återta kontrollen
 
 Att bryta våldets cykel är en process som måste ske i den utsatta personens egen takt, med ett tydligt fokus på trygghet, egenmakt och socialt stöd.
 

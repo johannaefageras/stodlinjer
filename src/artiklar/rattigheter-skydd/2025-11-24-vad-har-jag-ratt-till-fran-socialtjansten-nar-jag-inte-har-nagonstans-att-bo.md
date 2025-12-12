@@ -153,7 +153,7 @@ Om du har missbruksproblematik eller psykisk ohälsa ska socialtjänsten ta hän
 
 Socialtjänsten ska samverka med hälso- och sjukvården om du har behov av insatser från båda. Du ska inte nekas hjälp med boende för att du har missbruk eller psykisk ohälsa.
 
-### EU-medborgare och personer utan uppehållstillstånd
+### Eu-medborgare och personer utan uppehållstillstånd
 
 Rättigheterna för personer som inte är svenska medborgare eller saknar uppehållstillstånd är mer begränsade. EU-medborgare som vistas i Sverige utan uppehållsrätt har normalt inte rätt till bistånd utöver akut hjälp. Detsamma gäller för personer som vistas i landet utan tillstånd.
 

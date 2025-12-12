@@ -15,7 +15,7 @@ references:
 
 Beroende handlar sällan enbart om substansen eller beteendet i sig. Det är en komplex psykologisk och fysiologisk process där **skam** fungerar som både en _orsak_ och en _konsekvens_ av det beroendeframkallande beteendet. Skammen skapar en destruktiv, självuppfyllande profetia: den driver personen till att använda substansen eller beteendet för att dämpa smärtan, vilket i sin tur leder till mer skam.
 
-## 1. Skam vs. Skuld: En Neuropsykologisk Skillnad
+## 1. Skam vs. skuld: en neuropsykologisk skillnad
 
 För att förstå beroendecykeln måste vi först skilja på skam och skuld. Båda är moraliska känslor, men de har olika effekter på nervsystemet och självbilden (Tangney et al., 2007).
 
@@ -24,7 +24,7 @@ För att förstå beroendecykeln måste vi först skilja på skam och skuld. Bå
 
 I beroende är det skammen som dominerar. Den beroende känner sig defekt, obotlig och värdelös. Denna skam aktiverar de delar av hjärnan som är kopplade till smärta och hot (såsom amygdala), vilket leder till en stark fysiologisk stressrespons (van der Kolk, 2014).
 
-## 2. Skammen som Drivkraft: Beroendets Cirkel
+## 2. Skammen som drivkraft: beroendets cirkel
 
 Skam uppstår ofta på grund av barndomstrauma, försummelse eller kritik. När skammen väl är internaliserad blir den en konstant inre plåga. Beroendet blir då en primitiv, om än destruktiv, överlevnadsstrategi för att hantera denna smärta.
 
@@ -36,13 +36,13 @@ Denna dynamik skapar en cykel i tre steg:
 
 Denna cirkel gör att personen drar sig undan socialt (på grund av skammen), vilket minskar möjligheten till stöd och anknytning, vilket i sin tur förvärrar skammen.
 
-## 3. Neurobiologiska Aspekter: Isolering och Hotsystem
+## 3. Neurobiologiska aspekter: isolering och hotsystem
 
 Forskning visar att ensamhet och socialt avvisande (som är ett resultat av skammens behov av isolering) bearbetas i samma neurala kretsar som **fysisk smärta**, inklusive den **anteriora cingulate cortex** (Eisenberger, 2012). Skam och isolering är alltså _bokstavligen smärtsamma_.
 
 I ett tillstånd av skam aktiveras kroppens **hypotalamus-hypofys-binjure-axel (HPA-axel)**, vilket leder till frisättning av stresshormonet **kortisol**. Beroendeframkallande substanser fungerar som en **kemisk avstängningsmekanism** för detta överaktiva stressystem (van der Kolk, 2014). De lugnar det autonoma nervsystemet tillfälligt, men till priset av långsiktig dysreglering och ännu djupare skam efteråt.
 
-## 4. Att Bryta Skammens Makt: Sårbarhet och Anknytning
+## 4. Att bryta skammens makt: sårbarhet och anknytning
 
 Nyckeln till att bryta skammens cykel är att konfrontera dess centrala princip: att man är ensam och defekt. Den ledande forskaren i skam, Brené Brown, definierar det motsatta till skam som **empati** (Brown, 2010). Skam överlever i hemlighet; den dör när den utsätts för empati.
 

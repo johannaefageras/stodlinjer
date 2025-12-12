@@ -17,7 +17,7 @@ Många bär på en tyst föreställning om att våld i nära relationer är ett 
 
 **Fakta:** Våld i nära relationer är ett **utbrett samhällsproblem som drabbar alla befolkningsgrupper**, oavsett inkomst, utbildning, kön, ålder eller boendeort.
 
-### 1. Våldet Är Utbrett, Inte Klassbundet
+### 1. Våldet är utbrett, inte klassbundet
 
 Denna myt skapar en farlig osynlighet i delar av samhället. Sanningen, som bekräftas av nationell statistik, är att utsattheten är genomgående.
 
@@ -25,7 +25,7 @@ Denna myt skapar en farlig osynlighet i delar av samhället. Sanningen, som bekr
 - **Drabbar Alla Grupper:** Utsattheten är inte begränsad till socioekonomiskt utsatta områden, även om den är _något_ högre där. Våldet förekommer i alla relationstyper och bland alla demografiska grupper, inklusive svenskfödda personer.
 - **Både Kvinnor och Män:** Även om kvinnor drabbas oftare av upprepat och mer allvarligt våld, visar statistiken att både kvinnor och män utsätts för våld i nära relationer.
 
-### 2. Våldet Är Mer Än Fysiska Skador
+### 2. Våldet är mer än fysiska skador
 
 Myten om att våld måste vara fysiskt för att räknas är särskilt farlig, eftersom den osynliggör det psykiska lidandet. Våld i nära relationer är ett mönster av kontroll som inte kräver fysiska slag för att vara förödande.
 
@@ -36,7 +36,7 @@ Våldet omfattar även:
 
 Dessa handlingar, som ofta transcenderar socioekonomiska gränser, är etablerade riskfaktorer för både fysisk och psykisk ohälsa, inklusive suicid och beroendeproblematik. Att erkänna att våld är ett komplext mönster av kontroll, och inte enbart fysiska skador, är avgörande för att bryta tystnaden.
 
-### 3. Sök Stöd Utan Skam
+### 3. Sök stöd utan skam
 
 Oavsett din bakgrund, din ekonomi eller om våldet är psykiskt eller fysiskt: ditt lidande är giltigt, och du har rätt till stöd.
 

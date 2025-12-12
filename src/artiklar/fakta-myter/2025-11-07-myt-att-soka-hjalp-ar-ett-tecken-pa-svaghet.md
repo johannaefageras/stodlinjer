@@ -21,21 +21,21 @@ Föreställningen om att man måste ”klara sig själv” eller att psykisk sm�
 
 **Fakta:** Att söka stöd och behandling är ett **aktivt, rationellt och styrkefyllt beslut** som visar på en stark vilja till återhämtning. Det är att agera i linje med modern forskning om psykisk hälsa.
 
-### 1. Resiliens Är Återhämtning, Inte Osårbarhet
+### 1. Resiliens är återhämtning, inte osårbarhet
 
 Mytens kärna ligger i en missuppfattning av vad psykologisk styrka – eller **resiliens** – egentligen är.
 
 - **Styrka att Återhämta Sig:** Resiliens definieras inte som att vara osårbar för stress, lidande eller motgångar. Tvärtom är det en individs förmåga till **återhämtning** efter stressfyllda situationer och störningar i livet. Att söka stöd är det första beviset på att du använder din resiliens; du väljer att återhämta dig istället för att stanna kvar i lidandet.
 - **Positiv Utveckling:** Forskning inom Post-Traumatic Growth (PTG) visar att positiva psykologiska förändringar kan uppstå när individer bearbetar och hanterar traumatiska upplevelser. Denna tillväxt är inte garanterad, men den börjar med den aktiva handlingen att möta och bearbeta svårigheterna – ofta med professionellt stöd.
 
-### 2. Ett Rationellt Val: Att Välja Evidens
+### 2. Ett rationellt val: att välja evidens
 
 När du står inför ett problem som känns olösligt och outhärdligt, är det rationellt att söka experthjälp. Att söka stöd är inte ett misslyckande; det är som att anlita en specialist för att reparera en komplicerad skada.
 
 - **Professionella Verktyg:** Svensk vård och socialt arbete använder evidensbaserade metoder som KBT (Kognitiv Beteendeterapi) och MI (Motiverande Samtal). Dessa är strukturerade och vetenskapligt grundade verktyg som är avsedda att lösa beteende- och känslomässiga problem. Att använda dessa metoder är att agera intelligent.
 - **Tidig Intervention:** Ett viktigt mål i folkhälsoarbetet är att tidigt identifiera vilka som kan behöva hjälp. Genom att själv söka stöd bidrar du till att uppfylla detta mål och förebygger att problemen eskalerar.
 
-### 3. Social Kontakt Är Medicin
+### 3. Social kontakt är medicin
 
 Isolering är farlig. Din hjärna är utvecklad för att må bra av sociala kontakter. När du mår dåligt försöker hjärnan ofta få dig att dra dig undan, men du måste aktivt motverka denna impuls.
 

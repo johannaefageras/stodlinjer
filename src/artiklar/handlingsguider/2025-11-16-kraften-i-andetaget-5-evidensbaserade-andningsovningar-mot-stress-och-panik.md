@@ -17,7 +17,7 @@ I tider av akut stress eller panik känns det ofta som att kroppen är utom kont
 
 Genom att medvetet justera din andningsrytm kan du skicka en direkt signal till hjärnan via **vagusnerven** att faran är över, vilket aktiverar det **parasympatiska nervsystemet** (vila-och-smält-systemet) och återställer homeostasen. Forskning inom psykofysiologi och klinisk psykologi har identifierat flera metoder för optimal reglering (Zaccaro et al., 2018).
 
-## 1. Diafragmaandning (Bukandning)
+## 1. Diafragmaandning (bukandning)
 
 **Evidensbaserad grund:** Diafragmaandning, ofta kallad bukandning, är grunden för många avslappningstekniker. Genom att engagera diafragman (den stora andningsmuskeln under lungorna) snarare än de ytliga bröstmusklerna, optimeras gasutbytet och vagusnerven stimuleras direkt. Denna teknik minskar fysiologiska tecken på stress, inklusive sänkt kortisolnivå och hjärtfrekvens (Hofmann et al., 2020).
 
@@ -29,7 +29,7 @@ Genom att medvetet justera din andningsrytm kan du skicka en direkt signal till 
 4. Sträva efter att utandningen är längre än inandningen, till exempel att andas in på 3 sekunder och ut på 5 sekunder.
 5. Upprepa i 5–10 minuter.
 
-## 2. 4-7-8-tekniken (Avslappningsandning)
+## 2. 4-7-8-Tekniken (avslappningsandning)
 
 **Evidensbaserad grund:** Denna metod, populariserad av Dr. Andrew Weil, är designad för att maximera den parasympatiska responsen genom en förlängd utandning och en kort "paus" som effektivt saktar ner hjärtfrekvensen. Den korta pausen skapar ett litet tryck som hjälper till att stimulera vagusnerven (Ma et al., 2017).
 
@@ -41,7 +41,7 @@ Genom att medvetet justera din andningsrytm kan du skicka en direkt signal till 
 4. Andas ut helt genom munnen med ett "whoosh"-ljud medan du räknar tyst till **8**.
 5. Detta utgör ett cykel. Upprepa endast fyra cykler när du börjar, och öka gradvis.
 
-## 3. Långsam Rytmisk Andning (Resonansfrekvens)
+## 3. Långsam rytmisk andning (resonansfrekvens)
 
 **Evidensbaserad grund:** Forskning inom biofeedback och hjärtfrekvensvariabilitet (HRV) visar att det finns en optimal andningsfrekvens (ofta cirka 5–7 andetag per minut) där kroppens respiratoriska, kardiovaskulära och nervsystem kommer i **resonans**. Detta tillstånd, kallas resonansfrekvensandning, maximerar HRV (hjärtfrekvensvariabiliteten), vilket är en markör för ett flexibelt och välreglerat nervsystem (Lehrer et al., 2007).
 
@@ -64,7 +64,7 @@ Genom att medvetet justera din andningsrytm kan du skicka en direkt signal till 
 3. Andas ut långsamt och helt genom munnen, som om du släpper ut all spänning.
 4. Upprepa 3–5 gånger. Denna övning kan snabbt bryta en pågående panikattack genom att snabbt ändra den fysiologiska responsen.
 
-## 5. Boxandning (Militär Andning)
+## 5. Boxandning (militär andning)
 
 **Evidensbaserad grund:** Boxandning (eller fyrkantsandning) är en balanserande och kognitivt fokuserad teknik som ofta används inom militär och akutvård. Genom att introducera jämna pauser mellan in- och utandning, stabiliseras rytmen och en mild kognitiv distraktion (räkningen) tvingar hjärnan att fokusera på nuet, vilket reducerar ångestskapande tankar (Telles et al., 2013).
 

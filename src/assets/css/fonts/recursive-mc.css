@@ -1,0 +1,198 @@
+@font-face {
+  font-family: 'Recursive MC';
+  src: url('../../fonts/recursive-mc/RecursiveMC-Light.eot');
+  src: url('../../fonts/recursive-mc/RecursiveMC-Light.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/recursive-mc/RecursiveMC-Light.woff2') format('woff2'),
+    url('../../fonts/recursive-mc/RecursiveMC-Light.woff') format('woff'),
+    url('../../fonts/recursive-mc/RecursiveMC-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive MC';
+  src: url('../../fonts/recursive-mc/RecursiveMC-LightItalic.eot');
+  src: url('../../fonts/recursive-mc/RecursiveMC-LightItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/recursive-mc/RecursiveMC-LightItalic.woff2') format('woff2'),
+    url('../../fonts/recursive-mc/RecursiveMC-LightItalic.woff') format('woff'),
+    url('../../fonts/recursive-mc/RecursiveMC-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive MC';
+  src: url('../../fonts/recursive-mc/RecursiveMC-Regular.eot');
+  src: url('../../fonts/recursive-mc/RecursiveMC-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/recursive-mc/RecursiveMC-Regular.woff2') format('woff2'),
+    url('../../fonts/recursive-mc/RecursiveMC-Regular.woff') format('woff'),
+    url('../../fonts/recursive-mc/RecursiveMC-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive MC';
+  src: url('../../fonts/recursive-mc/RecursiveMC-RegularItalic.eot');
+  src: url('../../fonts/recursive-mc/RecursiveMC-RegularItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/recursive-mc/RecursiveMC-RegularItalic.woff2') format('woff2'),
+    url('../../fonts/recursive-mc/RecursiveMC-RegularItalic.woff') format('woff'),
+    url('../../fonts/recursive-mc/RecursiveMC-RegularItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive MC';
+  src: url('../../fonts/recursive-mc/RecursiveMC-Medium.eot');
+  src: url('../../fonts/recursive-mc/RecursiveMC-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/recursive-mc/RecursiveMC-Medium.woff2') format('woff2'),
+    url('../../fonts/recursive-mc/RecursiveMC-Medium.woff') format('woff'),
+    url('../../fonts/recursive-mc/RecursiveMC-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive MC';
+  src: url('../../fonts/recursive-mc/RecursiveMC-MediumItalic.eot');
+  src: url('../../fonts/recursive-mc/RecursiveMC-MediumItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/recursive-mc/RecursiveMC-MediumItalic.woff2') format('woff2'),
+    url('../../fonts/recursive-mc/RecursiveMC-MediumItalic.woff') format('woff'),
+    url('../../fonts/recursive-mc/RecursiveMC-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive MC';
+  src: url('../../fonts/recursive-mc/RecursiveMC-SemiBold.eot');
+  src: url('../../fonts/recursive-mc/RecursiveMC-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/recursive-mc/RecursiveMC-SemiBold.woff2') format('woff2'),
+    url('../../fonts/recursive-mc/RecursiveMC-SemiBold.woff') format('woff'),
+    url('../../fonts/recursive-mc/RecursiveMC-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive MC';
+  src: url('../../fonts/recursive-mc/RecursiveMC-SemiBoldItalic.eot');
+  src: url('../../fonts/recursive-mc/RecursiveMC-SemiBoldItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/recursive-mc/RecursiveMC-SemiBoldItalic.woff2') format('woff2'),
+    url('../../fonts/recursive-mc/RecursiveMC-SemiBoldItalic.woff') format('woff'),
+    url('../../fonts/recursive-mc/RecursiveMC-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive MC';
+  src: url('../../fonts/recursive-mc/RecursiveMC-Bold.eot');
+  src: url('../../fonts/recursive-mc/RecursiveMC-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/recursive-mc/RecursiveMC-Bold.woff2') format('woff2'),
+    url('../../fonts/recursive-mc/RecursiveMC-Bold.woff') format('woff'),
+    url('../../fonts/recursive-mc/RecursiveMC-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive MC';
+  src: url('../../fonts/recursive-mc/RecursiveMC-BoldItalic.eot');
+  src: url('../../fonts/recursive-mc/RecursiveMC-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/recursive-mc/RecursiveMC-BoldItalic.woff2') format('woff2'),
+    url('../../fonts/recursive-mc/RecursiveMC-BoldItalic.woff') format('woff'),
+    url('../../fonts/recursive-mc/RecursiveMC-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive MC';
+  src: url('../../fonts/recursive-mc/RecursiveMC-ExtraBold.eot');
+  src: url('../../fonts/recursive-mc/RecursiveMC-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/recursive-mc/RecursiveMC-ExtraBold.woff2') format('woff2'),
+    url('../../fonts/recursive-mc/RecursiveMC-ExtraBold.woff') format('woff'),
+    url('../../fonts/recursive-mc/RecursiveMC-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive MC';
+  src: url('../../fonts/recursive-mc/RecursiveMC-ExtraBoldItalic.eot');
+  src: url('../../fonts/recursive-mc/RecursiveMC-ExtraBoldItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/recursive-mc/RecursiveMC-ExtraBoldItalic.woff2') format('woff2'),
+    url('../../fonts/recursive-mc/RecursiveMC-ExtraBoldItalic.woff') format('woff'),
+    url('../../fonts/recursive-mc/RecursiveMC-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive MC';
+  src: url('../../fonts/recursive-mc/RecursiveMC-Black.eot');
+  src: url('../../fonts/recursive-mc/RecursiveMC-Black.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/recursive-mc/RecursiveMC-Black.woff2') format('woff2'),
+    url('../../fonts/recursive-mc/RecursiveMC-Black.woff') format('woff'),
+    url('../../fonts/recursive-mc/RecursiveMC-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive MC';
+  src: url('../../fonts/recursive-mc/RecursiveMC-BlackItalic.eot');
+  src: url('../../fonts/recursive-mc/RecursiveMC-BlackItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/recursive-mc/RecursiveMC-BlackItalic.woff2') format('woff2'),
+    url('../../fonts/recursive-mc/RecursiveMC-BlackItalic.woff') format('woff'),
+    url('../../fonts/recursive-mc/RecursiveMC-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive MC';
+  src: url('../../fonts/recursive-mc/RecursiveMC-ExtraBlack.eot');
+  src: url('../../fonts/recursive-mc/RecursiveMC-ExtraBlack.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/recursive-mc/RecursiveMC-ExtraBlack.woff2') format('woff2'),
+    url('../../fonts/recursive-mc/RecursiveMC-ExtraBlack.woff') format('woff'),
+    url('../../fonts/recursive-mc/RecursiveMC-ExtraBlack.ttf') format('truetype');
+  font-weight: 1000;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive MC';
+  src: url('../../fonts/recursive-mc/RecursiveMC-ExtraBlackItalic.eot');
+  src: url('../../fonts/recursive-mc/RecursiveMC-ExtraBlackItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/recursive-mc/RecursiveMC-ExtraBlackItalic.woff2') format('woff2'),
+    url('../../fonts/recursive-mc/RecursiveMC-ExtraBlackItalic.woff') format('woff'),
+    url('../../fonts/recursive-mc/RecursiveMC-ExtraBlackItalic.ttf') format('truetype');
+  font-weight: 1000;
+  font-style: italic;
+  font-display: swap;
+}

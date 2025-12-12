@@ -17,7 +17,7 @@ references:
 
 När vi talar om att "gå in i väggen" eller känna oss "överväldigade" beskriver vi inte bara psykologiska tillstånd. Vi beskriver en djupgående **fysiologisk kris** där kroppens inbyggda stressystem, som är utformade för korta, akuta faror, har tvingats arbeta på högvarv under en alltför lång period. Denna krisfysiologi påverkar varje större system, från hormoner till immunförsvar, och utgör den biologiska grunden för utmattningssyndrom och stressrelaterad psykisk ohälsa.
 
-## 1. Den Centrala Stressaxeln: HPA-axelns överbelastning
+## 1. Den centrala stressaxeln: HPA-axelns överbelastning
 
 Hörnpelaren i kroppens stressrespons är **Hypotalamus-Hypofys-Binjure-Axeln (HPA-axeln)**. Detta är ett komplext neuroendokrint system som har till uppgift att frisätta stresshormoner och sedan återställa balansen (homeostasen) efter att hotet har passerat (Selye, 1936).
 
@@ -25,7 +25,7 @@ Hörnpelaren i kroppens stressrespons är **Hypotalamus-Hypofys-Binjure-Axeln (H
 
 När hjärnan uppfattar en stressor (som kan vara en fysisk fara, en tung arbetsbelastning eller en pågående relationskonflikt) skickar **Hypotalamus** en signal i form av hormonet **CRH** (_Corticotropin-Releasing Hormone_) till **Hypofysen**. Hypofysen svarar genom att frisätta **ACTH** (_Adrenocorticotropic Hormone_), vilket i sin tur stimulerar **Binjurarna** (den yttre barken) att producera och frisätta **kortisol** (Tsigos & Chrousos, 2002).
 
-### Kortisolets Effekter
+### Kortisolets effekter
 
 **Kortisol** är det primära stresshormonet. Det har flera kritiska funktioner:
 
@@ -35,11 +35,11 @@ När hjärnan uppfattar en stressor (som kan vara en fysisk fara, en tung arbets
 
 Vid kronisk stress fortsätter dock denna frisättning. Efter månader eller år av konstant kortisolpåslag kan systemet gå in i en dysreglerad fas. Detta kan leda till antingen **höga, kroniska nivåer** av kortisol eller, i utmattningsfasen, en **platt** (låg och icke-reaktiv) kortisolkurva, vilket signalerar en utmattning av binjurarna och en störd HPA-axel (Rydmark et al., 2006).
 
-## 2. Det Autonoma Nervsystemet (ANS) – Konstant Aktivering
+## 2. Det autonoma nervsystemet (ANS) – konstant aktivering
 
 Parallellt med HPA-axeln aktiveras det **Autonoma Nervsystemet (ANS)**, som sköter kroppsfunktioner utanför vår vilja (hjärtslag, andning, matsmältning).
 
-### Sympatisk Dominians
+### Sympatisk dominians
 
 Vid stress dominerar det **sympatiska nervsystemet** (gasen), vilket resulterar i en frisättning av **adrenalin** och **noradrenalin**. Dessa katekolaminer leder till:
 
@@ -50,19 +50,19 @@ Vid stress dominerar det **sympatiska nervsystemet** (gasen), vilket resulterar 
 
 När denna _sympatiska dominans_ är konstant, får det **parasympatiska nervsystemet** (bromsen, eller "vila och smält") aldrig chansen att återställa balansen, vilket skapar ett permanent tillstånd av inre beredskap (van der Kolk, 2014).
 
-## 3. Neuroplasticitet och Hjärnans Omstrukturering
+## 3. Neuroplasticitet och hjärnans omstrukturering
 
 Kronisk stress skadar fysiskt de delar av hjärnan som är kritiska för minne, känsloreglering och beslutsfattande.
 
-### Hippocampus (Minne och Reglering)
+### Hippocampus (minne och reglering)
 
 **Hippocampus** spelar en nyckelroll i minne och är rik på receptorer för kortisol. Långvarigt höga kortisolnivåer har visats kunna leda till **atrofi** (minskning i volym) och förlust av nervceller i hippocampus, vilket förklarar de typiska stressymtomen: minnesproblem, koncentrationssvårigheter och svårigheter att lära sig nya saker (McEwen, 1998).
 
-### Amygdala (Rädsla och Hot)
+### Amygdala (rädsla och hot)
 
 Samtidigt som hippocampus krymper, uppvisar **Amygdala** (hjärnans varningscenter) ofta en **hypertrofi** (förstoring) och ökad aktivitet. Detta innebär att den stressade hjärnan blir **mer reaktiv** på hot och negativitet, samtidigt som den tappar förmågan att reglera denna rädsla (Pittman et al., 2012). Personen blir därmed mer ångestfylld och sårbar.
 
-## 4. Inflammatorisk Respons och Immunförsvar
+## 4. Inflammatorisk respons och immunförsvar
 
 En av de mest allvarliga effekterna av kronisk stress är dess koppling till inflammation. Även om kortisol initialt är antiinflammatoriskt, leder långvarig stress till **kortisolresistens** i immuncellerna.
 

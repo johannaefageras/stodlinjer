@@ -15,14 +15,14 @@ references:
 
 Du behöver aldrig be om ursäkt för dina känslor.
 
-### 1. Gråt är en Naturlig Del av Stödet
+### 1. Gråt är en naturlig del av stödet
 
 Att ventilera och låta känslorna ta plats – även genom gråt – är en erkänd och hälsosam copingstrategi. När du ringer in till en stödlinje har du ofta burit på en stor börda, och samtalet kan fungera som en viktig lättnad.
 
 - **De är där för att bekräfta:** Den som svarar är utbildad i att möta människor i svåra livssituationer och ge stöd utan att döma. Deras roll är att bekräfta dina känslor.
 - **De kommer inte att pressa dig:** Volontärer är tränade i att använda pauser och tystnad i samtalet, vilket ger dig möjlighet till reflektion och att samla dig. De är inte rädda för tystnad och kommer inte att pressa dig att fylla ut utrymmet.
 
-### 2. Du har Alltid Kontroll
+### 2. Du har alltid kontroll
 
 Även om du gråter, behåller du den fulla kontrollen över samtalet.
 

@@ -73,7 +73,7 @@ Var tålmodig — det kan ta flera minuter innan andningen börjar lugna sig. Fo
 
 Under en panikattack kan personen känna sig avskild från verkligheten — som om hen flyter bort eller befinner sig i en dröm. Jordningstekniker (grounding techniques) är mindfulness-baserade övningar som hjälper att återkoppla till nuet genom att engagera sinnena (Healthline, 2025).
 
-### 5-4-3-2-1-tekniken
+### 5-4-3-2-1-Tekniken
 
 Denna teknik är enkel att guida och bygger på att aktivera alla fem sinnen. Be personen att identifiera fem saker hen kan se, fyra saker hen kan röra vid, tre saker hen kan höra, två saker hen kan känna lukten av och en sak hen kan smaka. Genom att systematiskt rikta uppmärksamheten mot konkreta sinnesintryck bryts den inåtvända spiralen av panik (Choosing Therapy, 2025).
 

@@ -36,25 +36,25 @@ När amygdala tar över minskar aktiviteten i prefrontala cortex, vilket innebä
 
 ## De fyra stegen i detalj
 
-### Steg 1: Stop — Stanna upp
+### Steg 1: stop — stanna upp
 
 Det första och kanske viktigaste steget är att helt enkelt stanna. När du märker att starka känslor börjar byggas upp — vare sig det är ilska, ångest, panik eller förtvivlan — avbryt det du gör och stå stilla, både fysiskt och mentalt. Detta kan innebära att du håller dig från att skicka det arga meddelandet, avstår från att säga något i stundens hetta eller bara tar ett steg tillbaka från situationen.
 
 Syftet med detta steg är att införa en paus mellan stimulus och respons. Viktor Frankl, psykiater och överlevare från Förintelsen, formulerade det så: mellan stimulus och respons finns ett utrymme, och i det utrymmet ligger vår frihet att välja vår reaktion. STOP-tekniken hjälper dig att skapa detta utrymme. Att stanna bryter den automatiska kedjan där känsla leder direkt till handling och ger dig möjlighet att välja hur du vill agera istället för att bara reagera (Linehan, 2015).
 
-### Steg 2: Take a breath — Ta ett andetag
+### Steg 2: take a breath — ta ett andetag
 
 När du har stannat upp, ta ett eller flera djupa, medvetna andetag. Andas in långsamt genom näsan, låt magen utvidgas och andas sedan ut långsamt genom munnen. Försök att göra utandningen längre än inandningen — till exempel andas in i fyra sekunder och ut i sex till åtta sekunder.
 
 Denna typ av långsam, djup andning aktiverar vagusnerven, som är en central del av det parasympatiska nervsystemet (Porges, 2011). När vagusnerven stimuleras sänker den hjärtfrekvensen, minskar blodtrycket och dämpar produktionen av stresshormoner som kortisol och adrenalin. Forskning visar att redan några få medvetna andetag kan ha mätbar effekt på kroppens stressrespons och hjälpa till att lugna det överaktiva larmsystemet i amygdala (Brown & Gerbarg, 2005). Andningen fungerar som en brygga mellan kropp och sinne — genom att lugna kroppen lugnar du också tankarna.
 
-### Steg 3: Observe — Observera
+### Steg 3: observe — observera
 
 Med kroppen något lugnare är det dags att observera vad som faktiskt händer, både inuti dig och runt omkring dig. Lägg märke till dina tankar utan att döma dem eller försöka förändra dem. Notera vilka känslor som finns närvarande — är det ilska, rädsla, sorg, skam eller något annat? Var i kroppen känner du dessa känslor? Kanske ett tryck över bröstet, spänningar i axlarna eller en klump i magen.
 
 Observera också den yttre situationen. Vad hände egentligen? Vilka fakta finns det, till skillnad från dina tolkningar av vad som hände? Forskning visar att förmågan att observera sina inre upplevelser utan att identifiera sig med dem — ett förhållningssätt som kallas decentrering eller metakognitiv medvetenhet — är en central mekanism i mindfulnessbaserade interventioner och bidrar till förbättrad emotionell reglering (Bernstein et al., 2015). Genom att bli observatören av dina känslor snarare än att vara fängslad av dem skapar du psykologisk distans som gör det lättare att hantera situationen.
 
-### Steg 4: Proceed mindfully — Fortsätt medvetet
+### Steg 4: proceed mindfully — fortsätt medvetet
 
 Det sista steget handlar om att välja din nästa handling medvetet, baserat på vad som faktiskt är hjälpsamt i situationen. Fråga dig själv: Vad är det bästa jag kan göra just nu? Vilken handling stämmer överens med mina värderingar och långsiktiga mål? Vad kommer jag att vara glad över i efterhand?
 
@@ -78,7 +78,7 @@ Var tålmodig med dig själv, för det är helt normalt att "missa" möjligheten
 
 Reflektera efteråt genom att om du lyckades använda STOP i en utmanande situation ta en stund att reflektera över hur det gick. Vad fungerade bra? Var det något steg som var särskilt hjälpsamt? Finns det något du vill göra annorlunda nästa gång? Denna typ av reflektion fördjupar inlärningen och gör tekniken mer personligt anpassad.
 
-## STOP-tekniken i ett sammanhang
+## Stop-tekniken i ett sammanhang
 
 STOP-tekniken är ett kraftfullt verktyg, men den är mest effektiv som en del av en bredare uppsättning strategier för emotionell reglering. I DBT ingår STOP som en av flera färdigheter för att hantera kriser, tillsammans med tekniker som TIPP (som använder temperatur, intensiv träning och andning för att snabbt sänka känslomässig aktivering) och ACCEPTS (som handlar om distraktion genom aktiviteter, bidragande, jämförelser, känslor, bortknuffning av tankar och sinnesintryck) (Linehan, 2015).
 

@@ -18,7 +18,7 @@ Många som kämpar med psykisk ohälsa, ångest eller depression vittnar om att 
 
 Vår dygnsrytm, styrd av den **suprachiasmatiska kärnan (SCN)** i hypotalamus, reglerar frisättningen av flera hormoner som direkt påverkar vårt humör och vår förmåga att hantera stress.
 
-### Melatonin och Social isolering
+### Melatonin och social isolering
 
 När ljuset minskar på kvällen ökar produktionen av **melatonin**, sömnhormonet. Melatonin signalerar till kroppen att det är dags för sömn och förbereder oss för vila, men det har också en indirekt effekt på social interaktion. Mörkret och melatonintoppen sammanfaller med en period av naturlig **social isolering**, där de flesta av våra anknytningsfigurer (vänner, familj) är otillgängliga eller sover (Mindell & Al Khalili, 2024). För en person vars anknytningssystem redan är överaktivt på grund av otrygghet eller trauma, kan denna brist på tillgängligt stöd intensifiera känslor av ensamhet och övergivenhet.
 
@@ -35,7 +35,7 @@ Under natten och vid sömnbrist är denna kognitiva buffert kraftigt reducerad.
 - **Sömnbristens effekt:** Även måttlig sömnbrist har visats leda till en minskad aktivitet i PFC samtidigt som aktiviteten i **amygdala** (hjärnans varnings- och rädslocenter) ökar i respons på negativa stimuli (Yoo et al., 2007). Detta innebär att när du är trött blir din hjärna **mer reaktiv** på hot och **mindre kapabel** att tänka logiskt och lugna ned sig själv.
 - **Mindre distraktion:** Nätterna erbjuder minimalt med distraktioner (jobb, sociala interaktioner, dagliga sysslor). Utan yttre stimuli vänds fokus inåt, vilket tvingar personen att konfrontera de undertryckta tankar och känslor som man effektivt kunnat skjuta undan under dagen (Walker, 2017).
 
-## 3. REM-sömn och emotionell bearbetning
+## 3. Rem-sömn och emotionell bearbetning
 
 Den **REM-sömnen** (_Rapid Eye Movement_) är den sömnfas där vi drömmer som mest intensivt, och den har en avgörande roll i bearbetningen av känslor och minnen.
 

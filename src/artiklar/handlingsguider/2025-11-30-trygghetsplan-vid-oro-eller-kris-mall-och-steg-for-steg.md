@@ -28,37 +28,37 @@ Trygghetsplanen fungerar genom att ge dig en strukturerad vägkarta att följa n
 
 Den evidensbaserade trygghetsplanen består av sex sammankopplade steg som bygger på varandra. Du börjar med egna strategier och eskalerar gradvis till professionell hjälp om det behövs. Varje steg har sin funktion, och tillsammans skapar de ett säkerhetsnät.
 
-### Steg 1: Identifiera dina varningssignaler
+### Steg 1: identifiera dina varningssignaler
 
 Det första steget handlar om att känna igen de tidiga tecken som signalerar att en kris kan vara på väg. Varningssignaler är de tankar, känslor, kroppsliga förnimmelser eller beteenden som brukar föregå dina svåraste stunder. Att identifiera dessa signaler i förväg gör det möjligt att agera tidigt, innan krisen eskalerar.
 
 Varningssignaler kan vara interna, som tankar om hopplöshet, bilder av självskada, ihållande ångest eller en känsla av att vara fångad. De kan också vara yttre situationer som brukar trigga svåra perioder, exempelvis konflikter, ensamhet, sömnbrist eller speciella datum. Skriv ner dina personliga varningssignaler med dina egna ord. Var så specifik som möjligt, eftersom det gör det lättare att känna igen dem när de uppstår. Exempel på varningssignaler kan vara "när jag börjar isolera mig och avböjer träffar med vänner", "när jag vaknar med en tyngd i bröstet flera dagar i rad" eller "när tankarna börjar snurra på natten och jag inte kan sova".
 
-### Steg 2: Interna hanteringsstrategier
+### Steg 2: interna hanteringsstrategier
 
 I detta steg identifierar du vad du själv kan göra för att hantera krissituationen utan att involvera andra. Det handlar om aktiviteter och tekniker som har hjälpt dig tidigare att lugna dig, distrahera dig eller ändra ditt känslomässiga tillstånd.
 
 Dessa strategier bör vara saker du kan göra direkt, utan att behöva planera eller förbereda mycket. Exempel inkluderar att ta en promenad, lyssna på lugnande musik, göra andningsövningar, ta en varm dusch, skriva dagbok, träna eller använda avslappningstekniker. Tänk på vad som har fungerat för dig tidigare och skriv ner flera alternativ. Det är viktigt att ha mer än en strategi, eftersom olika situationer kan kräva olika metoder. Vissa strategier fungerar bättre vid ångest, andra vid nedstämdhet eller vid tankar som snurrar.
 
-### Steg 3: Sociala situationer och personer som ger distraktion
+### Steg 3: sociala situationer och personer som ger distraktion
 
 Det tredje steget handlar om att identifiera personer du kan kontakta eller platser du kan gå till för att distrahera dig från svåra tankar, utan att du behöver berätta att du är i kris. Ibland räcker det med att vara bland människor eller att prata om vardagliga saker för att bryta tankemönstret.
 
 Skriv ner namn på personer som du kan ringa för att prata om annat än hur du mår, människor i vars sällskap du brukar må bättre. Det kan också vara platser där du kan gå för att vara bland folk, som ett café, ett bibliotek eller en park. Poängen är att avbryta isoleringen och den nedåtgående spiralen utan att det kräver att du avslöjar hur du mår. Ha flera alternativ, eftersom den första personen eller platsen kanske inte alltid är tillgänglig.
 
-### Steg 4: Personer du kan be om hjälp i kris
+### Steg 4: personer du kan be om hjälp i kris
 
 I detta steg identifierar du personer som du kan vända dig till och berätta att du är i kris och behöver stöd. Det är en viktig skillnad från föregående steg: här handlar det om att öppet dela med dig av hur du mår och aktivt be om hjälp.
 
 Skriv ner namn och kontaktuppgifter till familjemedlemmar, vänner eller andra som du litar på och som är kapabla att stötta dig i svåra stunder. Fundera på vilka personer i ditt liv som har visat att de kan hantera att du mår dåligt, som inte blir överväldigade eller dömande. Det kan också vara en mentor, en präst eller annan andlig ledare, eller någon från en stödgrupp. Ha minst två till tre personer på listan, eftersom någon kanske inte alltid kan svara. Om det känns svårt att identifiera sådana personer, kan detta vara något att arbeta med tillsammans med en behandlare.
 
-### Steg 5: Professionella kontakter och krisresurser
+### Steg 5: professionella kontakter och krisresurser
 
 Om de tidigare stegen inte hjälper är det dags att kontakta professionell hjälp. I detta steg listar du de vårdgivare och krisresurser som du kan vända dig till för omedelbart stöd.
 
-Skriv ner namn och telefonnummer till din behandlare om du har en sådan, din psykiater eller läkare, samt lokala akutmottagningar för psykiatri. Inkludera också nationella och lokala stödlinjer som Mind självmordslinjen (90101), Jourhavande medmänniska, Självmordsupplysningen, BRIS om du är ung, samt SOS Alarm (112) vid akut fara. Om du är osäker på vilka resurser som finns i din kommun, kan du kontakta din vårdcentral eller besöka 1177.se för mer information. Ha dessa nummer lättillgängliga, både i telefonen och i fysisk form, så att du inte behöver leta efter dem i en krissituation.
+Skriv ner namn och telefonnummer till din behandlare om du har en sådan, din psykiater eller läkare, samt lokala akutmottagningar för psykiatri. Inkludera också nationella och lokala stödlinjer som Självmordslinjen (90101), Jourhavande medmänniska, Självmordsupplysningen, BRIS om du är ung, samt SOS Alarm (112) vid akut fara. Om du är osäker på vilka resurser som finns i din kommun, kan du kontakta din vårdcentral eller besöka 1177.se för mer information. Ha dessa nummer lättillgängliga, både i telefonen och i fysisk form, så att du inte behöver leta efter dem i en krissituation.
 
-### Steg 6: Gör din omgivning säkrare
+### Steg 6: gör din omgivning säkrare
 
 Det sista steget handlar om att minska tillgången till saker som kan användas för att skada dig själv. Forskning visar att begränsning av tillgång till självskademedel är en av de mest effektiva suicidpreventiva åtgärderna, eftersom suicidala impulser ofta är kortvariga och avtar om de inte kan genomföras omedelbart (Yip et al., 2012).
 

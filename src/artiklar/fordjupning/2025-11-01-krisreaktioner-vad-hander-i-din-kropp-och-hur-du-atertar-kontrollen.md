@@ -21,13 +21,13 @@ Att drabbas av en psykisk kris – utlöst av en akut traumatisk händelse, en f
 
 Denna artikel syftar till att förklara de biologiska mekanismerna bakom din krisreaktion och hur du, genom att förstå kroppens inneboende varningssystem, kan återta kontrollen över dig själv i stunden.
 
-### 1. Kroppens Inbyggda Varningssystem: Mer Än Bara Flykt
+### 1. Kroppens inbyggda varningssystem: mer än bara flykt
 
 Känslan av att vara utom kontroll, med rusande hjärta och snabb andning, är inte ett tecken på att du håller på att bli galen. Det är ett tecken på att ditt **autonoma nervsystem** – den icke-viljestyrda delen av nervsystemet – har aktiverat sin automatiska försvarsrespons. Detta system, som styr allt från andning till hjärtfrekvens, är utvecklat för att säkerställa din överlevnad.1
 
 Även om vi sällan hotas av rovdjur idag, reagerar kroppen på hot, stress och ångest med samma automatiserade respons.
 
-### Kamp, Flykt och Frysningsresponsen
+### Kamp, flykt och frysningsresponsen
 
 En djupare förståelse av det autonoma nervsystemet, ofta kallad Polyvagal-teorin, beskriver hur vår respons på fara sker i en hierarki i tre steg:
 
@@ -37,7 +37,7 @@ En djupare förståelse av det autonoma nervsystemet, ofta kallad Polyvagal-teor
 
 För att ta dig ur en kris måste du därmed skicka signaler till ditt nervsystem om att faran är över, eller åtminstone hanterbar, genom att aktivera lugn och trygghet.
 
-### 2. Krisens Fyra Faser: Ett Normalförlopp
+### 2. Krisens fyra faser: ett normalförlopp
 
 En traumatisk kris är en process som man måste bearbeta för att kunna ta sig igenom den. Att känna till krisens vanliga faser kan hjälpa dig att normalisera dina ibland skrämmande reaktioner.
 
@@ -46,11 +46,11 @@ En traumatisk kris är en process som man måste bearbeta för att kunna ta sig 
 3. **Bearbetningsfasen (Månader till Cirka Ett År):** I denna fas börjar det egentliga sorgearbetet. Man börjar sakta men säkert acceptera det som har hänt, även om man kan uppleva minnes- och koncentrationssvårigheter. Många behöver professionell hjälp av en psykolog eller psykoterapeut för att ta sig vidare genom denna fas.
 4. **Nyorienteringsfasen:** Krisen börjar gradvis bli en del av ens livshistoria. Man kan till och med finna nya krafter och resurser, och livsglädjen kommer tillbaka.
 
-### 3. Vägen till Reglering: Från Kaos till Kontroll
+### 3. Vägen till reglering: från kaos till kontroll
 
 När du upplever outhärdliga känslor försämras förmågan att tänka klart. I det akuta läget är det därför lättare att påverka känslotillståndet genom att arbeta med **kroppen**, vilket är en central del av behandlingen vid ångest och stress.
 
-### När Känslorna Är Outhärdliga: Jordning
+### När känslorna är outhärdliga: jordning
 
 Med hjälp av kroppsliga övningar kan du lugna ner dig själv när du har ångest och dämpa kamp/flykt-responsen.
 
@@ -58,7 +58,7 @@ Med hjälp av kroppsliga övningar kan du lugna ner dig själv när du har ånge
 - **Andningsreglering:** Fokusera på att förlänga utandningen, vilket manuellt aktiverar lugn-och-ro-systemet.2
 - **Avslappning:** Avsätt tid för längre avspänningsövningar, som progressiv avslappning, för att lokalisera och släppa fysisk spänning.3
 
-### Prata för Att Bearbeta: Socialt Stöd
+### Prata för att bearbeta: socialt stöd
 
 I en krissituation är det livsviktigt att bryta isoleringen. Att upprätthålla sociala band har visat sig vara den mest effektiva **emotionsfokuserade copingstrategin** för att reducera stress och lindra känslor av ensamhet.4
 

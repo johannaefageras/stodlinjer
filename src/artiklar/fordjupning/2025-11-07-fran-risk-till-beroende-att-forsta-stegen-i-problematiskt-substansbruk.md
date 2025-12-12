@@ -18,7 +18,7 @@ Problematiskt bruk av alkohol och andra beroendeframkallande substanser – oavs
 
 Att prata om detta ämne kräver också att vi är medvetna om den medicinska terminologins utveckling. Inom svensk sjukvård används främst termerna **riskbruk**, **skadligt bruk** och **beroende** (enligt WHO:s klassifikationssystem ICD-10). Begreppet **missbruk** har delvis fasats ut som medicinsk diagnos till förmån för de mer specifika termerna, dels för att minska stigma, dels för att den saknade en tydlig klinisk definition i modern diagnostik som DSM-5 (Praktisk Medicin, u.å.). Vi fokuserar därför på de vetenskapligt definierade stegen som representerar en glidande skala.
 
-## Riskbruk: Ett varningstecken, inte en sjukdom
+## Riskbruk: ett varningstecken, inte en sjukdom
 
 **Riskbruk** (även kallat riskkonsumtion) är det första steget och definieras som ett bruk av en substans som **inte** har lett till påvisbara skador eller beroende, men som innebär en ökad sannolikhet för framtida fysiska, psykiska eller sociala konsekvenser (Region Örebro län, 2025).
 
@@ -28,7 +28,7 @@ Vid riskbruk är kontrollen över bruket intakt, men vanorna har potential att b
 
 ---
 
-## Skadligt bruk: När skadorna uppstått
+## Skadligt bruk: när skadorna uppstått
 
 Nästa steg i utvecklingen är **skadligt bruk** (enligt ICD-10), som är en klinisk diagnos. Skadligt bruk inträffar när bruket av en psykoaktiv substans (alkohol eller droger) **har resulterat i skada på individens hälsa** (Socialstyrelsen, u.å.). Denna skada kan vara antingen fysisk, som till exempel leverskador eller olyckor till följd av berusning, eller psykisk, såsom depression, ångest eller sömnstörningar som har en direkt koppling till substansbruket (Viss.nu, u.å.).
 
@@ -36,7 +36,7 @@ Till skillnad från riskbruk, där man agerar för att _förhindra_ skada, kräv
 
 ---
 
-## Beroende: Kontrollförlust och tvång
+## Beroende: kontrollförlust och tvång
 
 **Beroende** (eller **beroendesyndrom** enligt ICD-10, alternativt **substansbrukssyndrom** enligt DSM-5) är det mest avancerade stadiet och karaktäriseras av en **nedsatt förmåga att kontrollera** intaget av substansen. Vid beroende har hjärnans belöningssystem påverkats, vilket leder till att substansbruket prioriteras över andra viktiga aktiviteter, trots vetskapen om dess negativa konsekvenser (Mind, u.å.; Region Kalmar, 2022).
 

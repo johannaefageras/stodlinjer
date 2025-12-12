@@ -14,7 +14,7 @@ references:
 
 Att inleda ett svårt samtal – oavsett om det handlar om att adressera problematiskt substansbruk, våld i nära relation, eller en persons mentala hälsa – är ofta det svåraste steget. Dessa samtal är laddade med känslor, risk för missförstånd och potentiell konflikt. Forskning inom kommunikationsvetenskap och konflikthantering betonar vikten av noggrann **förberedelse** för att maximera chansen att nå ett konstruktivt resultat. Förberedelse handlar om mer än att bara veta vad du ska säga; det handlar om att hantera dina egna känslor, sätta mål och planera för potentiella reaktioner.
 
-## 1. Förstå Syftet och Sätt Gränser
+## 1. Förstå syftet och sätt gränser
 
 Det första steget är att definiera **varför** samtalet ska äga rum och vad du realistiskt sett vill uppnå. Utan ett tydligt mål blir samtalet lätt diffust eller reaktivt.
 
@@ -40,13 +40,13 @@ Själva strukturen kring samtalet kan påverka utfallet dramatiskt. Psykologisk 
 
 Välj en tidpunkt när ni båda är **utvilade, nyktra och inte stressade**. Undvik att ta upp svåra ämnen sent på kvällen eller under en akut kris, då den kognitiva förmågan att hantera känslor är nedsatt (Walker, 2017). Platsen bör vara **privat, neutral** och fri från avbrott. Undvik offentliga platser där den andra personen kan känna sig utsatt.
 
-### Öva på "Jag-budskap"
+### Öva på "jag-budskap"
 
 När du formulerar din oro, måste du **undvika anklagelser** ("Du dricker för mycket", "Du gör mig arg"). Anklagande språk utlöser omedelbart ett defensivt beteende. Använd istället **Jag-budskap** som fokuserar på din egen upplevelse och känslor: "Jag känner mig orolig när jag ser hur du mår på måndagsmorgonen" eller "Jag har svårt att fokusera på jobbet eftersom jag är rädd för vad som händer med dig" (Rosenberg, 2015).
 
 Ett enkelt sätt att strukturera detta är: **Jag känner [känsla] när [konkret observation] och jag skulle önska [konkret åtgärd/förslag].**
 
-## 3. Förbered dig mentalt: Hantera din egen ångest
+## 3. Förbered dig mentalt: hantera din egen ångest
 
 Ett svårt samtal är en stor stressfaktor. För att kunna vara lugn och empatisk måste du först hantera dina egna reaktioner.
 

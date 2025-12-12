@@ -15,7 +15,7 @@ references:
 
 Din trygghet garanteras oavsett: alla som svarar är utbildade i att ge stöd och lyssna med respekt, utan att döma.
 
-### Vem du pratar med på Minds linjer
+### Vem du pratar med på minds linjer
 
 Organisationer som Mind använder olika kompetenser beroende på linjens uppdrag.
 
@@ -23,7 +23,7 @@ För linjer som **Föräldralinjen** svarar utbildade **psykologer, socionomer o
 
 Linjer som **Självmordslinjen** och **Äldrelinjen** bemannas däremot av **utbildade volontärer**. Dessa volontärer är anonyma och har samma mål: att lyssna och stötta när livet känns svårt. Du ska få ett bra samtal vem du än pratar med.
 
-### Andra Specialiserade Stödlinjer
+### Andra specialiserade stödlinjer
 
 På mer specialiserade stödlinjer varierar personalens bakgrund:
 

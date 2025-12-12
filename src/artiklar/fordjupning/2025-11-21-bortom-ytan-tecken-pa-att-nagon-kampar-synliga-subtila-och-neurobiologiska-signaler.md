@@ -15,38 +15,38 @@ references:
 
 Att identifiera tecken på att en närstående kämpar är ofta en utmaning, eftersom psykisk ohälsa sällan manifesteras enbart genom dramatiska, synliga förändringar. Människor är skickliga på att dölja sitt inre lidande, särskilt när skam, förnekelse eller rädsla för dömande är inblandat. En noggrann observation kräver att man uppmärksammar både yttre beteenden och de mer subtila, underliggande skiftena i en persons energi, kognition och sociala interaktion.
 
-## 1. De Synliga Tecknen: Förändringar i Struktur och Rutin
+## 1. De synliga tecknen: förändringar i struktur och rutin
 
 De mest uppenbara varningssignalerna rör en avvikelse från personens normala baslinje av beteende, vanor och utseende. Dessa förändringar är ofta lätta att observera i det dagliga livet.
 
-### Fysiska och Yttre Förändringar
+### Fysiska och yttre förändringar
 
 - **Sömn- och Aptitförändringar:** Dramatisk förändring i sömnmönster – antingen svår insomnia, att sova för mycket (hypersomni), eller att vakna mitt i natten (ofta kopplat till oro eller ångest, se tidigare artikel om natten). Även markant viktnedgång eller viktuppgång utan förklaring är vanliga symptom på depression eller utmattning (APA, 2022).
 - **Hygien och Yttre Vård:** En plötslig eller pågående försummelse av personlig hygien, klädsel eller hemmets skötsel. Brist på intresse för det egna utseendet kan vara ett tecken på depression eller att personen använder all sin energi på att hantera inre kriser.
 - **Fysiska Åkommor:** Ofta återkommande, oförklarade fysiska symtom som huvudvärk, magproblem (t.ex. IBS-liknande symtom), kronisk smärta eller muskelspänning. Dessa är kroppens sätt att signalera en överbelastning av det autonoma nervsystemet (van der Kolk, 2014).
 
-### Beteendemässiga Förändringar
+### Beteendemässiga förändringar
 
 - **Ökad Isolering:** Att dra sig undan sociala sammanhang, tacka nej till aktiviteter eller sluta svara på meddelanden. Att förlora intresset för hobbies eller aktiviteter som tidigare gav glädje (_anhedoni_) är ett kärnsymtom vid depression (APA, 2022).
 - **Ändrad Substansanvändning:** En ökad eller plötslig förändring i konsumtion av alkohol, läkemedel eller andra substanser. Substansanvändning används ofta som en form av **självmedicinering** för att dämpa ångest eller känslomässig smärta.
 - **Impulsivitet och Risktagande:** Plötsliga, oöverlagda beslut, t.ex. oansvariga ekonomiska handlingar, vårdslöshet i trafiken eller andra riskfyllda beteenden.
 
-## 2. De Subtila Tecknen: Kognition och Affekt
+## 2. De subtila tecknen: kognition och affekt
 
 Dessa tecken kräver djupare observation och kan inte nödvändigtvis ses på ytan. De rör personens inre värld och kognitiva funktion.
 
-### Kognitiv Dysfunktion
+### Kognitiv dysfunktion
 
 - **Nedsatt Koncentration:** Personen verkar ha svårt att följa med i samtal, glömmer överenskommelser eller har svårt att slutföra uppgifter. Denna kognitiva dimma är ett resultat av stressens inverkan på **Hippocampus** och **Prefrontala Cortex** (McEwen, 1998).
 - **Överväldigande Självkritik:** Tydliga tecken på extremt negativt självprat, känsla av hopplöshet, skuld eller en stark känsla av att vara en **börda** (se tidigare artikel). Dessa tankemönster är centrala i flera former av psykisk ohälsa (Joiner, 2005).
 
-### Affekt och Emotionell Uttryck
+### Affekt och emotionell uttryck
 
 - **Affektiv Avtrubbning:** En platt eller avtrubbad känslomässig respons (t.ex. reagerar inte på glädje eller sorg). Detta kan vara en **dissociativ respons** där personen stänger ner känslor för att skydda sig mot överväldigande inre smärta (van der Kolk, 2014).
 - **Långvarig Irritation/Ilska:** Inte enbart sorg, utan en kronisk irritabilitet eller kort stubin som inte kan förklaras av yttre omständigheter. Detta kan vara en manifestation av en underliggande **fight-respons** eller en utmattad hjärna som saknar förmåga till känsloreglering.
 - **Förstärkt Ängslighet (Hypervigilans):** Överdriven oro för framtida händelser, oförmåga att slappna av, eller en konstant känsla av spänning. Detta signalerar att personens **amygdala** (hotcenter) är överaktiv.
 
-## 3. Neurobiologiska Signaler: Kroppens Varningssystem
+## 3. Neurobiologiska signaler: kroppens varningssystem
 
 För att identifiera om någon är i kris är det hjälpsamt att tänka på ANS-respons. Utgångspunkten är att alla tecken signalerar ett **nervsystem i obalans**.
 

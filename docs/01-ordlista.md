@@ -144,7 +144,7 @@ Exempel:
 
 ```json
 {
-  "name": "Mind Självmordslinjen",
+  "name": "Självmordslinjen",
   "phone": "90101",
   "available": "Dygnet runt"
 }

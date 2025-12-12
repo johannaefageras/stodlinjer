@@ -13,7 +13,7 @@ references:
 
 Ensamhet är en av de mest universella och smärtsamma mänskliga upplevelserna. Den är sällan ett resultat av att vara fysiskt ensam, utan definieras snarare som den **subjektiva upplevelsen av att det finns en klyfta mellan de sociala relationer man önskar sig och de relationer man faktiskt har** (Peplau & Perlman, 1982). Denna smärta är inte enbart känslomässig; den är en inbyggd biologisk varningssignal som har djupa psykologiska och neurobiologiska rötter. Att förstå varför ensamhet gör så ont är första steget mot att läka.
 
-## Ensamhet: Ett socialt överlevnadsbehov
+## Ensamhet: ett socialt överlevnadsbehov
 
 Evolutionärt sett var social tillhörighet inte bara trevligt – det var avgörande för överlevnaden. Människor behövde gruppen för skydd mot rovdjur, för jakt och för reproduktion. Att bli utesluten ur gruppen innebar en nästan omedelbar dödsdom.
 
@@ -23,15 +23,15 @@ Forskning av neurovetenskapliga pionjärer som John T. Cacioppo har etablerat at
 
 Den psykologiska smärtan av social uteslutning är så kraftfull eftersom den bearbetas i samma neurala regioner som fysisk smärta.
 
-### Den Anteriora Cingulate Cortex (ACC)
+### Den anteriora cingulate cortex (ACC)
 
 Studier med fMRI (funktionell magnetresonanstomografi) har visat att när individer upplever socialt avvisande eller uteslutning (till exempel i ett datorspel som _Cyberball_), ökar aktiviteten i den **Anteriora Cingulate Cortex (ACC)** och den **ventrala putamen** (Eisenberger, 2012). ACC är en hjärnregion som är central för att upptäcka och bearbeta obehag och nöd, både fysiskt och känslomässigt. Att aktivera ACC vid social smärta indikerar att hjärnan uppfattar social isolering som ett **fysiskt hot** mot kroppens integritet (Eisenberger, 2012). Detta förklarar varför ensamhet kan ge upphov till fysiska symtom som en "krossad" känsla i bröstet eller en allmän fysiologisk nedstämdhet.
 
-### Förlust av Belöning och Motivation
+### Förlust av belöning och motivation
 
 Förutom smärtan påverkar ensamheten hjärnans **belöningssystem**, vilket involverar neurotransmittorn **dopamin** (Cacioppo & Cacioppo, 2018). För en ensam person kan sociala belöningar (bekräftelse, tillhörighet) upplevas som mindre givande. Samtidigt tenderar hjärnan att förstärka sin respons på potentiellt skadliga belöningar som mat, spel eller substanser, i ett försök att kompensera för bristen på den primära sociala belöningen. Denna brist på motivation för sociala kontakter, kombinerat med en ökad drivkraft mot substitut, kan förstärka den cykel som leder till isolering.
 
-## Den Kognitiva Snedvridningen (Hypervigilans)
+## Den kognitiva snedvridningen (hypervigilans)
 
 Den kroniskt ensamma hjärnan går in i ett tillstånd av **hypervigilans** (överdriven vaksamhet) för sociala hot. Eftersom den ständigt skickar ut varningssignaler om isolering, blir den inställd på att leta efter bevis på avvisande.
 
@@ -44,7 +44,7 @@ Detta leder till en **tolkningsbias** där tvetydiga sociala signaler eller neut
 
 Denna defensiva tankestil, som drivs av rädslan för avvisande, blir en självuppfyllande profetia. Personer som känner sig ensamma kan omedvetet agera på ett sätt som stöter bort andra, eftersom de utstrålar misstro eller drar sig undan i förebyggande syfte. De bygger en skyddsmur mot potentiell smärta, men muren håller samtidigt ute den nödvändiga närheten (Hawkley & Cacioppo, 2010).
 
-## Vägen Ut: Från ensamhet till social anknytning
+## Vägen ut: från ensamhet till social anknytning
 
 Att bryta cykeln av ensamhet handlar inte om att skaffa sig många vänner, utan om att förbättra kvaliteten på de relationer man har och ändra den inre tolkningen av sociala signaler.
 

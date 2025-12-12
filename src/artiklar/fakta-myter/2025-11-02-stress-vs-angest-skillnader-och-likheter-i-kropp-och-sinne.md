@@ -21,7 +21,7 @@ Termerna stress och ångest används ofta synonymt i vardagligt tal, men inom ps
 
 För att effektivt hantera dessa tillstånd är det avgörande att förstå var det ena slutar och det andra börjar.
 
-### 1. Stress: Reaktionen på Yttre Krav
+### 1. Stress: reaktionen på yttre krav
 
 Stress är kroppens naturliga reaktion på yttre eller inre krav och påfrestningar. Det är ett system som är utformat för att mobilisera energi för att klara av en utmaning.
 
@@ -31,7 +31,7 @@ Stress är kroppens naturliga reaktion på yttre eller inre krav och påfrestnin
 
 Långvarig negativ stress under en längre tid påverkar den mentala hälsan och kan leda till symtom som liknar dem som upplevs vid ångest eller depression.
 
-### 2. Ångest: Oron för Det Oklara Hotet
+### 2. Ångest: oron för det oklara hotet
 
 Ångest är en känsla av oro, rädsla eller obehag som ofta känns starkt i kroppen. Det är också en automatisk reaktion som inte går att styra med vilja. Till skillnad från stress, handlar ångest ofta om framtida, **orealiska eller överdrivna hot**.
 
@@ -40,7 +40,7 @@ Långvarig negativ stress under en längre tid påverkar den mentala hälsan och
 - **Panikångest:** När ångesten är som starkast kan den leda till en panikattack. Då kan det kännas som att du ska svimma, tappa kontrollen eller till och med dö, även om reaktionen är ofarlig och går över av sig själv.
 - **Hantering:** För att hantera ångest kombinerar man ofta **förebyggande strategier** (som rutiner och fysisk aktivitet) med **omedelbara strategier** (som distraktion, socialt stöd och ventilering) för att reglera känslor både innan och efter de uppstår.
 
-### 3. De Fysiologiska och Psykologiska Likheterna
+### 3. De fysiologiska och psykologiska likheterna
 
 Trots skillnaden i orsak, manifesterar sig stress och ångest på nästan identiska sätt i kroppen, vilket gör det svårt att skilja dem åt utan professionell bedömning.
 
@@ -52,7 +52,7 @@ Trots skillnaden i orsak, manifesterar sig stress och ångest på nästan identi
 
 Långvarig ångest och stress kan skapa en ond cirkel. När individer ständigt utsätts för negativ stress under en längre tid påverkas deras mentala hälsa, vilket kan resultera i symtom som liknar de som upplevs vid ångest och depression. Långvarig ångest kan även leda till depression.
 
-### 4. Vägen till Återhämtning
+### 4. Vägen till återhämtning
 
 Eftersom både stress och ångest har en stark kroppslig komponent, är behandling ofta fokuserad på att återställa balansen i nervsystemet.
 

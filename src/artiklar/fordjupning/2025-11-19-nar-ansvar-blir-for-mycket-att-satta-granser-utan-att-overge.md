@@ -15,15 +15,15 @@ references:
 
 För den som står nära någon med psykisk ohälsa, beroende eller som har utsatts för trauma, kan det känslomässiga och praktiska ansvaret bli övermäktigt. Det är naturligt att vilja vara en "räddare" och att känna skuld inför tanken på att sätta gränser. Utan tydliga och hållbara gränser riskerar dock den stödjande personen att drabbas av **medberoende**, **utmattning** och till och med **sekundär traumatisering** (Figley, 1995). Att sätta gränser handlar inte om att överge, utan om att **skapa hållbara relationer** baserade på respekt för bådas autonomi.
 
-## 1. Den Psykologiska Mekanismen: Medberoende och Självutplåning
+## 1. Den psykologiska mekanismen: medberoende och självutplåning
 
 Medberoende är inte en formell diagnos i DSM-5, men det är ett kliniskt erkänt beteendemönster som innebär att man låter en annan persons beteende påverka sig själv, och är besatt av att kontrollera den personens beteende (Mellody et al., 1989). Denna dynamik är ofta kopplad till otrygga anknytningsmönster, där självuppoffring jämställs med kärlek.
 
-### Det Fysiologiska Priset
+### Det fysiologiska priset
 
 När vi konsekvent sätter andras behov framför våra egna, lever vi i ett permanent tillstånd av **allostatisk belastning**. Hjärnan tolkar bristen på gränser som en kronisk fara – att världen (eller den närstående) är ostabil och kräver konstant beredskap. Detta leder till den kroniska aktivering av HPA-axeln och det sympatiska nervsystemet som beskrevs i tidigare artiklar (McEwen, 1998). På lång sikt leder den ständiga förhandlingen om egna gränser till utmattning och en kollaps av den egna **självregleringsförmågan**.
 
-## 2. Att Definiera Gränsen: Åtskillnad mellan ansvar
+## 2. Att definiera gränsen: åtskillnad mellan ansvar
 
 Att sätta en gräns börjar med en **åtskillnad** mellan ditt och den andres ansvar. Detta är en kognitiv övning i att skilja på vad du kan kontrollera och vad du inte kan.
 
@@ -32,18 +32,18 @@ Att sätta en gräns börjar med en **åtskillnad** mellan ditt och den andres a
 
 Gränser ska därför inte syfta till att kontrollera den närståendes beteende, utan att **skydda din egen integritet och dina resurser** (Cloud & Townsend, 2017).
 
-## 3. Gränssättning i Praktiken: Från Tanke till Handling
+## 3. Gränssättning i praktiken: från tanke till handling
 
 Effektiv gränssättning kräver tydlighet, empati och konsekvens.
 
-### A. Gränsens Formulering (Jag-budskap)
+### A. gränsens formulering (jag-budskap)
 
 Gränsen ska kommuniceras med fokus på dina egna behov och konsekvenser, inte på den andres fel. Denna metod är central i icke-våldsam kommunikation (Rosenberg, 2015).
 
 - **Undvikande formulering (Anklagande):** "Du måste sluta ringa mig sent på kvällen, du förstör min sömn."
 - **Gränssättande formulering (Jag-budskap):** "**Jag** behöver sova för att fungera. **Jag** kommer inte att svara i telefon efter klockan 22.00, men jag ringer dig imorgon bitti."
 
-### B. Konsekvens och Förutsägbarhet
+### B. konsekvens och förutsägbarhet
 
 En gräns är meningslös utan en **konsekvens** som du är villig att genomföra. Det är i konsekvensen som gränsen får sin kraft. Forskning inom beteendevetenskap visar att konsekvent tillämpning är nödvändig för att skapa nya beteendemönster (Skinner, 1953/2014).
 
@@ -52,7 +52,7 @@ En gräns är meningslös utan en **konsekvens** som du är villig att genomför
 
 Detta skapar förutsägbarhet, vilket är lugnande för alla inblandade parter, även om det initialt möts av motstånd.
 
-### C. Anknytning genom Lyssning
+### C. anknytning genom lyssning
 
 Att sätta en gräns får den andra personen att känna sig avvisad. För att undvika att gränsen tolkas som ett totalt övergivande, är det avgörande att först **validera och lyssna** innan gränsen kommuniceras.
 
@@ -62,7 +62,7 @@ Att sätta en gräns får den andra personen att känna sig avvisad. För att un
 
 Du sätter gränsen mot det **destruktiva beteendet** (skriket), men du upprätthåller den **anknytning** (jag kommer tillbaka). Detta signalerar: "Jag lämnar inte _dig_, jag lämnar bara _beteendet_" (Mellody et al., 1989).
 
-## 4. Den Ultimata Gränsen: Skydd mot Sekundär Trauma
+## 4. Den ultimata gränsen: skydd mot sekundär trauma
 
 I vissa situationer, särskilt när det rör sig om pågående misshandel, våld eller kronisk kris, är den yttersta gränsen att **fysiskt dra sig undan**. **Sekundär Traumatisering** (även kallat _Compassion Fatigue_) är ett verkligt tillstånd där den stödjande personen absorberar den närståendes trauma. Symtom kan inkludera PTSD-liknande symtom, vilket betonar att gränssättning i dessa fall inte är en egoistisk handling, utan en nödvändig överlevnadsåtgärd som krävs för att kunna fortsätta existera och eventuellt kunna hjälpa i framtiden (Figley, 1995).
 

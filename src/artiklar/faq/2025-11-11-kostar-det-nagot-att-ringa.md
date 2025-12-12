@@ -15,7 +15,7 @@ references:
 
 De stora ideella organisationerna har system som är utformade för att du ska kunna ringa utan att behöva oroa dig för kostnaden, vilket gör att du kan fokusera på ditt välmående.
 
-### Fakta om Kostnaden:
+### Fakta om kostnaden:
 
 - **Samtalskostnad:** Själva samtalet till stödlinjer som Självmordslinjen, Föräldralinjen, Kvinnofridslinjen och Linnamottagningen är gratis. Organisationen bakom linjen (som Mind) står för kostnaden för resten av samtalet, efter den initiala anslutningen.
 - **Öppningsavgift (Markering):** Vissa mobiloperatörer tar ut en mindre _öppningsavgift_ (även kallad _markering_) när samtalet påbörjas. Denna avgift är oberoende av samtalets längd.

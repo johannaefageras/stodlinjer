@@ -30,7 +30,7 @@ Det som gör situationen extra frustrerande är att sömnbrist i sig ökar stres
 
 Andningen är ett av de mest kraftfulla verktygen vi har för att påverka vårt autonoma nervsystem. Till skillnad från hjärtslag och matsmältning kan vi medvetet kontrollera andningen, och genom att andas långsamt och djupt aktiverar vi det parasympatiska nervsystemet – kroppens system för vila och återhämtning (Russo et al., 2017).
 
-### 4-7-8-andning
+### 4-7-8-Andning
 
 En populär andningsteknik är 4-7-8-metoden, som utvecklades av den amerikanske läkaren Andrew Weil baserat på den yogiska traditionen pranayama. Tekniken innebär att du andas in genom näsan i fyra sekunder, håller andan i sju sekunder och sedan andas ut genom munnen i åtta sekunder medan du gör ett väsande ljud. En studie på unga vuxna visade att tekniken förbättrade hjärtfrekvensvariabilitet och sänkte blodtryck och puls, vilket indikerar ökad parasympatisk aktivitet (Vierra et al., 2022).
 

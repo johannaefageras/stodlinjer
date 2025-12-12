@@ -16,7 +16,7 @@ references:
 
 Många som mår dåligt känner sig förvirrade eller utmattade, vilket gör det svårt att formulera sina tankar. Syftet med en stödlinje är inte att du ska leverera en perfekt redogörelse, utan att du ska få prata om saken och låta känslorna ta plats – även om det är rörigt.
 
-### Volontärens Uppgift: Att Lyssna och Hjälpa Dig Sortera
+### Volontärens uppgift: att lyssna och hjälpa dig sortera
 
 De volontärer och den utbildade personalen som svarar har som sitt främsta mål att vara ett icke-dömande stöd och hjälpa dig att hitta ord.
 

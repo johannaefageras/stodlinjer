@@ -45,7 +45,7 @@ En av de mest etablerade teknikerna för assertiv kommunikation är användninge
 
 Ett fullständigt jag-budskap kan struktureras enligt följande formel: börja med att beskriva situationen objektivt, uttryck sedan hur du känner dig, förklara varför du känner så, och avsluta med vad du önskar eller behöver (The Phoenix Institute, 1982). Ett konkret exempel kan vara: "När möten drar över tiden utan förvarning känner jag mig stressad eftersom jag har svårt att hinna med mina andra åtaganden. Jag skulle uppskatta om vi kunde hålla oss till agendan eller meddela i förväg om mötet förväntas bli längre."
 
-### DESC-modellen
+### Desc-modellen
 
 DESC-modellen, utvecklad av Sharon och Gordon Bower (1991), erbjuder ett strukturerat ramverk för assertiv kommunikation som är särskilt användbart vid gränssättning. Modellen består av fyra steg som hjälper dig att formulera ditt budskap tydligt utan att anklaga eller angripa den andra personen.
 

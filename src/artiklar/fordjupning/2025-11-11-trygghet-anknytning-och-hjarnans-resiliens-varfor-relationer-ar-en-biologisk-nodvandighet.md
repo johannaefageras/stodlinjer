@@ -18,11 +18,11 @@ references:
 
 Människan är, mer än något annat däggdjur, programmerad för social överlevnad. Långt ifrån att vara enbart en psykologisk konstruktion, utgör våra relationer en **biologisk nödvändighet** som aktivt reglerar vårt nervsystem och vår kognitiva funktion. Att förstå sambandet mellan tidig **anknytning** (eng. _attachment_) och senare psykisk hälsa kräver att vi dyker ner i hur nära band formar hjärnans stresshanteringssystem. Denna förståelse är central för all klinisk intervention och för att främja långsiktig mental resiliens.
 
-## Anknytningsteorins Neurologiska Fundament
+## Anknytningsteorins neurologiska fundament
 
 Anknytningsteorin, grundad av psykiatern **John Bowlby** och vidareutvecklad av **Mary Ainsworth**, beskriver det livslånga behovet av att söka närhet och trygghet hos en primär vårdare vid fara eller stress. Detta system är inte begränsat till barndomen; det aktiveras genom hela livet, särskilt i nära vuxenrelationer (Bowlby, 1988).
 
-### De Inre Arbetsmodellerna (Internal Working Models)
+### De inre arbetsmodellerna (internal working models)
 
 Tidiga interaktioner med anknytningspersonen skapar **Inre Arbetsmodeller** (_Internal Working Models_, IWMs). Dessa är kognitiva och affektiva scheman som fungerar som en mall för alla framtida relationer. De besvarar två fundamentala frågor (Bretherton & Munholland, 1999):
 
@@ -31,7 +31,7 @@ Tidiga interaktioner med anknytningspersonen skapar **Inre Arbetsmodeller** (_In
 
 En **trygg anknytning** (cirka 60% av befolkningen) skapas när vårdaren är konsekvent lyhörd, vilket leder till en IWM där individen ser sig själv som älskvärd och andra som pålitliga. Övriga mönster (undvikande, ambivalent/ängslig och desorganiserad) benämns som **otrygga** och involverar strategier för att hantera en oförutsägbar eller avvisande miljö (Cassidy & Shaver, 2018).
 
-## Stressreglering: HPA-axeln och Social Buffering
+## Stressreglering: HPA-axeln och social buffering
 
 Relationsbaserad trygghet har en direkt, mätbar effekt på kroppens fysiologi. Detta är särskilt tydligt i regleringen av **Hypotalamus-Hypofys-Binjure-Axeln** (HPA-axeln), som styr kroppens stressrespons genom frisättning av kortisol.
 
@@ -44,7 +44,7 @@ När en individ med trygg anknytning upplever stress och söker tröst hos en n�
 
 Denna neurokemiska mekanism förklarar varför fysisk beröring och emotionellt stöd från en trygg partner omedelbart kan sänka hjärtfrekvensen och lugna en stressad individ.
 
-### Social Buffering
+### Social buffering
 
 Forskning inom psykoneuroendokrinologi har etablerat begreppet **Social Buffering** (social dämpning). Detta fenomen innebär att närvaron av en pålitlig social partner mildrar den fysiologiska och emotionella responsen på stress (Coan et al., 2006).
 
@@ -54,21 +54,21 @@ I studier har man observerat att individer som genomgår en stressig uppgift (ti
 
 När den sociala bufferten saknas, eller när anknytningssystemet är otryggt, blir individen mer sårbar för psykiska problem. Otrygga anknytningsmönster är starkt korrelerade med flera kliniska diagnoser.
 
-### Hyperaktivering (Ångestfylld/Ambivalent Anknytning)
+### Hyperaktivering (ångestfylld/ambivalent anknytning)
 
 Individer med **ångestfylld anknytning** tenderar att använda **hyperaktiveringsstrategier** i vuxenlivet. De förstärker sina känslomässiga uttryck för att få närhet och bekräftelse, drivna av en ständig rädsla för att bli övergiven. Detta mönster kan leda till (Cassidy & Shaver, 2018):
 
 - **Högre ångestnivåer:** Kronisk oro och svårigheter att reglera starka känslor.
 - **Stresskänslighet:** HPA-axeln kan vara överreaktiv, vilket leder till högre baslinjenivåer av kortisol.
 
-### Deaktivering (Undvikande Anknytning)
+### Deaktivering (undvikande anknytning)
 
 Personer med **undvikande anknytning** använder **deaktiveringsstrategier**, där de tonar ner, ignorerar eller undviker känslor och konflikter för att upprätthålla autonomi. De har lärt sig att närhet ofta leder till avvisande. Konsekvenser inkluderar (Mikulincer & Shaver, 2016):
 
 - **Emotionell avtrubbning:** Svårigheter med affektiv empati och låg vilja att söka eller ge stöd.
 - **Förhöjd fysiologisk stress:** Trots att de _kognitivt_ förnekar behovet av närhet, kan deras fysiologiska stressnivåer (puls, kortisol) vara höga när de utsätts för stress i relationskontexter, vilket indikerar en inre konflikt (Mikulincer & Shaver, 2016).
 
-## Framåtblick: Korrigerande Upplevelser
+## Framåtblick: korrigerande upplevelser
 
 Det mest hoppfulla budskapet från anknytningsforskningen är att otrygga mönster **inte** är en dom. Hjärnan är plastisk, och nya relationserfarenheter kan leda till en **korrigerande känslomässig upplevelse** (Siegel, 2020).
 

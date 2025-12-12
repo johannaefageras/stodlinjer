@@ -18,7 +18,7 @@ Många vuxna tror att de kan skydda barn från svåra sanningar – som våld, m
 
 **Fakta:** Barn är extremt känsliga för sin omgivning och plockar upp spänningar och förändringar i hemmet. De som exponeras för svårigheter bearbetar det de ser och upplever, snarare än att glömma. Att tiga om problemet är inte ett skydd; det är en form av isolering som tvingar barnet att bära en börda i tystnad.
 
-### 1. Barn Bearbetar, Inte Glömmer
+### 1. Barn bearbetar, inte glömmer
 
 Barn _bevittnar_ och _upplever_ svåra händelser i hemmet. När föräldrar eller närstående lider, känner barnet av det.
 
@@ -26,7 +26,7 @@ Barn _bevittnar_ och _upplever_ svåra händelser i hemmet. När föräldrar ell
 - **Förebyggande av Trauma:** Att ge barn möjlighet att berätta och bearbeta är en aktiv insats som syftar till att minska risken för posttraumatiskt stressyndrom (PTSD) och annan psykiatrisk problematik. Exempelvis är den etablerade **Trappanmodellen** en metod som syftar till just detta – att ge barnen möjlighet att processa sina upplevelser.
 - **Allvarliga Konsekvenser:** Våld i nära relationer, inklusive det psykiska våldet och kränkningar, är en etablerad riskfaktor för både fysisk och psykisk ohälsa. Detta gäller även för barn som bevittnar våldet. Att utsättas för våld är också en riskfaktor för beroendeproblematik.
 
-### 2. Att Tala På Barnets Villkor
+### 2. Att tala på barnets villkor
 
 Eftersom barn förstår, måste vi anpassa vårt bemötande och vår kommunikation. Att vara en resurs innebär att skapa en trygg och kontrollerad miljö för samtalet.
 
@@ -36,7 +36,7 @@ Eftersom barn förstår, måste vi anpassa vårt bemötande och vår kommunikati
   - _Fråga:_ ”Hur vill du att det ska bli nästa gång något sånt här händer?”
 - **Trygghet och Rutin:** Att hjälpa till att upprätthålla eller återupprätta vanor och familjestrukturer är viktigt för att hjälpa de drabbade att bemästra effekterna av den svåra händelsen. Trygghet och förutsägbarhet är läkande.
 
-### 3. Vuxenrollen: En Länk till Stöd
+### 3. Vuxenrollen: en länk till stöd
 
 Din uppgift som vuxen är att vara barnets trygga länk till professionellt stöd. Om du misstänker att ett barn far illa på grund av våld, missbruk eller psykisk ohälsa, måste du söka hjälp för dem.
 

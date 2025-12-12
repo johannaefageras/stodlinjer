@@ -13,7 +13,7 @@ Akut ångest, panikattacker eller starka känslomässiga upplevelser kan få vä
 
 **"Grounding"** (förankring) är en uppsättning strategier vars mål är att snabbt återknyta dig till din kropp, dina sinnen och den omedelbara yttre verkligheten. Genom att flytta fokus från de kaotiska tankarna och känslorna till det som är **konkret, påtagligt och här-och-nu**, kan du lugna nervsystemet. Grounding är en central färdighet inom Dialektisk Beteendeterapi (DBT) och har visat sig vara effektiv för att hantera akuta kriser (Linehan, 2015).
 
-## 1. Sensorisk Grounding: 5-4-3-2-1-metoden
+## 1. Sensorisk grounding: 5-4-3-2-1-metoden
 
 Den mest kända och använda grounding-tekniken är **5-4-3-2-1-metoden**. Den bygger på att systematiskt engagera dina fem yttre sinnen för att tvinga hjärnan att skifta fokus från det inre hotet till den yttre miljön (Linehan, 2015).
 
@@ -27,7 +27,7 @@ Instruktionerna utförs lugnt, i tur och ordning:
 
 Denna sekvens hjälper till att sakta ner tankeverksamheten och signalerar till det autonoma nervsystemet att du är **säker** i din nuvarande miljö.
 
-## 2. Fysisk Grounding: Kroppen som ankar
+## 2. Fysisk grounding: kroppen som ankar
 
 Fysisk grounding handlar om att använda medvetna kroppsrörelser eller muskelspänning för att skapa en stark förbindelse mellan sinne och kropp. När ångesten är som värst, känner man sig ofta "frånkopplad" från kroppen.
 
@@ -41,7 +41,7 @@ Att utsätta sig för en mild, kontrollerad sensorisk chock kan snabbt bryta en 
 
 - **Kallt vatten:** Att skvätta iskallt vatten i ansiktet, eller hålla en isbit i handen, är en kraftfull teknik. Detta aktiverar den så kallade **dykreflexen**, som sänker pulsen och saktar ner andningen, vilket effektivt lugnar det sympatiska nervsystemet (American Psychological Association, 2020).
 
-## 3. Kognitiv Grounding: Förankra i fakta
+## 3. Kognitiv grounding: förankra i fakta
 
 När hjärnan är i kris kan den inte hantera komplex problemlösning. Kognitiv grounding handlar om att använda enkla, neutrala fakta för att få tillbaka det logiska tänkandet.
 

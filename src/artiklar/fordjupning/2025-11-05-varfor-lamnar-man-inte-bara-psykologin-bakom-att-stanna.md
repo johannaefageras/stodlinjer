@@ -20,7 +20,7 @@ Frågan ”Varför lämnar man inte bara?” är en vanlig, men missriktad, reak
 
 Att förstå varför någon stannar kräver att vi ser bortom de fysiska övergreppen och fokuserar på de psykologiska banden som skapats av **Våldets Cykel**.
 
-### 1. Illusionen av Hopp: Våldets Cykel som Psykologisk Fälla
+### 1. Illusionen av hopp: våldets cykel som psykologisk fälla
 
 Våld i nära relationer kännetecknas av en cyklisk natur där den utsatta ständigt utsätts för en känslomässig berg- och dalbana. Denna cykel, som växlar mellan spänning, utbrott och försoning, är den främsta anledningen till att hoppet om förändring aldrig dör.
 
@@ -28,7 +28,7 @@ Våld i nära relationer kännetecknas av en cyklisk natur där den utsatta stä
 - **Hoppet Nollställer Våldet:** Den utsatta börjar tro att om de bara anpassar sig, hanterar spänningen bättre eller har mer tålamod, kommer relationen permanent att återgå till smekmånadsfasen. Hoppet blir därmed en **fälla** som nollställer upplevelsen av våld och normaliserar utbrotten som tillfälliga misstag.
 - **Våldet Är Kontroll:** Dessutom är våldet ofta inte bara fysiskt. Det psykiska våldet genom hot, kränkningar, ekonomisk begränsning och social isolering är lika förödande.
 
-### 2. Nedbruten Identitet och Förlorad Autonomi
+### 2. Nedbruten identitet och förlorad autonomi
 
 Våldet bryter systematiskt ner den utsatta personens känsla av självbestämmande (**autonomi**) och gör att de inte längre kan se sig själva som en person kapabel att agera utanför relationen.
 
@@ -36,7 +36,7 @@ Våldet bryter systematiskt ner den utsatta personens känsla av självbestämma
 - **Traumatisering:** Ett traumainformerat förhållningssätt betonar att en central del av traumat är just förlusten av kontroll. Om traumatiserade patienter pressas att bearbeta sina upplevelser för snabbt eller agera mot sin vilja, kan detta snarare **förstärka symtomen** än lindra dem.
 - **Skuldbeläggning och Skam:** Utövaren skuldbelägger den utsatta, vilket leder till att den utsatta internaliserar skam. Personen börjar tro att om de bara hade gjort si eller så, hade våldet aldrig inträffat. Denna skuldkänsla gör att de inte vågar söka hjälp, av rädsla för att erkänna sitt ”misslyckande” för omvärlden.
 
-### 3. De Yttre Fällorna: Isolation och Praktiska Hinder
+### 3. De yttre fällorna: isolation och praktiska hinder
 
 Utöver de psykologiska banden, bygger utövaren medvetet upp praktiska och sociala murar som gör det logistiskt och säkerhetsmässigt riskfyllt att lämna.
 
@@ -44,7 +44,7 @@ Utöver de psykologiska banden, bygger utövaren medvetet upp praktiska och soci
 - **Ekonomiskt Beroende:** Våldet kan innefatta ekonomisk begränsning, vilket gör den utsatta helt beroende av utövarens resurser. Utan egna medel blir det praktiskt omöjligt att fly och etablera sig på nytt.
 - **Ökad Fara vid Brytning:** Att lämna är den farligaste tiden i en våldsam relation. Utövaren förlorar kontrollen och våldet riskerar att eskalera, vilket är en rationell rädsla som håller kvar många utsatta.
 
-### 4. Vägen Ut: Återta Egenmakten
+### 4. Vägen ut: återta egenmakten
 
 Att lämna är en process, inte en enskild händelse. Vägen till frihet måste fokusera på att gradvis återupprätta den autonomi, trygghet och det sociala stöd som har brutits ned.
 

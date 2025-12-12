@@ -19,7 +19,7 @@ Att hamna i ett beroende – vare sig det gäller substanser som alkohol och nar
 
 För att förstå beroende måste vi undersöka vad som sker när dopamin – hjärnans centrala belöningssignal – kapas och hur detta skapar ett tvångsmässigt beteende som tar över personens liv.
 
-### 1. Belöningssystemet: Dopaminets Roll
+### 1. Belöningssystemet: dopaminets roll
 
 Hjärnans belöningssystem är en evolutionär mekanism designad för att uppmuntra beteenden som är nödvändiga för överlevnad, såsom matintag, vattenintag och social kontakt. Den centrala signalmolekylen i detta system är **dopamin**.
 
@@ -27,7 +27,7 @@ Hjärnans belöningssystem är en evolutionär mekanism designad för att uppmun
 - **Substansernas Kapning:** Alkohol, narkotika och andra beroendeframkallande medel kapar detta system genom att utsöndra en enorm, onaturlig mängd dopamin på kort tid. Detta gör att hjärnan prioriterar den beroendeframkallande aktiviteten långt över naturliga belöningar som mat, sömn eller socialt umgänge.
 - **Tolerans och Anpassning:** Vid upprepad stimulering vänjer sig hjärnan vid den höga dopaminnivån. Systemet blir mindre känsligt, vilket kräver allt större doser av substansen eller beteendet för att uppnå samma effekt. Detta är början på ett beroende.
 
-### 2. Från Njutning till Tvångsmässigt Beteende
+### 2. Från njutning till tvångsmässigt beteende
 
 När systemet har kapats flyttas fokus från _njutning_ till _tvångsmässigt sökande_ efter belöningen. Beroendet är inte längre ett val; det blir en kompromisslös överlevnadsmekanism.
 
@@ -35,7 +35,7 @@ När systemet har kapats flyttas fokus från _njutning_ till _tvångsmässigt s�
 - **Kontrollförlust:** Beroende innebär en förlust av kontroll över användandet, där personen fortsätter trots tydliga negativa konsekvenser. Det tvångsmässiga sökandet blir viktigare än konsekvenserna för arbete, relationer och hälsa. Detta beror på att drogen eller beteendet har orsakat bestående förändringar i de delar av hjärnan som är ansvariga för beslutsfattande och självkontroll.
 - **Samsjuklighet:** Beroende är sällan en isolerad fråga. Skadligt substansbruk ökar risken för suicid närmare sex gånger högre än förväntat, oavsett om det rör alkohol, opioider, cannabis eller amfetamin. Denna samsjuklighet understryker att beroende ofta är ett försök att självmedicinera psykisk smärta eller underliggande trauma.
 
-### 3. Vägarna till Återhämtning: Återupprätta Balansen
+### 3. Vägarna till återhämtning: återupprätta balansen
 
 Att bryta ett beroende handlar om att återupprätta balansen i hjärnans kemi och återta kontrollen över beteendet. Det är en process som kräver professionellt stöd och evidensbaserade insatser.
 

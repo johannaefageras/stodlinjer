@@ -6,7 +6,8 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: [
-          '"Athletics"',
+          '"Recursive SC"',
+          '"Recursive SL"',
           'system-ui',
           '-apple-system',
           '"Segoe UI"',
@@ -15,15 +16,17 @@ module.exports = {
           'Arial',
           'sans-serif'
         ],
-        display: ['"Athletics"', 'system-ui', 'sans-serif'],
-        body: ['"Athletics"', 'system-ui', 'sans-serif'],
-        mono: ['"GT Pressura"', '"Athletics"', 'system-ui', 'monospace']
+        display: ['"Recursive SL"', '"Recursive SC"', 'system-ui', 'sans-serif'],
+        body: ['"Recursive SC"', '"Recursive SL"', 'system-ui', 'sans-serif'],
+        mono: ['"Recursive MC"', 'ui-monospace', '"SFMono-Regular"', 'Menlo', 'monospace']
       },
       fontWeight: {
+        thin: '100',
+        extralight: '200',
         light: '300',
         normal: '400',
         medium: '500',
-        semibold: '500',
+        semibold: '600',
         bold: '700',
         extrabold: '800',
         black: '900'
@@ -31,16 +34,16 @@ module.exports = {
       letterSpacing: {
         tighter: '-0.035em',
         tight: '-0.02em',
-        normal: '0',
+        normal: '-0.01',
         wide: '0.01em',
         wider: '0.02em'
       },
       lineHeight: {
-        tight: '1.2',
-        snug: '1.35',
-        normal: '1.55',
-        relaxed: '1.6',
-        loose: '1.75'
+        tight: '1.25',
+        snug: '1.38',
+        normal: '1.52',
+        relaxed: '1.56',
+        loose: '1.7'
       },
       boxShadow: {
         // Softer purple glow for hotline cards

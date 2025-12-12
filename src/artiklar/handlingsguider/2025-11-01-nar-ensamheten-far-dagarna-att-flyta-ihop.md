@@ -20,11 +20,11 @@ Känslan av att dagarna saknar form och flyter ihop, samtidigt som man känner s
 
 Lösningen är att agera utifrån två evidensbaserade principer: först, att omedelbart lugna ditt nervsystem; och sedan, att metodiskt återupprätta en hållbar struktur i din vardag.
 
-## 1. Stoppa Kaoset: Återta Kontrollen Fysiologiskt
+## 1. Stoppa kaoset: återta kontrollen fysiologiskt
 
 Känslan av överväldigande beror på att din kropps automatiska varningssystem (det autonoma nervsystemet) är aktiverat – det vill säga kamp- eller flyktresponsen. Detta system är inte viljestyrt. Ditt första och mest akuta steg är att sända en lugnande signal till din hjärna genom att använda kroppen som ett ankare.
 
-### Använd Krisfärdigheter för Omedelbar Återställning
+### Använd krisfärdigheter för omedelbar återställning
 
 Dessa snabbverktyg, ofta kallade krisfärdigheter, syftar till att snabbt reglera fysiologi och beteende i stunden, vilket är nödvändigt när affektintoleransen och den snabba uppvarvningen är centrala problem.
 
@@ -32,11 +32,11 @@ Dessa snabbverktyg, ofta kallade krisfärdigheter, syftar till att snabbt regler
 - **Andningsfokus:** Ångest ökar andningen. Fokusera på att medvetet sänka din andningsfrekvens genom att förlänga utandningen. Detta aktiverar lugn-och-ro-systemet och kan bidra till att sänka din hjärtfrekvens.
 - **Rörelse:** Korta, intensiva aktiviteter hjälper till att reglera kroppen i stunden. Res dig upp och gå en kort sträcka, eller gör några snabba fysiska övningar.
 
-## 2. Skapa Ett Hanterbart Ramverk – Struktur är Stöd
+## 2. Skapa ett hanterbart ramverk – struktur är stöd
 
 När de akuta känslorna har lagt sig, måste du angripa känslan av att dagarna flyter ihop. Detta bristande ramverk förvärras när krav har överstigit resurser under lång tid. Lösningen är **strukturell coping** – en form av problemfokuserad coping som är den mest använda och effektiva strategin vid långvarig stress.
 
-### Inför Strukturell Coping: Pacing och Förutsägbarhet
+### Inför strukturell coping: pacing och förutsägbarhet
 
 Problemet är inte att du är lat; problemet är att du saknar kontroll och förutsägbarhet. Genom att implementera struktur ökar du din egenmakt och din förmåga till återhämtning.
 
@@ -44,11 +44,11 @@ Problemet är inte att du är lat; problemet är att du saknar kontroll och för
 2. **Aktivitetsbalans:** Balansera krav (arbete, hushåll) och återhämtning (pauser, rörelse). Använd konkreta verktyg, som att planera exakt _vad, när_ och _hur länge_ en aktivitet ska pågå. Detta minskar den kognitiva uttröttbarheten som uppstår när du känner dig överväldigad.
 3. **Små, Genomförbara Steg:** Om du känner dig överväldigad av en stor uppgift, dela upp den i mindre, hanterbara delar. Fysisk aktivitet och etablerade rutiner är effektiva strategier för självreglering och att hantera vardaglig ångest.
 
-## 3. Återupprätta Kontakt – Socialt Stöd som Medicin
+## 3. Återupprätta kontakt – socialt stöd som medicin
 
 Ensamhet är en fälla som du måste agera aktivt för att bryta. Isolation förvärrar psykisk ohälsa, medan sociala kontakter bidrar positivt till din hjärnhälsa.
 
-### Våga Vara Belastningen
+### Våga vara belastningen
 
 Tankemönstret att du är en börda måste du medvetet avfärda. Att söka stöd är att agera rationellt för att få tillbaka kontrollen över ditt liv. Socialt stöd är den mest effektiva **emotionsfokuserade copingstrategin** för att reducera stress och lindra känslan av ensamhet.
 

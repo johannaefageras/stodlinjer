@@ -84,7 +84,7 @@ Om personen har tillgång till vapen, mediciner eller andra farliga föremål, f
 
 Uppmuntra personen att kontakta professionell hjälp. Du kan erbjuda dig att hjälpa till praktiskt – att söka efter en psykolog, ringa en kristelefon tillsammans eller följa med till vårdcentralen. Om personen redan har en behandlare, fråga om de nyligen varit i kontakt med denna person.
 
-I Sverige finns flera resurser tillgängliga: Mind Självmordslinjen (90101) är öppen dygnet runt, Jourhavande medmänniska (08-702 16 80) erbjuder stöd på kvällar och nätter, och vid akut fara ska alltid 112 kontaktas.
+I Sverige finns flera resurser tillgängliga: Självmordslinjen (90101) är öppen dygnet runt, Jourhavande medmänniska (08-702 16 80) erbjuder stöd på kvällar och nätter, och vid akut fara ska alltid 112 kontaktas.
 
 ### Stanna kvar och följ upp
 

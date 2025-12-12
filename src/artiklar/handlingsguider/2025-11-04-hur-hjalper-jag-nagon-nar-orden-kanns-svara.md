@@ -21,7 +21,7 @@ Att stå bredvid någon som lider av psykisk ohälsa, beroende eller efter ett t
 
 Denna guide bygger på evidensbaserade principer för samtal och krisstöd. Den visar dig hur du kan flytta fokus från att vara en ”fixare” till att vara en trygg, icke-dömande resurs.
 
-## 1. Våga Fråga Det Svåra: Suicidprevention i Samtalet
+## 1. Våga fråga det svåra: suicidprevention i samtalet
 
 Många drar sig för att fråga direkt om självmordstankar av rädsla för att plantera idén. Denna rädsla är en myt. Forskning visar att de flesta som tar sitt liv har pratat om det i förväg, men omgivningen har inte alltid fångat upp signalerna. Genom att fråga direkt visar du att du är beredd att ta lidandet på allvar.
 
@@ -34,7 +34,7 @@ När du frågar, måste tonen vara öppen och präglad av medkänsla. Undvik att
 
 Ett suicidalt förlopp kan pågå i flera år, vilket innebär att det finns en lång period då intervention och stöd kan bryta processen. Ditt samtal är en avgörande del av den interventionen.
 
-## 2. Lyssna och Validera: Den Icke-Dömande Rollen
+## 2. Lyssna och validera: den icke-dömande rollen
 
 När du har öppnat dörren, blir din primära uppgift att lyssna utan att ta över eller försöka lösa problemet omedelbart.
 
@@ -50,7 +50,7 @@ Människor som mår dåligt eller lever i svåra situationer (som våld i nära 
 
 **Fokusera istället på validering:** ”Jag förstår att det måste vara otroligt smärtsamt att gå igenom det här.”
 
-### Reflektera – MI i Praktiken
+### Reflektera – MI i praktiken
 
 Vid problematik som missbruk och beroende är ambivalens inför förändring mycket vanligt. Här kommer principerna från **Motiverande Samtal (MI)** in. MI är inte en strikt behandlingsmetod, utan ett förhållningssätt där du hjälper personen att formulera sin egen förståelse och sina egna argument för förändring.
 
@@ -59,11 +59,11 @@ Vid problematik som missbruk och beroende är ambivalens inför förändring myc
 - **Spegla innehållet:** Ge återkoppling på det individen säger genom att sammanfatta och reflektera över innehållet. Exempel: _”Det låter som att du är trött på hur X styr ditt liv, men att du just nu inte ser en väg ut – stämmer det?”_
 - **Betona autonomi (egenmakt):** Att få känna kontroll över processen är avgörande, särskilt vid trauma och kris. Om traumatiserade patienter pressas att bearbeta sina upplevelser för snabbt riskerar symtomen att förstärkas. Genom att reflektera och låta personen välja nästa steg, hjälper du dem att återta kontrollen över sin situation.
 
-## 3. Gå från Ord till Handling: Konkret Stöd
+## 3. Gå från ord till handling: konkret stöd
 
 Verbalt stöd måste följas upp med praktiska åtgärder som gör det lättare för personen att ta nästa steg. Detta är särskilt viktigt i akuta situationer.
 
-### Erbjud Praktisk Hjälp
+### Erbjud praktisk hjälp
 
 Det är ofta mer effektivt att erbjuda praktisk, handgriplig hjälp än att enbart hänvisa till ett telefonnummer.
 
@@ -73,7 +73,7 @@ Det är ofta mer effektivt att erbjuda praktisk, handgriplig hjälp än att enba
 - ”Kan jag hjälpa dig att söka efter ett journummer i din kommun?”
 - Om ni är i en akut fysisk situation: Fråga specifikt om personens omedelbara behov, som glasögon, dryck eller en filt.
 
-### Främja Trygghet och Samarbete
+### Främja trygghet och samarbete
 
 Ett **traumainformerat förhållningssätt** syftar till att skapa en trygg miljö och undvika att oavsiktligt orsaka ytterligare skada (re-traumatisering). Detta uppnås genom samarbete och transparens.
 

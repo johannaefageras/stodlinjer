@@ -20,7 +20,7 @@ Att misstänka att en närstående lever i en våldsam relation är en tung och 
 
 Denna handlingsplan ger dig evidensbaserade steg för att närma dig situationen med respekt, kunskap och ett fokus på den utsatta personens säkerhet och autonomi.
 
-## 1. Förstå Våldets Verkliga Omfattning
+## 1. Förstå våldets verkliga omfattning
 
 Innan du pratar med någon är det viktigt att du breddar din förståelse för vad våld i nära relationer innebär. Det är en vanlig missuppfattning att våld enbart handlar om fysiska slag. I själva verket omfattar våldet ett komplext mönster av beteenden:
 
@@ -30,11 +30,11 @@ Innan du pratar med någon är det viktigt att du breddar din förståelse för 
 
 Våld i form av kränkning är en etablerad riskfaktor för både fysisk och psykisk ohälsa, inklusive suicid och beroendeproblematik. Genom att erkänna att även icke-fysiska handlingar är allvarligt våld, validerar du den utsatta personens upplevelse och minskar risken för att förminska hens lidande.
 
-## 2. Öppna för Samtal med Medkänsla
+## 2. Öppna för samtal med medkänsla
 
 När du väljer att prata med personen är ditt mål att skapa en icke-dömande och säker miljö. Fokusera på att lyssna och bekräfta, inte att lösa situationen omedelbart.
 
-### Skapa Trygghet och Samarbete (Traumainformerad Vård)
+### Skapa trygghet och samarbete (traumainformerad vård)
 
 Ett **traumainformerat förhållningssätt** (TIC) betonar att vård och stöd måste utformas för att undvika att orsaka ytterligare skada (re-traumatisering). Detta innebär att den utsatta personen alltid måste känna kontroll över nästa steg. Om en traumatiserad person pressas att berätta eller agera för snabbt kan symtomen snarare förstärkas.
 
@@ -44,17 +44,17 @@ Ett **traumainformerat förhållningssätt** (TIC) betonar att vård och stöd m
 2. **Betona autonomi och valmöjlighet:** När personen berättar, undvik att ge omedelbara order (”Du måste lämna nu!”). Fråga istället: _”Vad behöver du att jag gör just nu?”_ eller _”Vad känner du vore det tryggaste nästa steget för dig?”_ Att ge personen en röst och en valmöjlighet är centralt för att stärka egenmakten.
 3. **Lyssna utan att döma:** Bekräfta det personen berättar: _”Det måste vara oerhört smärtsamt och skrämmande att uppleva det du beskriver.”_ Det är viktigt att personen får känna att någon annan känner till deras situation, vilket i sig är ett steg mot trygghet.
 
-## 3. Erbjud Praktiskt och Långsiktigt Stöd
+## 3. Erbjud praktiskt och långsiktigt stöd
 
 När samtalet är etablerat, flytta fokus till konkreta åtgärder som främjar säkerhet och fortsatt stöd.
 
-### Främja Socialt Stöd och Säkerhetsplanering
+### Främja socialt stöd och säkerhetsplanering
 
 - **Uppmuntra social kontakt:** Hjälp personen att **ha kvar relationer med andra**. Isolering är farligt; socialt stöd är en av de mest effektiva copingstrategierna för att minska stress och ångest.
 - **Hjälp till med dokumentation:** Om situationen tillåter, uppmuntra personen att dokumentera vad de utsätts för. Detta kan göras i en privat dagbok och genom att spara bevis som hot via sms, mejl eller telefonsvarare. Dessa bevis bör placeras där våldsutövaren inte kan hitta dem.
 - **Sök stöd tillsammans:** Visa att du är beredd att vara en aktiv resurs. Du kan till exempel erbjuda dig att ringa en stödlinje tillsammans med personen.
 
-### Utnyttja Nationella Resurser
+### Utnyttja nationella resurser
 
 Som anhörig kan du också behöva råd och stöd för att hantera situationen och veta hur du bäst skyddar dig själv och din närstående.
 

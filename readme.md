@@ -98,12 +98,12 @@ Output: `site/` (Eleventy skriver färdiga HTML-filer och kopierar assets).
 
 ## ➕ Lägg till eller ändra stödlinjer
 
-All data finns i `src/_data/supportData.json`. Filen innehåller både de stödlinjer som visas på startsidan och de externa källor som chatbotten använder. Varje objekt följer detta format (visa värden för Mind Självmordslinjen som exempel):
+All data finns i `src/_data/supportData.json`. Filen innehåller både de stödlinjer som visas på startsidan och de externa källor som chatbotten använder. Varje objekt följer detta format (visa värden för Självmordslinjen som exempel):
 
 ```json
 {
   "id": 1,
-  "title": "Självmordslinjen (Mind)",
+  "title": "Självmordslinjen",
   "resource": {
     "url": "https://mind.se/sjalvmordslinjen/",
     "type": "link"

@@ -85,7 +85,7 @@ Om mannen uttrycker hopplöshet, aggressivitet eller tankar på att inte vilja l
 
 > “Jag blir orolig när du säger så. Jag tycker att du förtjänar att få hjälp med det här, inte för att du är svag, utan för att ingen ska behöva bära det ensam.”
 
-Erbjud dig att vara med när han söker hjälp. Du kan ringa **1177**, **Mind Självmordslinjen (90101)** eller **socialjouren** tillsammans.
+Erbjud dig att vara med när han söker hjälp. Du kan ringa **1177**, **Självmordslinjen (90101)** eller **socialjouren** tillsammans.
 
 ## Sammanfattning
 

@@ -1,0 +1,201 @@
+@font-face {
+  font-family: 'Recursive SCC';
+  src: url('../../fonts/recursive-scc/RecursiveSCC-Light.eot');
+  src: url('../../fonts/recursive-scc/RecursiveSCC-Light.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/recursive-scc/RecursiveSCC-Light.woff2') format('woff2'),
+    url('../../fonts/recursive-scc/RecursiveSCC-Light.woff') format('woff'),
+    url('../../fonts/recursive-scc/RecursiveSCC-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive SCC';
+  src: url('../../fonts/recursive-scc/RecursiveSCC-LightItalic.eot');
+  src: url('../../fonts/recursive-scc/RecursiveSCC-LightItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/recursive-scc/RecursiveSCC-LightItalic.woff2') format('woff2'),
+    url('../../fonts/recursive-scc/RecursiveSCC-LightItalic.woff') format('woff'),
+    url('../../fonts/recursive-scc/RecursiveSCC-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive SCC';
+  src: url('../../fonts/recursive-scc/RecursiveSCC-Regular.eot');
+  src: url('../../fonts/recursive-scc/RecursiveSCC-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/recursive-scc/RecursiveSCC-Regular.woff2') format('woff2'),
+    url('../../fonts/recursive-scc/RecursiveSCC-Regular.woff') format('woff'),
+    url('../../fonts/recursive-scc/RecursiveSCC-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive SCC';
+  src: url('../../fonts/recursive-scc/RecursiveSCC-RegularItalic.eot');
+  src: url('../../fonts/recursive-scc/RecursiveSCC-RegularItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/recursive-scc/RecursiveSCC-RegularItalic.woff2') format('woff2'),
+    url('../../fonts/recursive-scc/RecursiveSCC-RegularItalic.woff') format('woff'),
+    url('../../fonts/recursive-scc/RecursiveSCC-RegularItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive SCC';
+  src: url('../../fonts/recursive-scc/RecursiveSCC-Medium.eot');
+  src: url('../../fonts/recursive-scc/RecursiveSCC-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/recursive-scc/RecursiveSCC-Medium.woff2') format('woff2'),
+    url('../../fonts/recursive-scc/RecursiveSCC-Medium.woff') format('woff'),
+    url('../../fonts/recursive-scc/RecursiveSCC-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive SCC';
+  src: url('../../fonts/recursive-scc/RecursiveSCC-MediumItalic.eot');
+  src: url('../../fonts/recursive-scc/RecursiveSCC-MediumItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/recursive-scc/RecursiveSCC-MediumItalic.woff2') format('woff2'),
+    url('../../fonts/recursive-scc/RecursiveSCC-MediumItalic.woff') format('woff'),
+    url('../../fonts/recursive-scc/RecursiveSCC-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive SCC';
+  src: url('../../fonts/recursive-scc/RecursiveSCC-SemiBold.eot');
+  src: url('../../fonts/recursive-scc/RecursiveSCC-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/recursive-scc/RecursiveSCC-SemiBold.woff2') format('woff2'),
+    url('../../fonts/recursive-scc/RecursiveSCC-SemiBold.woff') format('woff'),
+    url('../../fonts/recursive-scc/RecursiveSCC-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive SCC';
+  src: url('../../fonts/recursive-scc/RecursiveSCC-SemiBoldItalic.eot');
+  src: url('../../fonts/recursive-scc/RecursiveSCC-SemiBoldItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/recursive-scc/RecursiveSCC-SemiBoldItalic.woff2') format('woff2'),
+    url('../../fonts/recursive-scc/RecursiveSCC-SemiBoldItalic.woff') format('woff'),
+    url('../../fonts/recursive-scc/RecursiveSCC-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive SCC';
+  src: url('../../fonts/recursive-scc/RecursiveSCC-Bold.eot');
+  src: url('../../fonts/recursive-scc/RecursiveSCC-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/recursive-scc/RecursiveSCC-Bold.woff2') format('woff2'),
+    url('../../fonts/recursive-scc/RecursiveSCC-Bold.woff') format('woff'),
+    url('../../fonts/recursive-scc/RecursiveSCC-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive SCC';
+  src: url('../../fonts/recursive-scc/RecursiveSCC-BoldItalic.eot');
+  src: url('../../fonts/recursive-scc/RecursiveSCC-BoldItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/recursive-scc/RecursiveSCC-BoldItalic.woff2') format('woff2'),
+    url('../../fonts/recursive-scc/RecursiveSCC-BoldItalic.woff') format('woff'),
+    url('../../fonts/recursive-scc/RecursiveSCC-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive SCC';
+  src: url('../../fonts/recursive-scc/RecursiveSCC-ExtraBold.eot');
+  src: url('../../fonts/recursive-scc/RecursiveSCC-ExtraBold.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/recursive-scc/RecursiveSCC-ExtraBold.woff2') format('woff2'),
+    url('../../fonts/recursive-scc/RecursiveSCC-ExtraBold.woff') format('woff'),
+    url('../../fonts/recursive-scc/RecursiveSCC-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive SCC';
+  src: url('../../fonts/recursive-scc/RecursiveSCC-ExtraBoldItalic.eot');
+  src: url('../../fonts/recursive-scc/RecursiveSCC-ExtraBoldItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/recursive-scc/RecursiveSCC-ExtraBoldItalic.woff2') format('woff2'),
+    url('../../fonts/recursive-scc/RecursiveSCC-ExtraBoldItalic.woff') format('woff'),
+    url('../../fonts/recursive-scc/RecursiveSCC-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive SCC';
+  src: url('../../fonts/recursive-scc/RecursiveSCC-Black.eot');
+  src: url('../../fonts/recursive-scc/RecursiveSCC-Black.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/recursive-scc/RecursiveSCC-Black.woff2') format('woff2'),
+    url('../../fonts/recursive-scc/RecursiveSCC-Black.woff') format('woff'),
+    url('../../fonts/recursive-scc/RecursiveSCC-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive SCC';
+  src: url('../../fonts/recursive-scc/RecursiveSCC-BlackItalic.eot');
+  src: url('../../fonts/recursive-scc/RecursiveSCC-BlackItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/recursive-scc/RecursiveSCC-BlackItalic.woff2') format('woff2'),
+    url('../../fonts/recursive-scc/RecursiveSCC-BlackItalic.woff') format('woff'),
+    url('../../fonts/recursive-scc/RecursiveSCC-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive SCC';
+  src: url('../../fonts/recursive-scc/RecursiveSCC-ExtraBlack.eot');
+  src: url('../../fonts/recursive-scc/RecursiveSCC-ExtraBlack.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/recursive-scc/RecursiveSCC-ExtraBlack.woff2') format('woff2'),
+    url('../../fonts/recursive-scc/RecursiveSCC-ExtraBlack.woff') format('woff'),
+    url('../../fonts/recursive-scc/RecursiveSCC-ExtraBlack.ttf') format('truetype');
+  font-weight: 1000;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recursive SCC';
+  src: url('../../fonts/recursive-scc/RecursiveSCC-ExtraBlackItalic.eot');
+  src: url('../../fonts/recursive-scc/RecursiveSCC-ExtraBlackItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/recursive-scc/RecursiveSCC-ExtraBlackItalic.woff2') format('woff2'),
+    url('../../fonts/recursive-scc/RecursiveSCC-ExtraBlackItalic.woff') format('woff'),
+    url('../../fonts/recursive-scc/RecursiveSCC-ExtraBlackItalic.ttf') format('truetype');
+  font-weight: 1000;
+  font-style: italic;
+  font-display: swap;
+}

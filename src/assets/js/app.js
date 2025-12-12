@@ -114,7 +114,7 @@ async function loadSupportLines() {
     if (grid) {
       grid.innerHTML = `
         <div class="surface-card p-6 md:col-span-2 xl:col-span-3 text-center">
-          <p class="text-lg font-semibold mb-2"><i class="fas fa-triangle-exclamation text-amber-500"></i> Kunde inte ladda stödlinjer</p>
+          <p class="text-lg font-extrabold mb-2"><i class="fas fa-triangle-exclamation text-amber-500"></i> Kunde inte ladda stödlinjer</p>
           <p class="muted text-sm mb-4">Försök ladda om sidan eller kontakta oss om problemet kvarstår.</p>
           <button onclick="location.reload()" class="category-btn is-active">
             <i class="fas fa-rotate-right"></i> Ladda om
@@ -227,7 +227,7 @@ function renderLines() {
         <div class="card-title">
           <span class="card-icon">${categoryIcon(line.category)}</span>
           <div>
-            <h3 class="text-lg font-semibold mb-1" itemprop="name">
+            <h3 class="text-lg font-extrabold mb-1" itemprop="name">
               ${
                 resourceUrl
                   ? `<a href="${resourceUrl}" target="_blank" rel="noopener noreferrer" class="card-title-link">${line.title}</a>`

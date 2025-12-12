@@ -15,7 +15,7 @@ references:
 
 Ensamhet är en universell mänsklig känsla, men den skiljer sig från att bara vara fysiskt ensam. Ensamhet är en subjektiv, smärtsam upplevelse av att det finns en klyfta mellan de sociala relationer man önskar sig och de man faktiskt har (Peplau & Perlman, 1982). Långvarig ensamhet är inte bara en psykologisk plåga; det är en **kronisk stressor** som omformar hjärnans struktur och fysiologi på sätt som ökar sårbarheten för psykisk och fysisk ohälsa (Cacioppo & Cacioppo, 2018).
 
-## Ensamhet som ett hot: Den evolutionära aspekten
+## Ensamhet som ett hot: den evolutionära aspekten
 
 Neurovetenskaplig forskning, särskilt av John T. Cacioppo och kollegor, har belyst ensamhet som ett **evolutionärt varningssystem**. På samma sätt som hunger signalerar behovet av mat, signalerar ensamhet behovet av sociala band för överlevnad. När vi upplever ensamhet aktiveras hjärnans primitiva hot- och överlevnadssystem, eftersom social isolering historiskt sett innebar en högre risk för predation och död (Cacioppo & Cacioppo, 2018).
 
@@ -25,7 +25,7 @@ Långvarig upplevd social isolering leder till en kronisk aktivering av det **sy
 
 - **Ökad kortisolnivå:** Forskning visar att kroniskt ensamma individer tenderar att ha högre baslinjenivåer av stresshormonet **kortisol** och en svagare reglering av HPA-axeln (Hypotalamus-Hypofys-Binjure-Axeln) jämfört med icke-ensamma (Hackett et al., 2012). Detta kroniska stresspåslag bidrar till inflammation och ökar risken för kardiovaskulära sjukdomar och diabetes.
 
-## Kognitiv snedvridning: Den ensamma hjärnan
+## Kognitiv snedvridning: den ensamma hjärnan
 
 Ensamhet påverkar hur vi bearbetar information, särskilt social information. Den **ensamma hjärnan** tenderar att tolka neutrala eller tvetydiga sociala signaler som negativa eller fientliga, vilket skapar en negativ feedback-loop som förstärker isoleringen.
 
@@ -33,15 +33,15 @@ Ensamhet påverkar hur vi bearbetar information, särskilt social information. D
 
 Studier med funktionell magnetresonanstomografi (fMRI) har visat att individer som känner sig ensamma uppvisar en **förhöjd aktivitet i amygdala** – hjärnans center för hotbearbetning och rädsla – när de exponeras för negativa sociala stimuli, som bilder på arga ansikten (Cacioppo & Cacioppo, 2018). Denna överkänslighet gör sociala interaktioner mer emotionellt betungande och hotfulla.
 
-### Förändringar i Belöningssystemet
+### Förändringar i belöningssystemet
 
 Ensamhet har också kopplats till förändringar i hjärnans belöningssystem, som involverar neurotransmittorn **dopamin**. Dopamin är centralt för motivation och inlärning. Hos kroniskt ensamma individer kan responsen på social belöning (som att få en komplimang eller uppleva tillhörighet) vara nedsatt, medan responsen på beroendeframkallande substanser eller beteenden kan vara förstärkt. Detta kan leda till att personen söker kompensatoriska belöningar i dysfunktionella beteenden istället för i sociala kontakter (Insel & Fernald, 2004).
 
-## Ensamhetens effekt på Sömn och Immunsystem
+## Ensamhetens effekt på sömn och immunsystem
 
 Ensamhetens effekter sträcker sig även till grundläggande fysiologiska processer.
 
-### Fragmenterad Sömn
+### Fragmenterad sömn
 
 Ensamhet är starkt associerat med försämrad sömnkvalitet. Forskning visar att ensamma individer inte nödvändigtvis sover mindre, men deras sömn tenderar att vara mer **fragmenterad** (Cacioppo et al., 2002). Detta innebär fler och längre perioder av vakenhet under natten, vilket hindrar kroppen från att uppnå de djupa, återhämtande sömnstadierna. Fragmenterad sömn förstärker i sin tur den kognitiva sårbarheten under dagen.
 

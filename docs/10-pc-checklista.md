@@ -1,4 +1,4 @@
-# Bonus: PC/Windows-checklista 🖥️
+# Bonusguide för PC-användare 🖥️
 
 Kör du projektet på Windows? Då är den här bonusen för dig. Det mesta fungerar likadant som på Mac/Linux, men några småsaker är bra att ha koll på så du slipper onödiga hinder.
 
