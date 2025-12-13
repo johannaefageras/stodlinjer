@@ -12,6 +12,9 @@
 <link rel="canonical" href="{{ site.url }}{{ baseUrl }}{{ page.url }}" />
 <meta name="color-scheme" content="{{ site.colorScheme }}" />
 <meta name="theme-color" content="{{ site.themeColor }}" />
+{% if noindex %}
+  <meta name="robots" content="noindex, nofollow" />
+{% endif %}
 <!-- Favicons -->
 <link rel="icon" type="image/png" href="{{ baseUrl }}/assets/favicon/favicon-96x96.png" sizes="96x96" />
 <link rel="icon" type="image/svg+xml" href="{{ baseUrl }}/assets/favicon/favicon.svg" />
@@ -19,6 +22,32 @@
 <link rel="apple-touch-icon" sizes="180x180" href="{{ baseUrl }}/assets/favicon/apple-touch-icon.png" />
 <meta name="apple-mobile-web-app-title" content="Stödlinjer" />
 <link rel="manifest" href="{{ baseUrl }}/assets/favicon/site.webmanifest" />
+{# Open Graph / Twitter #}
+{% set ogType = 'website' %}
+{% if page.tags and (page.tags | join(',') | lower).indexOf('artikel') > -1 %}
+  {% set ogType = 'article' %}
+{% endif %}
+{% set rawOgImage = socialImage or page.socialImage or site.socialImage or '/assets/social/share.png' %}
+{% set ogImage = rawOgImage %}
+{% if ogImage and ogImage.indexOf('http') != 0 %}
+  {% set ogImage = site.url ~ baseUrl ~ ogImage %}
+{% endif %}
+{% set ogLocale = (site.lang or 'sv-SE') | replace('-', '_') %}
+<meta property="og:title" content="{{ pageTitle }}" />
+{% if description %}
+  <meta property="og:description" content="{{ description }}" />
+{% endif %}
+<meta property="og:type" content="{{ ogType }}" />
+<meta property="og:url" content="{{ site.url }}{{ baseUrl }}{{ page.url }}" />
+<meta property="og:site_name" content="{{ site.name }}" />
+<meta property="og:image" content="{{ ogImage }}" />
+<meta property="og:locale" content="{{ ogLocale }}" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ pageTitle }}" />
+{% if description %}
+  <meta name="twitter:description" content="{{ description }}" />
+{% endif %}
+<meta name="twitter:image" content="{{ ogImage }}" />
 <!-- Prevent theme flash: set theme + color scheme before paint -->
 <script>
   (function () {

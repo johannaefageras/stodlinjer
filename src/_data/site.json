@@ -1,8 +1,9 @@
 {
   "name": "Stödlinjer Sverige",
-  "url": "https://stodlinjer.se",
+  "url": "https://stodlinjer.netlify.app",
   "author": "Robert Claesson",
   "lang": "sv-SE",
   "themeColor": "#0f1724",
-  "colorScheme": "light dark"
+  "colorScheme": "light dark",
+  "socialImage": "/assets/social/share.png"
 }
