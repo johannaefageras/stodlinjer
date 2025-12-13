@@ -468,9 +468,9 @@ Används för att visa slumpmässiga citat på sajten.
 {
   "apiUrl": "/.netlify/functions/chat",
   "greetings": [
-    "Hej! 👋 Hur är det med dig?",
-    "Hej! 👋 Vad har du på hjärtat idag?",
-    "Hej! 👋 Hur mår du just nu?"
+    "Hej!👋 Hur är det med dig?",
+    "Hej!👋 Vad har du på hjärtat idag?",
+    "Hej!👋 Hur mår du just nu?"
   ],
   "externalSources": []
 }
