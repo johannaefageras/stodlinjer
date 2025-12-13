@@ -129,7 +129,7 @@
 
   /* ==========================================================================
    Recursive Variable Font Setup
-   
+
    Body/UI text: MONO 0, CASL 1, slnt 0, CRSV 1 (casual, cursive letterforms)
    Headings:     MONO 0, CASL 1, slnt 0, CRSV 0 (casual, standard letterforms)
    ========================================================================== */
@@ -173,7 +173,12 @@
    ========================================================================== */
 
   /* Headings: Casual style, standard letterforms (CRSV 0) */
-  h1, h2, h3, h4, h5, h6,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
   .page-shell h1,
   .page-shell h2,
   .page-shell h3,
@@ -186,42 +191,48 @@
     margin: 0;
   }
 
-  h1, .page-shell h1 {
+  h1,
+  .page-shell h1 {
     font-size: 2.25rem;
     font-weight: 750;
     letter-spacing: -0.025em;
     line-height: 1.2;
   }
 
-  h2, .page-shell h2 {
+  h2,
+  .page-shell h2 {
     font-size: 1.75rem;
     font-weight: 750;
     letter-spacing: -0.02em;
     line-height: 1.25;
   }
 
-  h3, .page-shell h3 {
+  h3,
+  .page-shell h3 {
     font-size: 1.375rem;
     font-weight: 700;
     letter-spacing: -0.015em;
     line-height: 1.3;
   }
 
-  h4, .page-shell h4 {
+  h4,
+  .page-shell h4 {
     font-size: 1.125rem;
     font-weight: 700;
     letter-spacing: -0.01em;
     line-height: 1.35;
   }
 
-  h5, .page-shell h5 {
+  h5,
+  .page-shell h5 {
     font-size: 1rem;
     font-weight: 650;
     letter-spacing: 0;
     line-height: 1.4;
   }
 
-  h6, .page-shell h6 {
+  h6,
+  .page-shell h6 {
     font-size: 0.875rem;
     font-weight: 650;
     letter-spacing: 0;
@@ -256,7 +267,8 @@
   }
 
   /* Body text - inherits variable font settings from body */
-  p, li,
+  p,
+  li,
   .page-shell p,
   .page-shell li {
     font-weight: 400;
@@ -296,7 +308,8 @@
   }
 
   /* Strong/bold text */
-  strong, b,
+  strong,
+  b,
   .page-shell strong,
   .page-shell b {
     font-weight: 700;
@@ -436,7 +449,7 @@
 
   @media (min-width: 640px) {
     .sm\:pb-7 {
-      padding-bottom: 1rem !important;
+      padding-bottom: 0.5rem !important;
     }
   }
 }

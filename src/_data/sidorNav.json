@@ -1,0 +1,26 @@
+[
+  {
+    "url": "/sidor/integritetspolicy/",
+    "icon": "fas fa-shield-heart",
+    "text": "Integritetspolicy",
+    "status": "Uppdaterad"
+  },
+  {
+    "url": "/sidor/cookiepolicy/",
+    "icon": "fas fa-cookie-bite",
+    "text": "Cookiepolicy",
+    "status": "Uppdaterad"
+  },
+  {
+    "url": "/sidor/anvandarvillkor/",
+    "icon": "fas fa-file-contract",
+    "text": "Användarvillkor",
+    "status": "Uppdaterad"
+  },
+  {
+    "url": "/sidor/ansvarsfriskrivning/",
+    "icon": "fas fa-circle-exclamation",
+    "text": "Ansvarsfriskrivning",
+    "status": "Uppdaterad"
+  }
+]

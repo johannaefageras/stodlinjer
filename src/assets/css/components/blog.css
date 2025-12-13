@@ -277,7 +277,6 @@
   .post-shell {
     padding: 0;
     overflow: hidden;
-    border: 1px solid var(--border);
     box-shadow: var(--shadow-strong);
     background: var(--card);
   }
@@ -457,6 +456,81 @@
     padding-right: 10px;
     padding-top: 6px;
     color: var(--accent);
+  }
+
+  .legal-content p:first-of-type::first-letter {
+    float: none;
+    padding: 0;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+  }
+
+  /* Legal/policy layout overrides */
+  .legal-shell.post-shell {
+    border: none;
+    background: var(--bg);
+    box-shadow: var(--shadow-strong);
+    overflow: visible;
+  }
+
+  .legal-shell .legal-header {
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .legal-shell .post-header {
+    background: var(--bg);
+  }
+
+  .legal-shell .post-body {
+    background: var(--bg);
+  }
+
+  .legal-shell .legal-toc-card {
+    border: none !important;
+    box-shadow: var(--shadow);
+    max-height: calc(100vh - 140px);
+    overflow-y: auto;
+    position: relative;
+  }
+
+  .legal-page-shell .surface-card {
+    background: var(--bg);
+  }
+
+  .legal-shell .legal-sidebar {
+    align-self: flex-start;
+    height: auto;
+    position: sticky;
+    top: 96px;
+  }
+
+  @media (max-width: 1023px) {
+    .legal-shell .legal-sidebar {
+      position: static;
+      top: auto;
+      height: auto;
+    }
+
+    .legal-shell .legal-toc-card {
+      max-height: none;
+      overflow: visible;
+      position: static;
+    }
+  }
+
+  .legal-shell .legal-meta-row {
+    align-items: center;
+    gap: 12px;
+  }
+
+  .legal-shell .legal-header .inline-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    line-height: 1.2;
+    vertical-align: middle;
   }
 
   .post-content blockquote {

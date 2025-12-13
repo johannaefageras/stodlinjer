@@ -22,6 +22,24 @@
           ><p class="footer-meta">Upphovsrätt © 2025 | Robert Claesson</p></a
         >
       </div>
+      <div class="footer-block">
+        <div class="footer-heading"><i class="fas fa-scale-balanced"></i> Policy & juridik</div>
+        {% set legalLinks = sidorNav or [
+          { url: '/sidor/integritetspolicy/', icon: 'fas fa-shield-heart', text: 'Integritetspolicy', status: 'Uppdaterad' },
+          { url: '#', icon: 'fas fa-cookie-bite', text: 'Cookiepolicy', status: 'Kommer snart' },
+          { url: '#', icon: 'fas fa-file-contract', text: 'Användarvillkor', status: 'Kommer snart' },
+          { url: '#', icon: 'fas fa-circle-exclamation', text: 'Ansvarsfriskrivning', status: '' }
+        ] %}
+        <ul class="footer-nav">
+          {% for item in legalLinks %}
+            <li>
+              <a class="footer-link" href="{{ baseUrl }}{{ item.url }}">
+                <i class="{{ item.icon }}"></i> {{ item.text }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
     <div class="footer-quick">
       <div class="footer-quick-links">
