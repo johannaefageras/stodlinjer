@@ -127,19 +127,27 @@
     box-sizing: border-box;
   }
 
+  /* ==========================================================================
+   Recursive Variable Font Setup
+   
+   Body/UI text: MONO 0, CASL 1, slnt 0, CRSV 1 (casual, cursive letterforms)
+   Headings:     MONO 0, CASL 1, slnt 0, CRSV 0 (casual, standard letterforms)
+   ========================================================================== */
+
   body {
     margin: 0;
     min-height: 100vh;
-    font-family: 'Recursive SC', 'Recursive SL', system-ui, sans-serif;
+    font-family: 'Recursive', system-ui, sans-serif;
     font-weight: 400;
-    font-size: 16.25px;
+    font-size: 1rem;
     background: var(--bg);
     background-image: var(--bg-pattern);
     color: var(--text);
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-    line-height: 1.58;
-    letter-spacing: 0em;
+    line-height: 1.6;
+    letter-spacing: 0;
+    font-variation-settings: 'MONO' 0, 'CASL' 1, 'slnt' 0, 'CRSV' 1;
   }
 
   /* Solid background variant for home/contact */
@@ -161,119 +169,156 @@
   }
 
   /* ==========================================================================
-   Typography Scale & Rhythm for Recursive
+   Typography Scale & Rhythm for Recursive Variable Font
    ========================================================================== */
 
+  /* Headings: Casual style, standard letterforms (CRSV 0) */
+  h1, h2, h3, h4, h5, h6,
   .page-shell h1,
   .page-shell h2,
   .page-shell h3,
-  .page-shell h4 {
-    font-family: 'Recursive SL', 'Recursive SC', system-ui, sans-serif;
+  .page-shell h4,
+  .page-shell h5,
+  .page-shell h6 {
+    font-family: 'Recursive', system-ui, sans-serif;
+    font-variation-settings: 'MONO' 0, 'CASL' 1, 'slnt' 0, 'CRSV' 0;
     color: var(--text);
     margin: 0;
   }
 
-  .page-shell h1 {
-    font-size: 2.12rem;
-    font-weight: 800;
+  h1, .page-shell h1 {
+    font-size: 2.25rem;
+    font-weight: 750;
+    letter-spacing: -0.025em;
+    line-height: 1.2;
+  }
+
+  h2, .page-shell h2 {
+    font-size: 1.75rem;
+    font-weight: 750;
     letter-spacing: -0.02em;
-    line-height: 1.24;
+    line-height: 1.25;
   }
 
-  .page-shell h2 {
-    font-size: 1.68rem;
-    font-weight: 800;
-    letter-spacing: -0.016em;
-    line-height: 1.32;
-  }
-
-  .page-shell h3 {
-    font-size: 1.34rem;
-    font-weight: 800;
-    letter-spacing: -0.01em;
+  h3, .page-shell h3 {
+    font-size: 1.375rem;
+    font-weight: 700;
+    letter-spacing: -0.015em;
     line-height: 1.3;
   }
 
-  .page-shell h4 {
-    font-size: 1.18rem;
-    font-weight: 800;
-    letter-spacing: -0.006em;
-    line-height: 1.34;
+  h4, .page-shell h4 {
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    line-height: 1.35;
+  }
+
+  h5, .page-shell h5 {
+    font-size: 1rem;
+    font-weight: 650;
+    letter-spacing: 0;
+    line-height: 1.4;
+  }
+
+  h6, .page-shell h6 {
+    font-size: 0.875rem;
+    font-weight: 650;
+    letter-spacing: 0;
+    line-height: 1.4;
   }
 
   /* Large display headings (hero sections) */
   .page-shell .text-3xl {
     font-size: 2rem !important;
-    font-weight: 800 !important;
+    font-weight: 750 !important;
     letter-spacing: -0.03em !important;
-    line-height: 1.26 !important;
-    font-family: 'Recursive SL', 'Recursive SC', system-ui, sans-serif !important;
+    line-height: 1.2 !important;
+    font-family: 'Recursive', system-ui, sans-serif !important;
+    font-variation-settings: 'MONO' 0, 'CASL' 1, 'slnt' 0, 'CRSV' 0 !important;
   }
 
   .page-shell .text-4xl {
-    font-size: 2.4rem !important;
+    font-size: 2.5rem !important;
     font-weight: 800 !important;
-    letter-spacing: -0.028em !important;
-    line-height: 1.16 !important;
-    font-family: 'Recursive SL', 'Recursive SC', system-ui, sans-serif !important;
+    letter-spacing: -0.03em !important;
+    line-height: 1.15 !important;
+    font-family: 'Recursive', system-ui, sans-serif !important;
+    font-variation-settings: 'MONO' 0, 'CASL' 1, 'slnt' 0, 'CRSV' 0 !important;
   }
 
   @media (min-width: 640px) {
     .page-shell .sm\:text-4xl {
-      font-size: 2.4rem !important;
-      letter-spacing: -0.028em !important;
-      line-height: 1.13 !important;
+      font-size: 2.5rem !important;
+      letter-spacing: -0.03em !important;
+      line-height: 1.1 !important;
     }
   }
 
-  /* Body text */
+  /* Body text - inherits variable font settings from body */
+  p, li,
   .page-shell p,
   .page-shell li {
     font-weight: 400;
-    line-height: 1.55;
-    letter-spacing: 0em;
+    line-height: 1.6;
+    letter-spacing: 0;
   }
 
+  /* Muted/secondary text */
+  .muted,
   .page-shell .muted {
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0em;
+    letter-spacing: 0;
   }
 
+  /* Text size utilities */
+  .text-lg,
   .page-shell .text-lg {
-    font-size: 1.08rem !important;
-    line-height: 1.38 !important;
-    letter-spacing: 0em !important;
+    font-size: 1.125rem !important;
+    line-height: 1.5 !important;
+    letter-spacing: 0 !important;
   }
 
+  .text-sm,
   .page-shell .text-sm {
-    font-size: 0.925rem !important;
+    font-size: 0.875rem !important;
     line-height: 1.5 !important;
-    letter-spacing: 0em !important;
+    letter-spacing: 0 !important;
   }
 
+  .text-xs,
   .page-shell .text-xs {
-    font-size: 1rem !important;
+    font-size: 0.8125rem !important;
     line-height: 1.5 !important;
-    letter-spacing: 0em !important;
-    font-weight: 600 !important;
+    letter-spacing: 0 !important;
+    font-weight: 500 !important;
   }
 
   /* Strong/bold text */
+  strong, b,
   .page-shell strong,
   .page-shell b {
-    font-weight: 800;
+    font-weight: 700;
   }
 
-  /* Medium weight for UI elements (Recursive supports full weight range) */
+  /* Font weight utilities */
+  .font-medium,
+  .page-shell .font-medium {
+    font-weight: 500 !important;
+  }
+
+  .font-semibold,
+  .page-shell .font-semibold {
+    font-weight: 600 !important;
+  }
+
+  .font-bold,
   .page-shell .font-bold {
     font-weight: 700 !important;
   }
 
-  .page-shell .font-bold {
-    font-weight: 700 !important;
-  }
-
+  .font-extrabold,
   .page-shell .font-extrabold {
     font-weight: 800 !important;
   }
@@ -284,19 +329,69 @@
   }
 
   /* ==========================================================================
+   Links - inherit body font settings
+   ========================================================================== */
+
+  a {
+    font-family: inherit;
+    font-variation-settings: inherit;
+  }
+
+  /* ==========================================================================
+   Buttons - slightly heavier weight for better click affordance
+   ========================================================================== */
+
+  button,
+  .btn,
+  [type='button'],
+  [type='submit'],
+  [type='reset'] {
+    font-family: 'Recursive', system-ui, sans-serif;
+    font-weight: 500;
+    font-variation-settings: 'MONO' 0, 'CASL' 1, 'slnt' 0, 'CRSV' 1;
+    letter-spacing: 0;
+  }
+
+  /* ==========================================================================
+   Form elements - inherit body font settings
+   ========================================================================== */
+
+  input,
+  textarea,
+  select {
+    font-family: 'Recursive', system-ui, sans-serif;
+    font-variation-settings: 'MONO' 0, 'CASL' 1, 'slnt' 0, 'CRSV' 1;
+    font-weight: 400;
+  }
+
+  /* ==========================================================================
    Phone Numbers - Critical Information Styling
 
-   Phone numbers use tabular figures (monospaced numerals) and increased
-   letter-spacing for maximum scanability. This is critical for users in
-   distress who need to quickly read and dial numbers.
+   Phone numbers use tabular figures (monospaced numerals) for maximum
+   scanability. This is critical for users in distress who need to quickly
+   read and dial numbers.
    ========================================================================== */
 
   .phone-number {
-    font-family: 'Recursive SC', 'Recursive SL', system-ui, sans-serif;
-    font-weight: 800;
+    font-family: 'Recursive', system-ui, sans-serif;
+    font-weight: 700;
     font-variant-numeric: tabular-nums;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     font-feature-settings: 'tnum' 1;
+    font-variation-settings: 'MONO' 0, 'CASL' 1, 'slnt' 0, 'CRSV' 0;
+  }
+
+  /* ==========================================================================
+   Code elements - use monospace axis
+   ========================================================================== */
+
+  code,
+  kbd,
+  pre,
+  samp {
+    font-family: 'Recursive', ui-monospace, monospace;
+    font-variation-settings: 'MONO' 1, 'CASL' 0, 'slnt' 0, 'CRSV' 0;
+    font-size: 0.9em;
   }
 
   /* ==========================================================================

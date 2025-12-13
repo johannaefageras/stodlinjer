@@ -43,11 +43,12 @@
 
   .quote-text p {
     font-size: 1.32rem;
-    font-weight: 500;
-    font-style: italic;
-    font-family: 'Recursive SCC', 'Recursive SC', system-ui, sans-serif;
+    font-weight: 450;
+    font-style: normal;
+    font-family: 'Recursive', system-ui, sans-serif;
+    font-variation-settings: 'MONO' 0, 'CASL' 1, 'slnt' -8, 'CRSV' 1;
     text-align: center;
-    line-height: 1.46;
+    line-height: 1.45;
     color: var(--text);
     margin: 0;
   }
@@ -73,8 +74,8 @@
     margin-top: 16px;
     font-size: 0.98rem;
     font-weight: 500;
-    font-family: 'Recursive SCC', 'Recursive SC', system-ui, sans-serif;
-
+    font-family: 'Recursive', system-ui, sans-serif;
+    font-variation-settings: 'MONO' 0, 'CASL' 1, 'slnt' 0, 'CRSV' 1;
     color: var(--text);
     text-align: center;
   }

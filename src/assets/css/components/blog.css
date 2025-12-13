@@ -322,7 +322,8 @@
     letter-spacing: -0.02em;
     margin: 6px 0 4px 0;
     line-height: 1.2;
-    font-family: 'Recursive SL', 'Recursive SC', system-ui, sans-serif;
+    font-family: 'Recursive', system-ui, sans-serif;
+    font-variation-settings: 'MONO' 0, 'CASL' 1, 'slnt' 0, 'CRSV' 0;
   }
 
   @media (min-width: 640px) {
@@ -395,11 +396,11 @@
     position: relative;
     margin: 0 auto;
     max-width: 780px;
-    line-height: 1.68;
+    line-height: 1.65;
     color: var(--text);
-    font-family: 'Recursive SC', 'Recursive SL', system-ui, sans-serif;
-    font-size: 1.06rem;
-
+    font-family: 'Recursive', system-ui, sans-serif;
+    font-variation-settings: 'MONO' 0, 'CASL' 1, 'slnt' 0, 'CRSV' 1;
+    font-size: 1.0625rem;
     font-weight: 400;
   }
 
@@ -422,10 +423,11 @@
   .post-content h2 {
     margin: 32px 0 12px 0;
     font-size: 1.65rem;
-    font-family: 'Recursive SL', 'Recursive SC', system-ui, sans-serif;
-    font-weight: 800;
-    letter-spacing: -0.014em;
-    line-height: 1.3;
+    font-family: 'Recursive', system-ui, sans-serif;
+    font-variation-settings: 'MONO' 0, 'CASL' 1, 'slnt' 0, 'CRSV' 0;
+    font-weight: 750;
+    letter-spacing: -0.02em;
+    line-height: 1.25;
     border-bottom: 1px solid var(--border);
     padding-bottom: 8px;
   }
@@ -433,10 +435,11 @@
   .post-content h3 {
     margin: 22px 0 10px 0;
     font-size: 1.28rem;
-    font-family: 'Recursive SL', 'Recursive SC', system-ui, sans-serif;
-    font-weight: 800;
-    letter-spacing: -0.01em;
-    line-height: 1.32;
+    font-family: 'Recursive', system-ui, sans-serif;
+    font-variation-settings: 'MONO' 0, 'CASL' 1, 'slnt' 0, 'CRSV' 0;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    line-height: 1.3;
   }
 
   .post-content p {
@@ -444,9 +447,10 @@
   }
 
   .post-content p:first-of-type::first-letter {
-    font-family: 'Recursive SL', 'Recursive SC', system-ui, sans-serif;
+    font-family: 'Recursive', system-ui, sans-serif;
+    font-variation-settings: 'MONO' 0, 'CASL' 1, 'slnt' 0, 'CRSV' 0;
     font-weight: 800;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.02em;
     float: left;
     font-size: 3rem;
     line-height: 0.92;
@@ -467,16 +471,17 @@
     color: var(--text);
     border-radius: 8px;
     font-style: italic;
-    font-family: 'Recursive SCC', 'Recursive SC', system-ui, sans-serif;
-    font-weight: 500;
-
-    line-height: 1.62;
+    font-family: 'Recursive', system-ui, sans-serif;
+    font-variation-settings: 'MONO' 0, 'CASL' 1, 'slnt' -10, 'CRSV' 1;
+    font-weight: 450;
+    line-height: 1.6;
   }
 
   .post-content code {
-    font-family: 'Recursive MC', 'Recursive SC', ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-family: 'Recursive', ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-variation-settings: 'MONO' 1, 'CASL' 0, 'slnt' 0, 'CRSV' 0;
     font-weight: 400;
-    font-size: 0.95em;
+    font-size: 0.9em;
     background: color-mix(in srgb, var(--card) 72%, #0000);
     border: 1px solid var(--border);
     padding: 0.08em 0.32em;
@@ -548,7 +553,8 @@
 
   .reference-list li {
     margin: 0;
-    line-height: 1.52;
-    font-family: 'Recursive SC', 'Recursive SL', system-ui, sans-serif;
+    line-height: 1.5;
+    font-family: 'Recursive', system-ui, sans-serif;
+    font-variation-settings: 'MONO' 0, 'CASL' 1, 'slnt' 0, 'CRSV' 1;
   }
 }

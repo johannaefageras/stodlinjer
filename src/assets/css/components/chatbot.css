@@ -292,7 +292,8 @@
     font-size: 0.8rem;
     display: block;
     line-height: 1.1 !important;
-    font-family: 'Recursive SC', 'Recursive SL', system-ui, sans-serif;
+    font-family: 'Recursive', system-ui, sans-serif;
+    font-variation-settings: 'MONO' 0, 'CASL' 1, 'slnt' 0, 'CRSV' 1;
   }
 
   @media (max-width: 640px) {

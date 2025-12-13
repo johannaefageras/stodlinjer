@@ -1,6 +1,12 @@
 const pathPrefix = process.env.ELEVENTY_PATH_PREFIX || '/';
 const samlingarData = require('./src/_data/samlingar.json');
 const { generateContentIndex } = require('./scripts/generate-content-index');
+const markdownIt = require('markdown-it');
+
+const inlineMarkdown = markdownIt({
+  html: true,
+  linkify: true
+});
 
 module.exports = function (eleventyConfig) {
   // Copy static assets
@@ -34,6 +40,12 @@ module.exports = function (eleventyConfig) {
     if (!content) return 1;
     const words = content.toString().trim().split(/\s+/).length;
     return Math.max(1, Math.round(words / 200));
+  });
+
+  eleventyConfig.addFilter('markdownifyInline', (value) => {
+    if (!value) return '';
+    const normalized = value.toString().replace(/\[(https?:\/\/[^\]\s]+)\]/g, '$1');
+    return inlineMarkdown.renderInline(normalized);
   });
 
   eleventyConfig.addFilter('getSamling', (slug) =>

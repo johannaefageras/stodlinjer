@@ -1,5 +1,11 @@
-@import './fonts/recursive-mc.css';
+/* Variable font (primary) */
+@import './fonts/recursive.css';
+
+/* Static font fallbacks (for older browsers) */
 @import './fonts/recursive-sc.css';
-@import './fonts/recursive-scc.css';
 @import './fonts/recursive-sl.css';
+@import './fonts/recursive-mc.css';
+@import './fonts/recursive-scc.css';
+
+/* Icons */
 @import './fonts/fa-solid.css';

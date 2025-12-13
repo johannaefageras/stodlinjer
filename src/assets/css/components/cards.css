@@ -75,7 +75,8 @@
     color: var(--accent);
     font-weight: 800;
     text-decoration: none;
-    font-family: 'Recursive SC', 'Recursive SL', system-ui, sans-serif;
+    font-family: 'Recursive', system-ui, sans-serif;
+    font-variation-settings: 'MONO' 0, 'CASL' 1, 'slnt' 0, 'CRSV' 0;
   }
 
   .card-number svg {
@@ -115,9 +116,10 @@
   }
 
   .phone-number {
-    font-family: 'Recursive SC', 'Recursive SL', system-ui, sans-serif;
-    font-weight: 800;
+    font-family: 'Recursive', system-ui, sans-serif;
+    font-variation-settings: 'MONO' 0, 'CASL' 1, 'slnt' 0, 'CRSV' 0;
+    font-weight: 700;
     font-variant-numeric: tabular-nums;
-    letter-spacing: 0em;
+    letter-spacing: 0;
   }
 }

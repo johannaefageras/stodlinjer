@@ -54,7 +54,7 @@
             </p>
             <ol class="reference-list">
               {% for ref in references %}
-                <li>{{ ref }}</li>
+                <li>{{ ref | markdownifyInline | safe }}</li>
               {% endfor %}
             </ol>
           </div>
