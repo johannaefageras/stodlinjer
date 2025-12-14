@@ -223,7 +223,7 @@ Denna fil ger standardvärden för _alla_ artiklar:
   "permalink": "/{{ page.filePathStem }}/",
   "pageClass": "article-shell",
   "header": {
-    "icon": "far fa-book-open",
+    "icon": "fas fa-book-open",
     "label": "Kunskap & artiklar"
   }
 }

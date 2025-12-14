@@ -337,7 +337,7 @@ author:
   name: Johanna Fagerås
   email: johanna@gmail.com
 header:
-  icon: far fa-book
+  icon: fas fa-book
   label: Artiklar
 ---
 ```
@@ -376,7 +376,7 @@ YAML är känsligt för formatering. Här är de vanligaste felen:
 # ❌ FEL — blandar mellanslag och tabs
 ---
 header:
-	icon: far fa-book    # Tab-tecken!
+	icon: fas fa-book    # Tab-tecken!
   label: Artiklar      # Mellanslag
 ---
 ```
@@ -385,7 +385,7 @@ header:
 # ✅ RÄTT — konsekvent med mellanslag
 ---
 header:
-  icon: far fa-book
+  icon: fas fa-book
   label: Artiklar
 ---
 ```

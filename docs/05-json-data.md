@@ -417,13 +417,13 @@ Definierar de olika artikelsamlingarna och deras metadata.
     "title": "Samtalsstöd",
     "summary": "Guider för att stötta någon som mår dåligt.",
     "description": "Längre beskrivning som kan användas på samlingssidan...",
-    "icon": "far fa-comments"
+    "icon": "fas fa-comments"
   },
   {
     "slug": "fakta-myter",
     "title": "Fakta & Myter",
     "summary": "Vanliga missförstånd om psykisk hälsa.",
-    "icon": "far fa-lightbulb"
+    "icon": "fas fa-lightbulb"
   }
 ]
 ```

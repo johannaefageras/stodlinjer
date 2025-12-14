@@ -91,7 +91,7 @@
           <div class="{% if showToc %}lg:col-span-8 xl:col-span-9{% else %}lg:col-span-12{% endif %}">
             {% if pageStatus and pageStatus != 'active' %}
               <div class="mb-6 p-4 rounded-lg" style="background: var(--accent-soft); border: 1px solid var(--border);">
-                <p class="font-semibold mb-1"><i class="fas fa-info-circle"></i> Status: {{ status }}</p>
+                <p class="font-semibold mb-1"><i class="fas fa-circle-info"></i> Status: {{ status }}</p>
                 <p class="muted mb-0">Detta dokument är markerat som {{ status | lower }}. Innehållet kan ändras.</p>
               </div>
             {% endif %}

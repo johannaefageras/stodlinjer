@@ -4,6 +4,31 @@ const configuredSources = Array.isArray(CHATBOT_CONFIG.externalSources)
   ? CHATBOT_CONFIG.externalSources.slice()
   : [];
 
+// Auto-detect API URL based on hosting platform
+function getApiUrl() {
+  // If explicitly configured (and not the default Netlify path), use that
+  if (CHATBOT_CONFIG.apiUrl && CHATBOT_CONFIG.apiUrl !== '/.netlify/functions/chat') {
+    return CHATBOT_CONFIG.apiUrl;
+  }
+
+  const hostname = window.location.hostname;
+
+  // Vercel deployments: *.vercel.app or custom domains on Vercel
+  const vercelDomains = [
+    'vercel.app',
+    'stodlinjer.jfageras.se',
+    'jfageras.se'
+  ];
+
+  const isVercel = vercelDomains.some((domain) => hostname.includes(domain));
+  if (isVercel) {
+    return '/api/chat';
+  }
+
+  // Default to Netlify
+  return '/.netlify/functions/chat';
+}
+
 const chatbotState = {
   isOpen: false,
   isSending: false,
@@ -193,7 +218,8 @@ async function fetchContentIndex() {
 }
 
 async function sendToApi(query, context) {
-  if (!CHATBOT_CONFIG.apiUrl) return null;
+  const apiUrl = getApiUrl();
+  if (!apiUrl) return null;
 
   const payload = {
     messages: chatbotState.messages.concat([{ role: 'user', content: query }]),
@@ -201,7 +227,7 @@ async function sendToApi(query, context) {
     externalSources: chatbotState.sources
   };
 
-  const res = await fetch(CHATBOT_CONFIG.apiUrl, {
+  const res = await fetch(apiUrl, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(payload)
