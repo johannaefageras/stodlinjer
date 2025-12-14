@@ -23,7 +23,6 @@ header:
 ---
 
 {% extends "layouts/base.njk" %}
-{% from "partials/sections/quote.njk" import quoteSection %}
 
 {% block header %}
   {% include "partials/header.njk" %}
@@ -31,7 +30,7 @@ header:
 
 {% block content %}
 <!-- Hero Section -->
-      <section class="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-10">
+      <section class="max-w-6xl mx-auto px-4 sm:px-6 pt-6 pb-3 sm:pt-8 sm:pb-4">
         <div class="hero-grid">
           <div class="surface-card strong-card contact-card p-6 sm:p-8">
             <div class="flex items-center gap-3 mb-4">
@@ -176,10 +175,10 @@ header:
       </section>
 
       <!-- Quote -->
-      {{ quoteSection() }}
+      {% include "partials/sections/mood-strip.njk" %}
 
       <!-- Info Block -->
-      <article class="max-w-6xl mx-auto px-4 sm:px-6 pb-12 sm:pb-14">
+      <article class="max-w-6xl mx-auto px-4 sm:px-6 py-3 sm:py-4 pb-8 sm:pb-10">
         <div class="surface-card p-6 sm:p-8">
           <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mb-3">
             Varför vi ber om detaljer

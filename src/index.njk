@@ -26,7 +26,6 @@ header:
 {% extends "layouts/base.njk" %}
 {% from "partials/sections/hero-hotlines.njk" import heroWithHotlines %}
 {% from "partials/sections/intro.njk" import introSection %}
-{% from "partials/sections/quote.njk" import quoteSection %}
 {% from "partials/sections/search-filters.njk" import searchFiltersSection %}
 {% from "partials/sections/results-grid.njk" import resultsGridSection %}
 {% from "partials/sections/dedicated-list.njk" import dedicatedListSection %}
@@ -72,7 +71,7 @@ header:
   ] %}
   {{ introSection("Hitta den stödlinje som passar dig bäst", introParagraphs) }}
 
-  {{ quoteSection() }}
+  {% include "partials/sections/mood-strip.njk" %}
 
   {{ searchFiltersSection("Sök efter t.ex. BRIS, ångest, våld, anhörig...", ["44 linjer", "7 kategorier"]) }}
 

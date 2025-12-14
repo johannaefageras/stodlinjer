@@ -26,7 +26,7 @@
     position: absolute;
     font-size: 52px;
     color: var(--accent) !important;
-    opacity: 0.6;
+    opacity: 1;
     line-height: 1;
   }
 
@@ -42,13 +42,13 @@
   }
 
   .quote-text p {
-    font-size: 1.32rem;
+    font-size: 1.35rem;
     font-weight: 450;
     font-style: normal;
     font-family: 'Recursive', system-ui, sans-serif;
     font-variation-settings: 'MONO' 0, 'CASL' 1, 'slnt' -8, 'CRSV' 1;
     text-align: center;
-    line-height: 1.45;
+    line-height: 1.35;
     color: var(--text);
     margin: 0;
   }

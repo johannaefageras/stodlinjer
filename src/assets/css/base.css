@@ -8,7 +8,7 @@
       rgba(243, 242, 249, 0.97) 45%,
       rgba(236, 234, 246, 0.95) 100%
     );
-    --card: #fbfafe;
+    --card: #ffffff;
     --card-strong: #f5f3fb;
     --border: #dcd8ec;
     --text: #2f2e3a;
@@ -33,7 +33,7 @@
     --card-alt: #f7f5fc;
     --card-alt-strong: #f1eef9;
     --bg-solid: #f2f0fa;
-    --card-solid: #fbfafe;
+    --card-solid: #ffffff;
     --card-solid-strong: #f5f3fb;
     --card-contact: #f5f3fb;
     --shadow-soft: 0 12px 30px rgba(47, 46, 58, 0.08);
