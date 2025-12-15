@@ -90,6 +90,14 @@
     transition: color 0.15s ease;
   }
 
+  .card-number span.card-phone-number {
+    font-family: 'Recursive', system-ui, monospace;
+    font-variation-settings: 'MONO' 1, 'CASL' 1, 'slnt' 0, 'CRSV' -1 !important;
+    font-weight: 750 !important;
+    letter-spacing: -0.75px !important;
+    margin-left: 0.2em;
+  }
+
   .card-number svg {
     width: 18px;
     height: 18px;

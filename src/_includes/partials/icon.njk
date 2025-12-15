@@ -4,7 +4,7 @@
   {% set raw = (tokens | length) > 0 and tokens[(tokens | length) - 1] or nameOrClass %}
   {% set cleaned = (raw or '') | replace('fa-', '') %}
   {% set map = {
-    "check": "check-mark",
+    "check": "check-mark-bold",
     "children": "child",
     "circle-exclamation": "warning-circle",
     "circle-info": "information-circle",
@@ -50,7 +50,7 @@
     "wine-bottle": "wine",
     "calendar-days": "calendar-month",
     "list-check": "list-check",
-    "clock": "book-open"
+    "clock": "clock"
   } %}
   {% set symbol = map[cleaned] or cleaned %}
   {% if style == "solid" %}

@@ -10,7 +10,7 @@ const BASE_URL = window.BASE_URL || '';
 const ICON_MAP = {
   'calendar-days': 'calendar-month',
   'calendar-day': 'calendar',
-  check: 'check-mark',
+  check: 'check-mark-bold',
   children: 'child',
   'circle-exclamation': 'warning-circle',
   'triangle-exclamation': 'warning-triangle',
@@ -52,7 +52,7 @@ const ICON_MAP = {
   'file-lines': 'file-text',
   'cookie-bite': 'cookie',
   'wine-bottle': 'wine',
-  clock: 'book-open'
+  clock: 'clock'
 };
 
 function renderIcon(name, variant = 'line', className = '') {
@@ -183,7 +183,11 @@ async function loadSupportLines() {
     if (grid) {
       grid.innerHTML = `
         <div class="surface-card p-6 md:col-span-2 xl:col-span-3 text-center">
-          <p class="text-lg font-extrabold mb-2">${renderIcon('fa-triangle-exclamation', 'line', 'text-amber-500')} Kunde inte ladda stödlinjer</p>
+          <p class="text-lg font-extrabold mb-2">${renderIcon(
+            'fa-triangle-exclamation',
+            'line',
+            'text-amber-500'
+          )} Kunde inte ladda stödlinjer</p>
           <p class="muted text-sm mb-4">Försök ladda om sidan eller kontakta oss om problemet kvarstår.</p>
           <button onclick="location.reload()" class="category-btn is-active">
             ${renderIcon('fa-rotate-right')} Ladda om
@@ -282,7 +286,9 @@ function renderLines() {
 
     // Urgent badge - only rendered once, positioned in top-right corner
     const urgentBadge = line.urgent
-      ? `<span class="badge-urgent badge-urgent-corner" aria-label="Akut">${renderIcon('fa-bolt')}<span>Akut</span></span>`
+      ? `<span class="badge-urgent badge-urgent-corner" aria-label="Akut">${renderIcon(
+          'fa-bolt'
+        )}<span>Akut</span></span>`
       : '';
 
     const phone = (line.phone || '').toString().trim();
@@ -305,7 +311,9 @@ function renderLines() {
             </h3>
             ${
               availabilityLabel
-                ? `<div class="card-meta">${renderIcon('fa-clock')}<span itemprop="hoursAvailable">${availabilityLabel}</span></div>`
+                ? `<div class="card-meta">${renderIcon(
+                    'fa-clock'
+                  )}<span itemprop="hoursAvailable">${availabilityLabel}</span></div>`
                 : ''
             }
           </div>
@@ -318,7 +326,7 @@ function renderLines() {
              class="card-number"
              itemprop="telephone" aria-label="Ring ${line.title} på ${phone}">
             ${renderIcon('fa-phone')}
-            <span>${phone}</span>
+            <span class="card-phone-number">${phone}</span>
           </a>`
           : ''
       }
