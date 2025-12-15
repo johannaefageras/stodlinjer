@@ -285,30 +285,42 @@
   }
 
   .theme-icon.sun {
-    left: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%) translateX(-20px);
   }
 
   .theme-icon.moon {
-    right: 12px;
+    right: 50%;
+    transform: translate(50%, -50%) translateX(20px);
+  }
+
+  .theme-icon-svg {
+    width: 32px;
+    height: 32px;
+  }
+
+  .theme-icon.sun .theme-icon-svg {
+    width: 34px;
+    height: 34px;
   }
 
   .theme-toggle[aria-pressed='false'] .theme-icon.sun {
-    opacity: 0.9;
+    opacity: 1;
     color: var(--accent);
   }
 
   .theme-toggle[aria-pressed='true'] .theme-icon.moon {
-    opacity: 0.9;
+    opacity: 1;
     color: var(--pill-text);
   }
 
   .theme-toggle[aria-pressed='true'] .theme-icon.sun {
-    opacity: 0.9;
+    opacity: 1;
     color: #ffffff;
   }
 
   .theme-toggle[aria-pressed='false'] .theme-icon.moon {
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.45);
   }
 
   .theme-toggle #themeLabel {

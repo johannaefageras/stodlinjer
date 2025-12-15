@@ -6,17 +6,17 @@ permalink: "/artiklar/"
 pageClass: "archive-shell"
 articlesPerPage: 9
 header:
-  icon: "fas fa-newspaper"
+  icon: "newsletter"
   label: "Artiklar & guider"
   title: "Fördjupa dig"
   subtitle: "Samlade råd, steg-för-steg-guider och förklaringar kring stödlinjer."
   links:
     - url: "/"
-      icon: "fas fa-house"
+      icon: "home"
       text: "Startsida"
       aria: "Till startsidan"
     - url: "/kontakt/"
-      icon: "fas fa-envelope-open-text"
+      icon: "envelope-letter"
       text: "Kontakt"
       aria: "Kontakta oss"
 ---
@@ -39,7 +39,7 @@ header:
   <section class="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
     <div class="surface-card strong-card p-6 sm:p-8 article-hero">
       <div class="article-hero-text">
-        <p class="pill w-fit">{{ icon('fa-lightbulb') }} För dig som vill veta mer</p>
+        <p class="pill w-fit">{{ icon('lightbulb-on') }} För dig som vill veta mer</p>
         <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white mb-3">
           Läsning för dig som söker hjälp
         </h2>
@@ -47,8 +47,8 @@ header:
           Vi har samlat kunskap för dig som söker svar – om dina rättigheter, hur du hanterar svåra situationer och hur du kan finnas där för någon som har det tungt. Välj en samling för att börja.
         </p>
         <div class="hero-chips">
-          <span class="stat-chip">{{ icon('fa-newspaper') }} {{ totalArticles }} artiklar</span>
-          <span class="stat-chip">{{ icon('fa-list-check') }} {{ samlingar | length }} samlingar</span>
+          <span class="stat-chip">{{ icon('newspaper') }} {{ totalArticles }} artiklar</span>
+          <span class="stat-chip">{{ icon('list-check') }} {{ samlingar | length }} samlingar</span>
         </div>
       </div>
     </div>
@@ -64,14 +64,14 @@ header:
           </p>
         </div>
         <div class="flex flex-wrap gap-2 sm:gap-3 items-center text-sm muted-soft">
-          <span class="stat-chip">{{ icon('fa-newspaper') }} {{ totalArticles }} artiklar</span>
-          <span class="stat-chip">{{ icon('fa-list-check') }} {{ samlingar | length }} samlingar</span>
+          <span class="stat-chip">{{ icon('newspaper') }} {{ totalArticles }} artiklar</span>
+          <span class="stat-chip">{{ icon('list-check') }} {{ samlingar | length }} samlingar</span>
         </div>
       </div>
 
       <div class="space-y-4">
         <div class="search-shell">
-          {{ icon('fa-magnifying-glass', 'line', 'text-slate-400') }}
+          {{ icon('search', 'line', 'text-slate-400') }}
           <label for="articleSearchInput" class="sr-only">Sök bland artiklar</label>
           <input
             type="search"
@@ -92,7 +92,7 @@ header:
               aria-pressed="true"
               type="button"
             >
-              <span>{{ icon('fa-asterisk') }} Alla samlingar</span>
+              <span>{{ icon('grid-3x3') }} Alla samlingar</span>
             </button>
             {% for item in samlingar %}
               {% set count = 0 %}

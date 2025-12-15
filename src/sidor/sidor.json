@@ -4,26 +4,26 @@
   "permalink": "/sidor/{{ page.fileSlug }}/",
   "pageClass": "solid-bg-shell legal-page-shell",
   "header": {
-    "icon": "fas fa-scale-balanced",
+    "icon": "scale",
     "label": "Policy & villkor",
     "title": "Policy, villkor och rättigheter",
     "subtitle": "Information om integritet, cookies, användarvillkor och ansvarsfriskrivning.",
     "links": [
       {
         "url": "/",
-        "icon": "fas fa-house",
+        "icon": "home",
         "text": "Startsida",
         "aria": "Till startsidan"
       },
       {
         "url": "/artiklar/",
-        "icon": "fas fa-newspaper",
+        "icon": "newsletter",
         "text": "Artiklar",
         "aria": "Till artiklar och guider"
       },
       {
         "url": "/kontakt/",
-        "icon": "fas fa-envelope-open-text",
+        "icon": "envelope-letter",
         "text": "Kontakt",
         "aria": "Kontakta oss"
       }

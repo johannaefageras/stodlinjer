@@ -1,4 +1,5 @@
 /* Stödlinjer Solid icons via SVG symbols */
+/* Config: /src/_data/icons.json */
 
 :root {
   --symbol-color-primary: currentColor;
@@ -34,9 +35,7 @@
 }
 
 .weather-widget .stl,
-.weather-widget .sts,
-.theme-toggle .stl,
-.theme-toggle .sts {
+.weather-widget .sts {
   height: 1em;
   width: 1em;
 }
@@ -61,4 +60,16 @@
 .stroke-round use {
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+.theme-toggle .stl,
+.theme-toggle .sts {
+  height: 1.75em !important;
+  width: 1.75em !important;
+  color: var(--text) !important;
+}
+
+[data-theme='dark'] .theme-toggle .stl,
+.theme-toggle .sts {
+  color: var(--text) !important;
 }

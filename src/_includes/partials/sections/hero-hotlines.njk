@@ -7,7 +7,7 @@
       aria-label="Ring Självmordslinjen 90101"
     >
       <div class="flex items-center gap-2 text-sm font-extrabold text-[var(--accent)]">
-        {{ icon('fa-headset') }} Självmordslinjen
+        {{ icon('headset-1') }} Självmordslinjen
       </div>
       <div class="text-2xl font-extrabold text-slate-900 dark:text-white leading-none phone-number">
         90101
@@ -20,7 +20,7 @@
       aria-label="Ring SOS Alarm 112"
     >
       <div class="flex items-center gap-2 text-sm font-extrabold text-[var(--accent)]">
-        {{ icon('fa-triangle-exclamation') }} SOS Alarm
+        {{ icon('sos') }} SOS Alarm
       </div>
       <div class="text-2xl font-extrabold text-slate-900 dark:text-white leading-none phone-number">
         112
@@ -33,7 +33,7 @@
       aria-label="Ring Kvinnofridslinjen 020-505050"
     >
       <div class="flex items-center gap-2 text-sm font-extrabold text-[var(--accent)]">
-        {{ icon('fa-shield-halved') }} Kvinnofridslinjen
+        {{ icon('cross-shield-2') }} Kvinnofridslinjen
       </div>
       <div class="text-2xl font-extrabold text-slate-900 dark:text-white leading-none phone-number">
         020-505050
@@ -76,7 +76,7 @@
         <ul class="space-y-3 text-sm sm:text-base muted">
           {% for item in config.right.items %}
             <li class="flex gap-3">
-              {{ icon('fa-check', 'line', 'text-[var(--accent)]') }}{{ item | safe }}
+              {{ icon('check-mark-bold', 'line', 'text-[var(--accent)]') }}{{ item | safe }}
             </li>
           {% endfor %}
         </ul>

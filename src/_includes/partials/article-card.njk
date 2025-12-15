@@ -1,6 +1,6 @@
 {% from "partials/icon.njk" import icon %}
 {% macro articleCard(post) %}
-  {% set samlingInfo = (post.data.samling | getSamling) or { title: post.data.samling, icon: 'fas fa-folder' } %}
+  {% set samlingInfo = (post.data.samling | getSamling) or { title: post.data.samling, icon: 'folder' } %}
   {% set readingTime = post.data.readingTime %}
   {% if not readingTime and post.templateContent %}
     {% set readingTime = post.templateContent | readingTime ~ ' min' %}
@@ -18,7 +18,7 @@
           href="{{ baseUrl }}/samlingar/{{ post.data.samling }}/"
           aria-label="Visa fler artiklar i samlingen {{ samlingInfo.title }}"
         >
-          {{ icon(samlingInfo.icon or 'fa-folder') }}
+          {{ icon(samlingInfo.icon or 'folder') }}
           <span>{{ samlingInfo.title }}</span>
         </a>
       {% endif %}
@@ -36,13 +36,13 @@
     <div class="article-card-footer">
       {% if readingTime %}
         <span class="article-reading-time">
-          {{ icon('fa-clock') }}
+          {{ icon('hourglass') }}
           {{ readingTime }}
         </span>
       {% endif %}
       <a class="read-more" href="{{ baseUrl }}{{ post.url }}">
         <span>Fortsätt läs</span>
-        {{ icon('fa-arrow-right') }}
+        {{ icon('arrow-right') }}
       </a>
     </div>
   </article>

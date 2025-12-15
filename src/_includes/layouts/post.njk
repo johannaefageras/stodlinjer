@@ -6,7 +6,7 @@
 {% endblock %}
 
 {% block content %}
-  {% set samlingInfo = (samling | getSamling) or { title: samling, icon: 'fas fa-folder' } %}
+  {% set samlingInfo = (samling | getSamling) or { title: samling, icon: 'folder' } %}
   {% set estimatedReadingTime = readingTime %}
   {% if not estimatedReadingTime and content %}
     {% set estimatedReadingTime = content | readingTime ~ ' min' %}
@@ -16,7 +16,7 @@
     <article class="surface-card strong-card post-shell">
       <header class="post-header">
         <div class="post-icon" aria-hidden="true">
-          {{ icon('fa-books') }}
+          {{ icon('books') }}
         </div>
         <p class="sr-only">
           Artikel{% if samling %} – {{ samlingInfo.title }}{% endif %}
@@ -25,10 +25,10 @@
         <h1 class="post-title">{{ title }}</h1>
 
         <div class="post-meta">
-          <span>{{ icon('fa-calendar') }} {{ date | formatDate }}</span>
+          <span>{{ icon('calendar') }} {{ date | formatDate }}</span>
           {% if estimatedReadingTime %}
             <span class="meta-divider" aria-hidden="true"></span>
-            <span>{{ icon('fa-clock') }} {{ estimatedReadingTime }}</span>
+            <span>{{ icon('hourglass') }} {{ estimatedReadingTime }}</span>
           {% endif %}
           {% if samling %}
             <span class="meta-divider" aria-hidden="true"></span>
@@ -51,7 +51,7 @@
         {% if references %}
           <div class="post-references">
             <p class="text-xs uppercase tracking-wide flex items-center gap-2">
-              {{ icon('fa-book') }} Referenser
+              {{ icon('book') }} Referenser
             </p>
             <ol class="reference-list">
               {% for ref in references %}

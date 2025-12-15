@@ -18,7 +18,7 @@
 
       <div class="space-y-4">
         <div class="search-shell">
-          {{ icon('fa-magnifying-glass', 'line', 'text-slate-400') }}
+          {{ icon('search', 'line', 'text-slate-400') }}
           <label for="searchInput" class="sr-only">Sök stödlinjer</label>
           <input
             type="search"
@@ -30,28 +30,28 @@
 
         <nav aria-label="Kategorier" class="flex gap-3 overflow-x-auto pb-2 scrollbar-hide" id="categories">
           <button class="category-btn is-active" data-category="all" aria-pressed="true">
-            <span>{{ icon('fa-grid') }} Alla</span>
+            <span>{{ icon('grid-3x3') }} Alla</span>
           </button>
           <button class="category-btn" data-category="psykisk-halsa" aria-pressed="false">
-            <span>{{ icon('fa-brain') }} Psykisk Hälsa</span>
+            <span>{{ icon('brain') }} Psykisk Hälsa</span>
           </button>
           <button class="category-btn" data-category="barn-unga" aria-pressed="false">
-            <span>{{ icon('fa-children') }} Barn &amp; Unga</span>
+            <span>{{ icon('family-2') }} Barn &amp; Unga</span>
           </button>
           <button class="category-btn" data-category="vald" aria-pressed="false">
-            <span>{{ icon('fa-shield-halved') }} Våld &amp; Utsatthet</span>
+            <span>{{ icon('bandage') }} Våld &amp; Utsatthet</span>
           </button>
           <button class="category-btn" data-category="missbruk" aria-pressed="false">
-            <span>{{ icon('fa-wine-bottle') }} Missbruk &amp; Beroende</span>
+            <span>{{ icon('wine-glass-2') }} Missbruk &amp; Beroende</span>
           </button>
           <button class="category-btn" data-category="anhoriga" aria-pressed="false">
-            <span>{{ icon('fa-people-roof') }} Anhöriga</span>
+            <span>{{ icon('group') }} Anhöriga</span>
           </button>
           <button class="category-btn" data-category="aldre" aria-pressed="false">
-            <span>{{ icon('fa-person-cane') }} Äldre</span>
+            <span>{{ icon('old-person-walker') }} Äldre</span>
           </button>
           <button class="category-btn" data-category="ovrigt" aria-pressed="false">
-            <span>{{ icon('fa-circle-info') }} Övrigt</span>
+            <span>{{ icon('asterisk') }} Övrigt</span>
           </button>
         </nav>
       </div>

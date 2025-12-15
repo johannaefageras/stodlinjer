@@ -28,6 +28,10 @@ package-lock.json
 .netlify/
 deno.lock
 
+# Vercel
+vercel.json
+
 # Misc
 CLAUDE.md
-PROJECT_SPECS.md
+PROJECT-SPEC.md
+ICON-SYSTEM.md

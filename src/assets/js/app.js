@@ -4,72 +4,50 @@
 const BASE_URL = window.BASE_URL || '';
 
 // ==========================================================================
-// Icon helper
+// Icon System
 // ==========================================================================
+// Config loaded from /data/icons.json (single source of truth)
+// Aliases and paths are shared with Nunjucks templates
 
-const ICON_MAP = {
-  'calendar-days': 'calendar-month',
-  'calendar-day': 'calendar',
-  check: 'check-mark-bold',
-  children: 'child',
-  'circle-exclamation': 'warning-circle',
-  'triangle-exclamation': 'warning-triangle',
-  'circle-info': 'information-circle',
-  'circle-question': 'question-circle',
-  code: 'hashtag',
-  'code-branch': 'fork-right',
-  'comment-dots': 'chat-bubble-dots',
-  comments: 'chat-bubble',
-  'comments-question': 'chat-bubble-question',
-  'envelope-circle-check': 'envelope-check',
-  'envelope-open-text': 'envelope-letter',
-  grid: 'grid-3x3',
-  headset: 'headset-1',
-  heart: 'heart-1',
-  hjalp: 'sos',
-  'life-ring': 'life-ring-1',
-  'life-ring-1': 'life-ring-1',
-  'life-ring-2': 'life-ring-2',
-  'list-ul': 'list-unordered',
-  'location-dot': 'location-pin',
-  'magnifying-glass': 'search',
-  lock: 'lock-locked',
-  message: 'chat-bubble',
-  'message-question': 'chat-bubble-question',
-  'paper-plane': 'paper-plane',
-  'people-roof': 'family',
-  'person-cane': 'old-person-cane',
-  'phone-volume': 'phone-voice',
-  'quote-left': 'quotation',
-  'rotate-right': 'triangle-split-right',
-  'shield-halved': 'cross-shield-1',
-  'shield-check': 'check-shield',
-  'shield-heart': 'heart-shield',
-  stod: 'handshake',
-  'share-nodes': 'share',
-  'scale-balanced': 'scale',
-  'file-contract': 'contract-sign',
-  'file-lines': 'file-text',
-  'cookie-bite': 'cookie',
-  'wine-bottle': 'wine',
-  clock: 'clock'
-};
+let iconConfig = null;
 
-function renderIcon(name, variant = 'line', className = '') {
+async function loadIconConfig() {
+  if (iconConfig) return iconConfig;
+  try {
+    const res = await fetch(`${BASE_URL}/data/icons.json`, { cache: 'default' });
+    if (!res.ok) throw new Error('Could not load icon config');
+    iconConfig = await res.json();
+  } catch (err) {
+    console.warn('Icon config not loaded, using defaults:', err);
+    iconConfig = { paths: { line: '/assets/symbols/st-line.svg', solid: '/assets/symbols/st-solid.svg' }, aliases: {} };
+  }
+  return iconConfig;
+}
+
+function resolveIconSymbol(name) {
   const tokens = (name || '').split(' ');
   const raw = tokens.length ? tokens[tokens.length - 1] : name;
   const cleaned = (raw || '').replace(/^fa-/, '');
-  const symbol = ICON_MAP[cleaned] || cleaned;
+  // Use loaded config, fall back to cleaned name if no alias
+  const aliases = iconConfig?.aliases || {};
+  return aliases[cleaned] || cleaned;
+}
+
+function renderIcon(name, variant = 'line', className = '') {
+  const symbol = resolveIconSymbol(name);
+  const paths = iconConfig?.paths || { line: '/assets/symbols/st-line.svg', solid: '/assets/symbols/st-solid.svg' };
+  const linePath = `${BASE_URL}${paths.line}`;
+  const solidPath = `${BASE_URL}${paths.solid}`;
 
   // If explicitly requesting solid, return a single solid icon
   if (variant === 'solid') {
     const cls = ['sts', className].filter(Boolean).join(' ');
-    return `<svg class="${cls}" aria-hidden="true" focusable="false"><use href="${BASE_URL}/assets/symbols/st-solid.svg#symbol-${symbol}"></use></svg>`;
+    return `<svg class="${cls}" aria-hidden="true" focusable="false"><use href="${solidPath}#symbol-${symbol}"></use></svg>`;
   }
 
   // Default: return dual-icon structure for hover swap effect
   const wrapperCls = ['icon-duo', className].filter(Boolean).join(' ');
-  return `<span class="${wrapperCls}"><svg class="stl icon-line" aria-hidden="true" focusable="false"><use href="${BASE_URL}/assets/symbols/st-line.svg#symbol-${symbol}"></use></svg><svg class="sts icon-solid" aria-hidden="true" focusable="false"><use href="${BASE_URL}/assets/symbols/st-solid.svg#symbol-${symbol}"></use></svg></span>`;
+  return `<span class="${wrapperCls}"><svg class="stl icon-line" aria-hidden="true" focusable="false"><use href="${linePath}#symbol-${symbol}"></use></svg><svg class="sts icon-solid" aria-hidden="true" focusable="false"><use href="${solidPath}#symbol-${symbol}"></use></svg></span>`;
 }
 
 // ==========================================================================
@@ -184,13 +162,13 @@ async function loadSupportLines() {
       grid.innerHTML = `
         <div class="surface-card p-6 md:col-span-2 xl:col-span-3 text-center">
           <p class="text-lg font-extrabold mb-2">${renderIcon(
-            'fa-triangle-exclamation',
+            'under-construction',
             'line',
             'text-amber-500'
           )} Kunde inte ladda stödlinjer</p>
           <p class="muted text-sm mb-4">Försök ladda om sidan eller kontakta oss om problemet kvarstår.</p>
           <button onclick="location.reload()" class="category-btn is-active">
-            ${renderIcon('fa-rotate-right')} Ladda om
+            ${renderIcon('circle-notch')} Ladda om
           </button>
         </div>
       `;
@@ -267,15 +245,15 @@ function renderLines() {
 
   const categoryIcon = (category) => {
     const map = {
-      'psykisk-halsa': renderIcon('fa-brain'),
-      'barn-unga': renderIcon('fa-children'),
-      vald: renderIcon('fa-shield-halved'),
-      missbruk: renderIcon('fa-wine-bottle'),
-      anhoriga: renderIcon('fa-people-roof'),
-      aldre: renderIcon('fa-person-cane'),
-      ovrigt: renderIcon('fa-circle-info')
+      'psykisk-halsa': renderIcon('brain'),
+      'barn-unga': renderIcon('family-2'),
+      vald: renderIcon('bandage'),
+      missbruk: renderIcon('wine-glass-2'),
+      anhoriga: renderIcon('group'),
+      aldre: renderIcon('old-person-walker'),
+      ovrigt: renderIcon('asterisk')
     };
-    return map[category] || renderIcon('fa-life-ring');
+    return map[category] || renderIcon('life-ring-2');
   };
 
   filtered.forEach((line) => {
@@ -287,7 +265,7 @@ function renderLines() {
     // Urgent badge - only rendered once, positioned in top-right corner
     const urgentBadge = line.urgent
       ? `<span class="badge-urgent badge-urgent-corner" aria-label="Akut">${renderIcon(
-          'fa-bolt'
+          'bolt'
         )}<span>Akut</span></span>`
       : '';
 
@@ -312,7 +290,7 @@ function renderLines() {
             ${
               availabilityLabel
                 ? `<div class="card-meta">${renderIcon(
-                    'fa-clock'
+                    'clock'
                   )}<span itemprop="hoursAvailable">${availabilityLabel}</span></div>`
                 : ''
             }
@@ -325,7 +303,7 @@ function renderLines() {
           ? `<a href="tel:${telHref}"
              class="card-number"
              itemprop="telephone" aria-label="Ring ${line.title} på ${phone}">
-            ${renderIcon('fa-phone')}
+            ${renderIcon('phone')}
             <span class="card-phone-number">${phone}</span>
           </a>`
           : ''
@@ -455,7 +433,7 @@ function initArticleFilters() {
   grid.innerHTML = '';
   grid.appendChild(fragment);
   const counter = document.getElementById('articleCount');
-  const state = {
+  const filterState = {
     filter: 'all',
     query: '',
     page: 1,
@@ -472,9 +450,9 @@ function initArticleFilters() {
 
   const getFilteredCards = () =>
     cards.filter(({ samling, title, description }) => {
-      const matchesFilter = state.filter === 'all' || samling === state.filter;
-      if (!state.query) return matchesFilter;
-      const matchesQuery = title.includes(state.query) || description.includes(state.query);
+      const matchesFilter = filterState.filter === 'all' || samling === filterState.filter;
+      if (!filterState.query) return matchesFilter;
+      const matchesQuery = title.includes(filterState.query) || description.includes(filterState.query);
       return matchesFilter && matchesQuery;
     });
 
@@ -496,18 +474,18 @@ function initArticleFilters() {
     };
 
     const prev = makeLink(
-      state.page - 1,
-      `${renderIcon('fa-arrow-left')} Föregående`,
-      state.page === 1,
+      filterState.page - 1,
+      `${renderIcon('arrow-left')} Föregående`,
+      filterState.page === 1,
       'prev'
     );
     const next = makeLink(
-      state.page + 1,
-      `Nästa ${renderIcon('fa-arrow-right')}`,
-      state.page === totalPages,
+      filterState.page + 1,
+      `Nästa ${renderIcon('arrow-right')}`,
+      filterState.page === totalPages,
       'next'
     );
-    const info = `<span class="pagination-info">Sida ${state.page} av ${totalPages}</span>`;
+    const info = `<span class="pagination-info">Sida ${filterState.page} av ${totalPages}</span>`;
 
     paginationEl.innerHTML = `
       <div class="pagination-prev">${prev}</div>
@@ -518,16 +496,16 @@ function initArticleFilters() {
 
   const render = () => {
     const filteredCards = getFilteredCards();
-    const totalPages = Math.max(1, Math.ceil(filteredCards.length / state.pageSize));
+    const totalPages = Math.max(1, Math.ceil(filteredCards.length / filterState.pageSize));
 
-    if (state.page > totalPages) {
-      state.page = totalPages;
+    if (filterState.page > totalPages) {
+      filterState.page = totalPages;
     }
 
     cards.forEach(({ el }) => el.classList.add('hidden'));
 
-    const start = (state.page - 1) * state.pageSize;
-    const visible = filteredCards.slice(start, start + state.pageSize);
+    const start = (filterState.page - 1) * filterState.pageSize;
+    const visible = filteredCards.slice(start, start + filterState.pageSize);
     visible.forEach(({ el }) => el.classList.remove('hidden'));
 
     if (counter) {
@@ -544,19 +522,19 @@ function initArticleFilters() {
   };
 
   const initial = filterButtons.find((btn) => btn.classList.contains('is-active'));
-  state.filter = initial ? initial.dataset.samlingFilter || 'all' : 'all';
+  filterState.filter = initial ? initial.dataset.samlingFilter || 'all' : 'all';
   if (searchInput) {
-    state.query = (searchInput.value || '').trim().toLowerCase();
+    filterState.query = (searchInput.value || '').trim().toLowerCase();
   }
-  setFilterButtonState(state.filter);
+  setFilterButtonState(filterState.filter);
   render();
 
   filterButtons.forEach((btn) => {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
       const value = btn.dataset.samlingFilter || 'all';
-      state.filter = value;
-      state.page = 1;
+      filterState.filter = value;
+      filterState.page = 1;
       setFilterButtonState(value);
       render();
     });
@@ -564,8 +542,8 @@ function initArticleFilters() {
 
   if (searchInput) {
     searchInput.addEventListener('input', (e) => {
-      state.query = (e.target.value || '').trim().toLowerCase();
-      state.page = 1;
+      filterState.query = (e.target.value || '').trim().toLowerCase();
+      filterState.page = 1;
       render();
     });
   }
@@ -576,8 +554,8 @@ function initArticleFilters() {
       if (!link) return;
       e.preventDefault();
       const page = parseInt(link.dataset.page, 10);
-      if (Number.isNaN(page) || page === state.page) return;
-      state.page = page;
+      if (Number.isNaN(page) || page === filterState.page) return;
+      filterState.page = page;
       render();
     });
   }
@@ -656,7 +634,10 @@ function initUrlSearch() {
 // Initialization
 // ==========================================================================
 
-function init() {
+async function init() {
+  // Load icon config first (needed for renderIcon)
+  await loadIconConfig();
+  
   initThemeControls();
   initQuote();
   initArticleFilters();
