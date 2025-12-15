@@ -10,7 +10,7 @@ status: active
 toc: true
 noindex: false
 schemaType: WebPage
-canonical: https://stodlinjer.netlify.app/sidor/cookiepolicy/
+canonical: https://stodlinjer.jfageras.se/sidor/cookiepolicy/
 heroTitle: Cookiepolicy
 heroLead: Hur vi använder cookies och liknande tekniker på Stödlinjer.
 ---

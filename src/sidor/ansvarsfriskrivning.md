@@ -10,7 +10,7 @@ status: active
 toc: true
 noindex: false
 schemaType: WebPage
-canonical: https://stodlinjer.netlify.app/sidor/ansvarsfriskrivning/
+canonical: https://stodlinjer.jfageras.se/sidor/ansvarsfriskrivning/
 heroTitle: Ansvarsfriskrivning
 heroLead: Viktig information om vad Stödlinjer kan och inte kan erbjuda.
 ---

@@ -2,7 +2,7 @@
 
 En ideell informationssida som samlar svenska stödlinjer och hjälplinjer på ett ställe — för dig som behöver hjälp, eller för dig som vill hjälpa någon annan.
 
-🌐 **Webbplats:** [stodlinjer.se](https://stodlinjer.netlify.app)
+🌐 **Webbplats:** [stodlinjer.se](https://stodlinjer.jfageras.se)
 
 ---
 
@@ -216,7 +216,7 @@ Static build till `site/` (Netlify-konfig i `netlify.toml`). Kör `npm run index
 
 ## 📧 Kontakt
 
-- 🌐 **Webb:** [stodlinjer.se](https://stodlinjer.netlify.app)
+- 🌐 **Webb:** [stodlinjer.se](https://stodlinjer.jfageras.se)
 - 📬 **E-post:** [info@stodlinjer.se](mailto:info@stodlinjer.se)
 - 👤 **Skapad av:** [Robert Claesson](https://github.com/YouTubeRobski87)
 

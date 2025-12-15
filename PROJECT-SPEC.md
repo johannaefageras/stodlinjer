@@ -1,6 +1,6 @@
 # Project Spec: Stödlinjer
 
-**Deployment:** [stodlinjer](https://stodlinjer.netlify.app)
+**Deployment:** [stodlinjer](https://stodlinjer.jfageras.se)
 
 Audience: handover summary for someone comfortable with basic HTML/CSS/JS but new to Node, npm, Eleventy, Nunjucks, Netlify Functions, and API usage. This is detailed so ChatGPT can help generate onboarding docs or answer “how do I…” questions about this codebase.
 
