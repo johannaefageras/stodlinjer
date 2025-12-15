@@ -1,4 +1,5 @@
 {% extends "layouts/base.njk" %}
+{% from "partials/icon.njk" import icon %}
 
 {# Ensure legal pages get a consistent page shell class for styling #}
 {% set pageClass = (pageClass or '') ~ ' solid-bg-shell legal-page-shell' %}
@@ -37,13 +38,13 @@
       <header class="legal-header">
         <div class="p-6 sm:p-9">
           <div class="flex flex-wrap items-center gap-3 sm:gap-4 mb-4">
-            <span class="pill"><i class="{{ docMeta.icon }}"></i> {{ docMeta.label }}</span>
+            <span class="pill">{{ icon(docMeta.icon) }} {{ docMeta.label }}</span>
             {% if version %}
-              <span class="stat-chip"><i class="fas fa-code-branch"></i> Version {{ version }}</span>
+              <span class="stat-chip">{{ icon('fa-code-branch') }} Version {{ version }}</span>
             {% endif %}
             {% if pageStatus and pageStatus != 'active' %}
               <span class="stat-chip">
-                <i class="fas fa-circle-notch"></i> Status: {{ status }}
+                {{ icon('fa-circle-notch') }} Status: {{ status }}
               </span>
             {% endif %}
           </div>
@@ -58,16 +59,16 @@
           <div class="flex flex-wrap gap-3 text-sm muted legal-meta-row">
             {% if effectiveDate %}
               <span class="stat-chip">
-                <i class="fas fa-calendar-check"></i> Gäller från {{ effectiveDate | formatDate }}
+                {{ icon('fa-calendar-check') }} Gäller från {{ effectiveDate | formatDate }}
               </span>
             {% endif %}
             {% if lastUpdated %}
               <span class="stat-chip">
-                <i class="fas fa-clock"></i> Senast uppdaterad {{ lastUpdated | formatDate }}
+                {{ icon('fa-clock') }} Senast uppdaterad {{ lastUpdated | formatDate }}
               </span>
             {% endif %}
             <a class="inline-link font-semibold" href="{{ baseUrl }}/kontakt/">
-              <i class="fas fa-message"></i> Frågor eller rättelser? Kontakta oss
+              {{ icon('fa-message') }} Frågor eller rättelser? Kontakta oss
             </a>
           </div>
         </div>
@@ -79,7 +80,7 @@
             <aside class="lg:col-span-4 xl:col-span-3 legal-sidebar">
               <div class="surface-card strong-card p-4 sm:p-5 legal-toc-card">
                 <div class="flex items-center gap-2 mb-3">
-                  <span class="pill"><i class="fas fa-list-ul"></i> Innehåll</span>
+                  <span class="pill">{{ icon('fa-list-ul') }} Innehåll</span>
                 </div>
                 <nav data-auto-toc class="space-y-2 text-sm muted legal-toc">
                   <p class="text-sm muted mb-0">Rubriker visas här automatiskt.</p>
@@ -91,7 +92,7 @@
           <div class="{% if showToc %}lg:col-span-8 xl:col-span-9{% else %}lg:col-span-12{% endif %}">
             {% if pageStatus and pageStatus != 'active' %}
               <div class="mb-6 p-4 rounded-lg" style="background: var(--accent-soft); border: 1px solid var(--border);">
-                <p class="font-semibold mb-1"><i class="fas fa-circle-info"></i> Status: {{ status }}</p>
+                <p class="font-semibold mb-1">{{ icon('fa-circle-info') }} Status: {{ status }}</p>
                 <p class="muted mb-0">Detta dokument är markerat som {{ status | lower }}. Innehållet kan ändras.</p>
               </div>
             {% endif %}
@@ -103,7 +104,7 @@
             {% if lastUpdated or version %}
               <div class="mt-8 pt-4 border-t" style="border-color: var(--border);">
                 <p class="text-sm muted mb-1">
-                  <i class="fas fa-shield-check"></i>
+                  {{ icon('fa-shield-check') }}
                   Senast uppdaterad
                   {% if lastUpdated %}{{ lastUpdated | formatDate }}{% else %}uppgift saknas{% endif %}
                   {% if version %}&nbsp;| Version {{ version }}{% endif %}

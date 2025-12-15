@@ -96,6 +96,15 @@ Output: `site/` (Eleventy skriver färdiga HTML-filer och kopierar assets).
 
 ---
 
+## 🖼️ Ikoner (SVG symbols)
+
+- Ikonfonten är ersatt av SVG-sprites: `src/assets/symbols/st-line.svg` (outline) och `src/assets/symbols/st-solid.svg` (solid). De exponeras på sajten som `/assets/symbols/st-line.svg` och `/assets/symbols/st-solid.svg`.
+- Använd `<svg class="stl"><use href="/assets/symbols/st-line.svg#symbol-fork-right"></use></svg>` för linjeikoner och `<svg class="sts"><use href="/assets/symbols/st-solid.svg#symbol-fork-right"></use></svg>` för solid-varianten. Symbol-id:n matchar de gamla ikonfont-namnen.
+- Ikoner är 1em höga/breda som standard och ärver textfärgen (`currentColor`). Sätt `--symbol-color-primary`/`--symbol-color-secondary` på elementet för tvåfärgade ikoner.
+- Stroke-hjälpare: `.stroke-1` … `.stroke-4` samt `.stroke-round` (rundade hörn/ändar) kan läggas på `<svg>`-elementet.
+
+---
+
 ## ➕ Lägg till eller ändra stödlinjer
 
 All data finns i `src/_data/supportData.json`. Filen innehåller både de stödlinjer som visas på startsidan och de externa källor som chatbotten använder. Varje objekt följer detta format (visa värden för Självmordslinjen som exempel):

@@ -78,7 +78,7 @@
   /* Sammanfattningsrad: "7°C och mulet i Göteborg" */
   .weather-widget__summary {
     margin: 0;
-    font-size: 1.1rem !important;
+    font-size: 1rem !important;
     font-weight: 700 !important;
     color: var(--text);
     font-family: 'Recursive', system-ui, sans-serif;
@@ -92,7 +92,7 @@
     margin: 0;
     padding: 0.6rem 1rem;
     border-radius: 6px;
-    font-size: 1.1rem !important;
+    font-size: 1rem !important;
     font-weight: 450 !important;
     line-height: 1.35 !important;
     color: var(--text);

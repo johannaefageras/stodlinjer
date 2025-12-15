@@ -10,7 +10,14 @@
     font-weight: 500;
     border: none;
     font-size: 12.5px;
+    transition: color 0.18s ease, background-color 0.18s ease;
   }
+
+  .pill:hover {
+    color: var(--accent);
+  }
+
+  /* Icon swap handled by .icon-duo in stodlinjer-line.css */
 
   .muted {
     color: var(--muted);
@@ -53,8 +60,12 @@
     font-weight: 500;
     font-family: 'Recursive', system-ui, sans-serif;
     font-variation-settings: 'MONO' 0, 'CASL' 1, 'slnt' 0, 'CRSV' 1;
-
     border: none;
+    transition: color 0.15s ease;
+  }
+
+  .tag:hover {
+    color: var(--accent);
   }
 
   .stat-chip {
@@ -68,16 +79,25 @@
     color: var(--pill-text);
     font-weight: 500;
     font-size: 12.5px;
+    transition: color 0.18s ease, background-color 0.18s ease;
   }
+
+  .stat-chip:hover {
+    color: var(--accent);
+  }
+
+  /* Icon swap handled by .icon-duo in stodlinjer-line.css */
 
   .inline-link {
     color: var(--accent);
     font-weight: 800;
     letter-spacing: 0;
     text-decoration: none;
+    transition: color 0.15s ease;
   }
 
   .inline-link:hover {
+    color: var(--accent-2);
     text-decoration: underline;
     text-decoration-thickness: 2px;
   }

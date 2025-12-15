@@ -41,6 +41,8 @@
     transform: rotate(180deg);
   }
 
+  /* Icon swap handled by .icon-duo in stodlinjer-line.css */
+
   .quote-text p {
     font-size: 1.35rem;
     font-weight: 450;

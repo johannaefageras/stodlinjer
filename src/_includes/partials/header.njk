@@ -1,9 +1,10 @@
+{% from "partials/icon.njk" import icon %}
 {% set h = header or {} %}
 <header class="header-shell">
   <div class="header-inner">
     <div class="header-brand">
       <a class="brand-mark" aria-label="Till startsidan" href="{{ baseUrl }}/">
-        <i class="{{ h.icon }}" aria-hidden="true"></i>
+        {{ icon(h.icon) }}
       </a>
       <div class="header-text">
         <p
@@ -20,7 +21,7 @@
       {% if h.links %}
         {% for link in h.links %}
           <a href="{{ baseUrl }}{{ link.url }}" class="header-link" aria-label="{{ link.aria }}">
-            <i class="{{ link.icon }}"></i><span>{{ link.text }}</span>
+            {{ icon(link.icon) }}<span>{{ link.text }}</span>
           </a>
         {% endfor %}
       {% endif %}
@@ -28,8 +29,12 @@
       <div class="theme-controls" aria-label="Utseende">
         <button id="themeToggle" type="button" class="theme-toggle" aria-pressed="false">
           <span id="themeIcon" aria-hidden="true">
-            <span class="theme-icon sun"><i class="fas fa-sun"></i></span>
-            <span class="theme-icon moon"><i class="fas fa-moon"></i></span>
+            <span class="theme-icon sun">
+              <img src="{{ baseUrl }}/assets/icons/sun.svg" alt="" width="26" height="26">
+            </span>
+            <span class="theme-icon moon">
+              <img src="{{ baseUrl }}/assets/icons/moon.svg" alt="" width="22" height="22">
+            </span>
           </span>
           <span id="themeLabel" class="sr-only">Ljust läge</span>
         </button>

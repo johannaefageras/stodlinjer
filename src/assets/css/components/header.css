@@ -170,6 +170,8 @@
     line-height: 1;
   }
 
+  /* Icon swap handled by .icon-duo in stodlinjer-line.css */
+
   .header-link span,
   .header-link-text {
     display: none;
@@ -220,15 +222,15 @@
     justify-content: center;
     gap: 0;
     padding: 4px;
-    width: 72px;
-    height: 40px;
+    width: 88px;
+    height: 44px;
     border-radius: 999px;
     border: 3px solid var(--border);
     background: var(--pill);
     color: var(--text);
     font-weight: 800;
     cursor: pointer;
-    min-width: 72px;
+    min-width: 88px;
     font-size: 13px;
     letter-spacing: 0;
     transition: transform 0.12s ease, box-shadow 0.18s ease, background-color 0.15s ease,
@@ -248,9 +250,9 @@
   .theme-toggle::after {
     content: '';
     position: absolute;
-    left: 6px;
-    width: 26px;
-    height: 26px;
+    left: 4px;
+    width: 32px;
+    height: 32px;
     border-radius: 999px;
     background: var(--accent);
     border: 2px solid #ffffff;
@@ -259,17 +261,15 @@
   }
 
   .theme-toggle[aria-pressed='true']::after {
-    transform: translateX(30px);
+    transform: translateX(42px);
     background: #6b6fa6;
     border-color: #ffffff;
   }
 
-  .theme-toggle i {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 14px;
-    line-height: 1;
+  .theme-toggle i,
+  .theme-toggle svg,
+  .theme-toggle img {
+    display: block;
     position: relative;
     z-index: 1;
   }
@@ -278,8 +278,10 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    opacity: 0.45;
     transition: opacity 0.15s ease, color 0.15s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .theme-icon.sun {
@@ -287,7 +289,7 @@
   }
 
   .theme-icon.moon {
-    right: 10px;
+    right: 12px;
   }
 
   .theme-toggle[aria-pressed='false'] .theme-icon.sun {
@@ -306,7 +308,6 @@
   }
 
   .theme-toggle[aria-pressed='false'] .theme-icon.moon {
-    opacity: 0.45;
     color: rgba(0, 0, 0, 0.5);
   }
 

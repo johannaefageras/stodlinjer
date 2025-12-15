@@ -4,6 +4,75 @@
 const BASE_URL = window.BASE_URL || '';
 
 // ==========================================================================
+// Icon helper
+// ==========================================================================
+
+const ICON_MAP = {
+  'calendar-days': 'calendar-month',
+  'calendar-day': 'calendar',
+  check: 'check-mark',
+  children: 'child',
+  'circle-exclamation': 'warning-circle',
+  'triangle-exclamation': 'warning-triangle',
+  'circle-info': 'information-circle',
+  'circle-question': 'question-circle',
+  code: 'hashtag',
+  'code-branch': 'fork-right',
+  'comment-dots': 'chat-bubble-dots',
+  comments: 'chat-bubble',
+  'comments-question': 'chat-bubble-question',
+  'envelope-circle-check': 'envelope-check',
+  'envelope-open-text': 'envelope-letter',
+  grid: 'grid-3x3',
+  headset: 'headset-1',
+  heart: 'heart-1',
+  hjalp: 'sos',
+  'life-ring': 'life-ring-1',
+  'life-ring-1': 'life-ring-1',
+  'life-ring-2': 'life-ring-2',
+  'list-ul': 'list-unordered',
+  'location-dot': 'location-pin',
+  'magnifying-glass': 'search',
+  lock: 'lock-locked',
+  message: 'chat-bubble',
+  'message-question': 'chat-bubble-question',
+  'paper-plane': 'paper-plane',
+  'people-roof': 'family',
+  'person-cane': 'old-person-cane',
+  'phone-volume': 'phone-voice',
+  'quote-left': 'quotation',
+  'rotate-right': 'triangle-split-right',
+  'shield-halved': 'cross-shield-1',
+  'shield-check': 'check-shield',
+  'shield-heart': 'heart-shield',
+  stod: 'handshake',
+  'share-nodes': 'share',
+  'scale-balanced': 'scale',
+  'file-contract': 'contract-sign',
+  'file-lines': 'file-text',
+  'cookie-bite': 'cookie',
+  'wine-bottle': 'wine',
+  clock: 'book-open'
+};
+
+function renderIcon(name, variant = 'line', className = '') {
+  const tokens = (name || '').split(' ');
+  const raw = tokens.length ? tokens[tokens.length - 1] : name;
+  const cleaned = (raw || '').replace(/^fa-/, '');
+  const symbol = ICON_MAP[cleaned] || cleaned;
+
+  // If explicitly requesting solid, return a single solid icon
+  if (variant === 'solid') {
+    const cls = ['sts', className].filter(Boolean).join(' ');
+    return `<svg class="${cls}" aria-hidden="true" focusable="false"><use href="${BASE_URL}/assets/symbols/st-solid.svg#symbol-${symbol}"></use></svg>`;
+  }
+
+  // Default: return dual-icon structure for hover swap effect
+  const wrapperCls = ['icon-duo', className].filter(Boolean).join(' ');
+  return `<span class="${wrapperCls}"><svg class="stl icon-line" aria-hidden="true" focusable="false"><use href="${BASE_URL}/assets/symbols/st-line.svg#symbol-${symbol}"></use></svg><svg class="sts icon-solid" aria-hidden="true" focusable="false"><use href="${BASE_URL}/assets/symbols/st-solid.svg#symbol-${symbol}"></use></svg></span>`;
+}
+
+// ==========================================================================
 // Motivational Quotes
 // ==========================================================================
 
@@ -114,10 +183,10 @@ async function loadSupportLines() {
     if (grid) {
       grid.innerHTML = `
         <div class="surface-card p-6 md:col-span-2 xl:col-span-3 text-center">
-          <p class="text-lg font-extrabold mb-2"><i class="fas fa-triangle-exclamation text-amber-500"></i> Kunde inte ladda stödlinjer</p>
+          <p class="text-lg font-extrabold mb-2">${renderIcon('fa-triangle-exclamation', 'line', 'text-amber-500')} Kunde inte ladda stödlinjer</p>
           <p class="muted text-sm mb-4">Försök ladda om sidan eller kontakta oss om problemet kvarstår.</p>
           <button onclick="location.reload()" class="category-btn is-active">
-            <i class="fas fa-rotate-right"></i> Ladda om
+            ${renderIcon('fa-rotate-right')} Ladda om
           </button>
         </div>
       `;
@@ -194,15 +263,15 @@ function renderLines() {
 
   const categoryIcon = (category) => {
     const map = {
-      'psykisk-halsa': '<i class="fas fa-brain"></i>',
-      'barn-unga': '<i class="fas fa-children"></i>',
-      vald: '<i class="fas fa-shield-halved"></i>',
-      missbruk: '<i class="fas fa-wine-bottle"></i>',
-      anhoriga: '<i class="fas fa-people-roof"></i>',
-      aldre: '<i class="fas fa-person-cane"></i>',
-      ovrigt: '<i class="fas fa-circle-info"></i>'
+      'psykisk-halsa': renderIcon('fa-brain'),
+      'barn-unga': renderIcon('fa-children'),
+      vald: renderIcon('fa-shield-halved'),
+      missbruk: renderIcon('fa-wine-bottle'),
+      anhoriga: renderIcon('fa-people-roof'),
+      aldre: renderIcon('fa-person-cane'),
+      ovrigt: renderIcon('fa-circle-info')
     };
-    return map[category] || '<i class="fas fa-life-ring"></i>';
+    return map[category] || renderIcon('fa-life-ring');
   };
 
   filtered.forEach((line) => {
@@ -213,7 +282,7 @@ function renderLines() {
 
     // Urgent badge - only rendered once, positioned in top-right corner
     const urgentBadge = line.urgent
-      ? '<span class="badge-urgent badge-urgent-corner" aria-label="Akut"><i class="fas fa-bolt"></i><span>Akut</span></span>'
+      ? `<span class="badge-urgent badge-urgent-corner" aria-label="Akut">${renderIcon('fa-bolt')}<span>Akut</span></span>`
       : '';
 
     const phone = (line.phone || '').toString().trim();
@@ -236,7 +305,7 @@ function renderLines() {
             </h3>
             ${
               availabilityLabel
-                ? `<div class="card-meta"><i class="fas fa-clock"></i><span itemprop="hoursAvailable">${availabilityLabel}</span></div>`
+                ? `<div class="card-meta">${renderIcon('fa-clock')}<span itemprop="hoursAvailable">${availabilityLabel}</span></div>`
                 : ''
             }
           </div>
@@ -248,7 +317,7 @@ function renderLines() {
           ? `<a href="tel:${telHref}"
              class="card-number"
              itemprop="telephone" aria-label="Ring ${line.title} på ${phone}">
-            <i class="fas fa-phone"></i>
+            ${renderIcon('fa-phone')}
             <span>${phone}</span>
           </a>`
           : ''
@@ -420,13 +489,13 @@ function initArticleFilters() {
 
     const prev = makeLink(
       state.page - 1,
-      '<i class="fas fa-arrow-left" aria-hidden="true"></i> Föregående',
+      `${renderIcon('fa-arrow-left')} Föregående`,
       state.page === 1,
       'prev'
     );
     const next = makeLink(
       state.page + 1,
-      `Nästa <i class="fas fa-arrow-right" aria-hidden="true"></i>`,
+      `Nästa ${renderIcon('fa-arrow-right')}`,
       state.page === totalPages,
       'next'
     );

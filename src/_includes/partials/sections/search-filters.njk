@@ -1,3 +1,4 @@
+{% from "partials/icon.njk" import icon %}
 {% macro searchFiltersSection(placeholder, stats) %}
   <section class="max-w-6xl mx-auto px-4 sm:px-6 py-3 sm:py-4" aria-labelledby="filter-heading">
     <div class="surface-card search-panel p-6 sm:p-7">
@@ -17,22 +18,7 @@
 
       <div class="space-y-4">
         <div class="search-shell">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            aria-hidden="true"
-            class="text-slate-400"
-          >
-            <circle cx="11" cy="11" r="8"></circle>
-            <path d="m21 21-4.3-4.3"></path>
-          </svg>
+          {{ icon('fa-magnifying-glass', 'line', 'text-slate-400') }}
           <label for="searchInput" class="sr-only">Sök stödlinjer</label>
           <input
             type="search"
@@ -44,28 +30,28 @@
 
         <nav aria-label="Kategorier" class="flex gap-3 overflow-x-auto pb-2 scrollbar-hide" id="categories">
           <button class="category-btn is-active" data-category="all" aria-pressed="true">
-            <span><i class="fas fa-grid"></i> Alla</span>
+            <span>{{ icon('fa-grid') }} Alla</span>
           </button>
           <button class="category-btn" data-category="psykisk-halsa" aria-pressed="false">
-            <span><i class="fas fa-brain"></i> Psykisk Hälsa</span>
+            <span>{{ icon('fa-brain') }} Psykisk Hälsa</span>
           </button>
           <button class="category-btn" data-category="barn-unga" aria-pressed="false">
-            <span><i class="fas fa-children"></i> Barn &amp; Unga</span>
+            <span>{{ icon('fa-children') }} Barn &amp; Unga</span>
           </button>
           <button class="category-btn" data-category="vald" aria-pressed="false">
-            <span><i class="fas fa-shield-halved"></i> Våld &amp; Utsatthet</span>
+            <span>{{ icon('fa-shield-halved') }} Våld &amp; Utsatthet</span>
           </button>
           <button class="category-btn" data-category="missbruk" aria-pressed="false">
-            <span><i class="fas fa-wine-bottle"></i> Missbruk &amp; Beroende</span>
+            <span>{{ icon('fa-wine-bottle') }} Missbruk &amp; Beroende</span>
           </button>
           <button class="category-btn" data-category="anhoriga" aria-pressed="false">
-            <span><i class="fas fa-people-roof"></i> Anhöriga</span>
+            <span>{{ icon('fa-people-roof') }} Anhöriga</span>
           </button>
           <button class="category-btn" data-category="aldre" aria-pressed="false">
-            <span><i class="fas fa-person-cane"></i> Äldre</span>
+            <span>{{ icon('fa-person-cane') }} Äldre</span>
           </button>
           <button class="category-btn" data-category="ovrigt" aria-pressed="false">
-            <span><i class="fas fa-circle-info"></i> Övrigt</span>
+            <span>{{ icon('fa-circle-info') }} Övrigt</span>
           </button>
         </nav>
       </div>

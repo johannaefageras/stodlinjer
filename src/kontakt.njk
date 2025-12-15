@@ -23,6 +23,7 @@ header:
 ---
 
 {% extends "layouts/base.njk" %}
+{% from "partials/icon.njk" import icon %}
 
 {% block header %}
   {% include "partials/header.njk" %}
@@ -34,8 +35,8 @@ header:
         <div class="hero-grid">
           <div class="surface-card strong-card contact-card p-6 sm:p-8">
             <div class="flex items-center gap-3 mb-4">
-              <span class="pill"><i class="fas fa-envelope-circle-check"></i> Hör av dig</span>
-              <span class="stat-chip"><i class="fas fa-clock"></i> Svar inom 1-2 dagar</span>
+              <span class="pill">{{ icon('fa-envelope-circle-check') }} Hör av dig</span>
+              <span class="stat-chip">{{ icon('fa-clock') }} Svar inom 1-2 dagar</span>
             </div>
             <h2 class="text-3xl sm:text-4xl font-extrabold mb-3 text-slate-900 dark:text-white">
               Hör av dig till oss
@@ -114,7 +115,7 @@ header:
                 </p>
                 <div class="form-field form-full">
                   <button type="submit" class="form-submit">
-                    <i class="fas fa-paper-plane"></i> Skicka meddelande
+                    {{ icon('fa-paper-plane') }} Skicka meddelande
                   </button>
                 </div>
               </div>
@@ -122,23 +123,23 @@ header:
           </div>
 
           <div class="surface-card p-6 sm:p-7 flex flex-col gap-4">
-            <div class="pill w-fit"><i class="fas fa-compass"></i> Snabb info</div>
+            <div class="pill w-fit">{{ icon('fa-compass') }} Snabb info</div>
             <h3 class="text-2xl font-extrabold text-slate-900 dark:text-white">Andra sätt att nå oss</h3>
             <div class="flex flex-col gap-3 text-sm sm:text-base">
               <div class="contact-row">
-                <span class="card-icon" aria-hidden="true"><i class="fas fa-envelope"></i></span>
+                <span class="card-icon" aria-hidden="true">{{ icon('fa-envelope') }}</span>
                 <div>
                   <p class="font-extrabold text-slate-900 dark:text-white mb-1">Maila direkt</p>
                   <p class="muted mb-1">info@stodlinjer.se</p>
                   <a href="mailto:info@stodlinjer.se" class="inline-link"
-                    ><i class="fas fa-paper-plane"></i> Öppna mail</a
+                    >{{ icon('fa-paper-plane') }} Öppna mail</a
                   >
                 </div>
               </div>
               <div class="contact-row">
-                <span class="card-icon" aria-hidden="true"
-                  ><i class="fas fa-shield-heart"></i
-                ></span>
+                <span class="card-icon" aria-hidden="true">
+                  {{ icon('fa-shield-heart') }}
+                </span>
                 <div>
                   <p class="font-extrabold text-slate-900 dark:text-white mb-1">Akut hjälp</p>
                   <p class="muted mb-1">
@@ -146,16 +147,16 @@ header:
                   </p>
                   <div class="flex flex-wrap gap-2">
                     <a href="tel:112" class="badge-urgent"
-                      ><i class="fas fa-triangle-exclamation"></i> 112</a
+                      >{{ icon('fa-triangle-exclamation') }} 112</a
                     >
                     <a href="tel:90101" class="tag">90101 Självmordslinjen</a>
                   </div>
                 </div>
               </div>
               <div class="contact-row">
-                <span class="card-icon" aria-hidden="true"
-                  ><i class="fas fa-clipboard-check"></i
-                ></span>
+                <span class="card-icon" aria-hidden="true">
+                  {{ icon('fa-clipboard-check') }}
+                </span>
                 <div>
                   <p class="font-extrabold text-slate-900 dark:text-white mb-1">
                     Vad som händer sen
@@ -192,9 +193,9 @@ header:
             ditt ärende.
           </p>
           <div class="flex flex-wrap gap-2 mt-3">
-            <span class="stat-chip"><i class="fas fa-lock"></i> Ingen spårning</span>
-            <span class="stat-chip"><i class="fas fa-users"></i> Community-driven</span>
-            <span class="stat-chip"><i class="fas fa-heart"></i> Tack för din hjälp</span>
+            <span class="stat-chip">{{ icon('fa-lock') }} Ingen spårning</span>
+            <span class="stat-chip">{{ icon('fa-users') }} Community-driven</span>
+            <span class="stat-chip">{{ icon('fa-heart') }} Tack för din hjälp</span>
           </div>
         </div>
       </article>

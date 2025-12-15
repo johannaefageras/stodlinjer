@@ -25,6 +25,7 @@ header:
 ---
 
 {% extends "layouts/base.njk" %}
+{% from "partials/icon.njk" import icon %}
 
 {% block header %}
   {% include "partials/header.njk" %}
@@ -36,8 +37,8 @@ header:
       <div class="grid gap-8 md:grid-cols-[1.2fr_1fr]">
         <div class="p-7 sm:p-9">
           <div class="flex items-center gap-3 mb-5">
-            <span class="pill"><i class="fas fa-location-dot"></i> Felsteg</span>
-            <span class="stat-chip"><i class="fas fa-code"></i> 404</span>
+            <span class="pill">{{ icon('fa-location-dot') }} Felsteg</span>
+            <span class="stat-chip">{{ icon('fa-code') }} 404</span>
           </div>
 
           <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white mb-3">
@@ -52,28 +53,28 @@ header:
               class="inline-flex items-center justify-between gap-3 px-4 py-3 rounded-lg bg-[var(--accent)] text-white font-semibold shadow-lg hover:shadow-xl transition"
               href="{{ baseUrl }}/"
             >
-              <span class="inline-flex items-center gap-2"><i class="fas fa-arrow-left"></i> Till startsidan</span>
-              <i class="fas fa-compass"></i>
+              <span class="inline-flex items-center gap-2">{{ icon('fa-arrow-left') }} Till startsidan</span>
+              {{ icon('fa-compass') }}
             </a>
             <a
               class="inline-flex items-center justify-between gap-3 px-4 py-3 rounded-lg bg-[var(--card)] text-[var(--text)] font-semibold border border-[var(--border)] hover:border-[var(--accent)] transition"
               href="{{ baseUrl }}/artiklar/"
             >
-              <span class="inline-flex items-center gap-2"><i class="fas fa-newspaper"></i> Utforska guider och artiklar</span>
-              <i class="fas fa-book-open"></i>
+              <span class="inline-flex items-center gap-2">{{ icon('fa-newspaper') }} Utforska guider och artiklar</span>
+              {{ icon('fa-book-open') }}
             </a>
             <a
               class="inline-flex items-center justify-between gap-3 px-4 py-3 rounded-lg bg-[var(--card)] text-[var(--text)] font-semibold border border-[var(--border)] hover:border-[var(--accent)] transition"
               href="{{ baseUrl }}/kontakt/"
             >
-              <span class="inline-flex items-center gap-2"><i class="fas fa-envelope-open-text"></i> Kontakta oss</span>
-              <i class="fas fa-comment-dots"></i>
+              <span class="inline-flex items-center gap-2">{{ icon('fa-envelope-open-text') }} Kontakta oss</span>
+              {{ icon('fa-comment-dots') }}
             </a>
           </div>
         </div>
 
         <div class="bg-gradient-to-b from-[var(--accent-soft)] to-[var(--card)] p-7 sm:p-9 flex flex-col gap-5 border-t md:border-t-0 md:border-l border-[var(--border)]">
-          <div class="pill w-fit"><i class="fas fa-life-ring"></i> Snabbhjälp</div>
+          <div class="pill w-fit">{{ icon('fa-life-ring') }} Snabbhjälp</div>
           <p class="text-base muted">
             Spara de viktigaste numren eller dela dem med någon som behöver stöd direkt.
           </p>
@@ -86,7 +87,7 @@ header:
             >
               <div>
                 <p class="text-sm font-semibold text-[var(--accent)] flex items-center gap-2">
-                  <i class="fas fa-headset"></i> Självmordslinjen
+                  {{ icon('fa-headset') }} Självmordslinjen
                 </p>
                 <p class="text-2xl font-extrabold text-slate-900 dark:text-white phone-number">90101</p>
               </div>
@@ -100,7 +101,7 @@ header:
             >
               <div>
                 <p class="text-sm font-semibold text-[var(--accent)] flex items-center gap-2">
-                  <i class="fas fa-triangle-exclamation"></i> SOS Alarm
+                  {{ icon('fa-triangle-exclamation') }} SOS Alarm
                 </p>
                 <p class="text-2xl font-extrabold text-slate-900 dark:text-white phone-number">112</p>
               </div>
@@ -114,7 +115,7 @@ header:
             >
               <div>
                 <p class="text-sm font-semibold text-[var(--accent)] flex items-center gap-2">
-                  <i class="fas fa-shield-halved"></i> Kvinnofridslinjen
+                  {{ icon('fa-shield-halved') }} Kvinnofridslinjen
                 </p>
                 <p class="text-2xl font-extrabold text-slate-900 dark:text-white phone-number">020-505050</p>
               </div>

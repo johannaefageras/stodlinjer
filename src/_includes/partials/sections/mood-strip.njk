@@ -1,3 +1,4 @@
+{% from "partials/icon.njk" import icon %}
 {# Mood Strip - Väder + Citat sida vid sida #}
 {# Desktop: 1/3 väder, 2/3 citat | Mobil: stackade #}
 
@@ -14,14 +15,14 @@
     {# Citat-widget (höger, 2/3) #}
     <figure class="quote-block" role="figure" aria-label="Uppmuntrande citat">
       <span class="quote-icon quote-icon-left" aria-hidden="true">
-        <i class="fas fa-quote-left"></i>
+        {{ icon('fa-quote-left') }}
       </span>
       <blockquote id="dailyQuote" class="quote-text">
         <p></p>
       </blockquote>
       <figcaption id="quoteAuthor" class="quote-author"></figcaption>
       <span class="quote-icon quote-icon-right" aria-hidden="true">
-        <i class="fas fa-quote-left"></i>
+        {{ icon('fa-quote-left') }}
       </span>
     </figure>
 

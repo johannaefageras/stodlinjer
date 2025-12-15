@@ -37,6 +37,8 @@
     color: var(--accent);
   }
 
+  /* Icon swap handled by .icon-duo in stodlinjer-line.css */
+
   .footer-shell p {
     margin: 0 0 10px 0;
     color: var(--muted);
@@ -53,12 +55,22 @@
   }
 
   .footer-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
+    display: inline;
     color: var(--text);
     font-weight: 500;
     font-size: 14px;
+    line-height: 1.4;
+    transition: color 0.15s ease;
+  }
+
+  .footer-link .icon-duo {
+    margin-right: 4px;
+  }
+
+  .footer-link .stl,
+  .footer-link .sts {
+    height: 1.05em;
+    width: 1.05em;
   }
 
   .footer-link:hover {
@@ -70,6 +82,8 @@
   .footer-link i {
     color: var(--accent);
   }
+
+  /* Icon swap handled by .icon-duo in stodlinjer-line.css */
 
   .footer-meta {
     margin-top: 12px;

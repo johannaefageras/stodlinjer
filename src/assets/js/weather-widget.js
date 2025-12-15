@@ -6,6 +6,15 @@
 (function () {
   'use strict';
 
+  const BASE_URL = window.BASE_URL || '';
+  const renderIcon = (name) => {
+    const cleaned = (name || '').replace(/^fa-/, '');
+    const map = { 'calendar-days': 'calendar-month' };
+    const symbol = map[cleaned] || cleaned;
+    // Dual-icon structure for hover swap effect
+    return `<span class="icon-duo"><svg class="stl icon-line" aria-hidden="true" focusable="false"><use href="${BASE_URL}/assets/symbols/st-line.svg#symbol-${symbol}"></use></svg><svg class="sts icon-solid" aria-hidden="true" focusable="false"><use href="${BASE_URL}/assets/symbols/st-solid.svg#symbol-${symbol}"></use></svg></span>`;
+  };
+
   // Konfiguration
   const CONFIG = {
     // Fallback-koordinater (Göteborg) om geolokalisering misslyckas
@@ -246,9 +255,7 @@
 
     container.innerHTML = `
       <div class="weather-widget__inner">
-        <span class="weather-widget__datetime stat-chip"><i class="fas fa-calendar-days"></i> ${
-          dateTime.date
-        } ${dateTime.time}</span>
+        <span class="weather-widget__datetime stat-chip">${renderIcon('fa-calendar-days')} ${dateTime.date} ${dateTime.time}</span>
         <img
           src="${iconUrl}"
           alt="${label}"

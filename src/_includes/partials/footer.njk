@@ -1,8 +1,9 @@
+{% from "partials/icon.njk" import icon %}
 <footer class="footer-shell">
   <div class="footer-inner">
     <div class="footer-grid">
       <div class="footer-block">
-        <div class="footer-heading"><i class="fas fa-life-ring"></i> Om Stödlinjer.se</div>
+        <div class="footer-heading">{{ icon('fa-life-ring') }} Om Stödlinjer.se</div>
         <p>
           En ideell infosida som samlar svenska stödlinjer på ett ställe. Kontrollera alltid aktuella
           tider på respektive webbplats.
@@ -10,11 +11,11 @@
         <p class="footer-meta">Senast uppdaterad: 2025-12-13</p>
       </div>
       <div class="footer-block">
-        <div class="footer-heading"><i class="fas fa-envelope"></i> Kontakt</div>
+        <div class="footer-heading">{{ icon('fa-envelope') }} Kontakt</div>
         <p>
           Maila
           <a href="mailto:info@stodlinjer.se" class="footer-link"
-            ><i class="fas fa-paper-plane"></i> info@stodlinjer.se</a
+            >{{ icon('fa-paper-plane') }} info@stodlinjer.se</a
           >
           med förbättringar.
         </p>
@@ -23,7 +24,7 @@
         >
       </div>
       <div class="footer-block">
-        <div class="footer-heading"><i class="fas fa-scale-balanced"></i> Policy & juridik</div>
+        <div class="footer-heading">{{ icon('fa-scale-balanced') }} Policy & juridik</div>
         {% set legalLinks = sidorNav or [
           { url: '/sidor/integritetspolicy/', icon: 'fas fa-shield-heart', text: 'Integritetspolicy', status: 'Uppdaterad' },
           { url: '#', icon: 'fas fa-cookie-bite', text: 'Cookiepolicy', status: 'Kommer snart' },
@@ -34,7 +35,7 @@
           {% for item in legalLinks %}
             <li>
               <a class="footer-link" href="{{ baseUrl }}{{ item.url }}">
-                <i class="{{ item.icon }}"></i> {{ item.text }}
+                {{ icon(item.icon) }} {{ item.text }}
               </a>
             </li>
           {% endfor %}
@@ -44,16 +45,16 @@
     <div class="footer-quick">
       <div class="footer-quick-links">
         <a class="footer-link" href="#filter-heading"
-          ><i class="fas fa-magnifying-glass"></i> Sök stödlinjer</a
+          >{{ icon('fa-magnifying-glass') }} Sök stödlinjer</a
         >
         <a class="footer-link" href="tel:112"
-          ><i class="fas fa-triangle-exclamation"></i> Ring 112 vid akut fara</a
+          >{{ icon('fa-triangle-exclamation') }} Ring 112 vid akut fara</a
         >
         <a class="footer-link" href="tel:90101"
-          ><i class="fas fa-phone-volume"></i> Självmordslinjen 90101</a
+          >{{ icon('fa-phone-volume') }} Självmordslinjen 90101</a
         >
         <a class="footer-link" href="{{ baseUrl }}/kontakt/"
-          ><i class="fas fa-envelope-open-text"></i> Kontakta oss</a
+          >{{ icon('fa-envelope-open-text') }} Kontakta oss</a
         >
       </div>
     </div>

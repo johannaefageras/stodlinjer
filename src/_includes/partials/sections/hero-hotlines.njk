@@ -1,3 +1,4 @@
+{% from "partials/icon.njk" import icon %}
 {% macro hotlineGrid() %}
   <div class="grid-hotlines">
     <a
@@ -6,7 +7,7 @@
       aria-label="Ring Självmordslinjen 90101"
     >
       <div class="flex items-center gap-2 text-sm font-extrabold text-[var(--accent)]">
-        <i class="fas fa-headset"></i> Självmordslinjen
+        {{ icon('fa-headset') }} Självmordslinjen
       </div>
       <div class="text-2xl font-extrabold text-slate-900 dark:text-white leading-none phone-number">
         90101
@@ -19,7 +20,7 @@
       aria-label="Ring SOS Alarm 112"
     >
       <div class="flex items-center gap-2 text-sm font-extrabold text-[var(--accent)]">
-        <i class="fas fa-triangle-exclamation"></i> SOS Alarm
+        {{ icon('fa-triangle-exclamation') }} SOS Alarm
       </div>
       <div class="text-2xl font-extrabold text-slate-900 dark:text-white leading-none phone-number">
         112
@@ -32,7 +33,7 @@
       aria-label="Ring Kvinnofridslinjen 020-505050"
     >
       <div class="flex items-center gap-2 text-sm font-extrabold text-[var(--accent)]">
-        <i class="fas fa-shield-halved"></i> Kvinnofridslinjen
+        {{ icon('fa-shield-halved') }} Kvinnofridslinjen
       </div>
       <div class="text-2xl font-extrabold text-slate-900 dark:text-white leading-none phone-number">
         020-505050
@@ -47,12 +48,8 @@
     <div class="hero-grid">
       <div class="surface-card strong-card p-6 sm:p-8">
         <div class="flex items-center gap-3 mb-4">
-          <span class="pill"
-            ><i class="{{ config.left.pill.icon }}"></i> {{ config.left.pill.text }}</span
-          >
-          <span class="stat-chip"
-            ><i class="{{ config.left.stat.icon }}"></i> {{ config.left.stat.text }}</span
-          >
+          <span class="pill">{{ icon(config.left.pill.icon) }} {{ config.left.pill.text }}</span>
+          <span class="stat-chip">{{ icon(config.left.stat.icon) }} {{ config.left.stat.text }}</span>
         </div>
         <h2 class="text-3xl sm:text-4xl font-extrabold mb-3 text-slate-900 dark:text-white">
           {{ config.left.title }}
@@ -64,7 +61,7 @@
         <div class="floating-strip mt-5 text-sm">
           {% for strip in config.left.highlights %}
             <div>
-              <strong><i class="{{ strip.icon }}"></i> {{ strip.title }}</strong
+              <strong>{{ icon(strip.icon) }} {{ strip.title }}</strong
               ><br /><span class="muted">{{ strip.text }}</span>
             </div>
           {% endfor %}
@@ -73,20 +70,20 @@
 
       <div class="surface-card p-6 sm:p-7 flex flex-col gap-4">
         <div class="pill w-fit">
-          <i class="{{ config.right.pill.icon }}"></i> {{ config.right.pill.text }}
+          {{ icon(config.right.pill.icon) }} {{ config.right.pill.text }}
         </div>
         <h3 class="text-2xl font-extrabold text-slate-900 dark:text-white">{{ config.right.title }}</h3>
         <ul class="space-y-3 text-sm sm:text-base muted">
           {% for item in config.right.items %}
             <li class="flex gap-3">
-              <i class="fas fa-check text-[var(--accent)]"></i>{{ item | safe }}
+              {{ icon('fa-check', 'line', 'text-[var(--accent)]') }}{{ item | safe }}
             </li>
           {% endfor %}
         </ul>
         {% if config.right.tags %}
           <div class="flex flex-wrap gap-2">
             {% for tag in config.right.tags %}
-              <span class="stat-chip"><i class="{{ tag.icon }}"></i> {{ tag.text }}</span>
+              <span class="stat-chip">{{ icon(tag.icon) }} {{ tag.text }}</span>
             {% endfor %}
           </div>
         {% endif %}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .c {
+        fill: url(#b);
+        stroke: #f8af18;
+        stroke-width: .5px;
+      }
+
+      .c, .d {
+        stroke-miterlimit: 10;
+      }
+
+      .d {
+        fill: none;
+        stroke: #fbbf24;
+        stroke-linecap: round;
+        stroke-width: 3px;
+      }
+    </style>
+    <linearGradient id="b" x1="18.75" y1="35.09" x2="29.25" y2="16.91" gradientTransform="translate(0 50) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fbbf24"/>
+      <stop offset=".45" stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <circle class="c" cx="24" cy="24" r="10.5"/>
+  <path class="d" d="M24,7.71V1.5M24,46.5v-6.21M35.52,12.48l4.39-4.39M8.09,39.91l4.39-4.39M12.48,12.52l-4.39-4.39M39.91,39.91l-4.39-4.39M7.71,24H1.5M46.5,24h-6.21"/>
+</svg>
