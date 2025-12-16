@@ -172,10 +172,9 @@
 
   /* Icon swap handled by .icon-duo in stodlinjer-line.css */
 
-  .header-link span,
+  .header-link > span:not(.icon-duo),
   .header-link-text {
     display: none;
-    line-height: 1;
   }
 
   @media (min-width: 640px) {
