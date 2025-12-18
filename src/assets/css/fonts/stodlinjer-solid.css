@@ -64,12 +64,12 @@
 
 .theme-toggle .stl,
 .theme-toggle .sts {
-  height: 1.75em !important;
-  width: 1.75em !important;
-  color: var(--text) !important;
+  height: 22px !important;
+  width: 22px !important;
+  color: inherit !important;
 }
 
 [data-theme='dark'] .theme-toggle .stl,
 .theme-toggle .sts {
-  color: var(--text) !important;
+  color: inherit !important;
 }

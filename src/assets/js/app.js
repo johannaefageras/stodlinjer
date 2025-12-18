@@ -564,7 +564,6 @@ function initArticleFilters() {
 function applyThemeMode(mode) {
   const themeMode = mode === 'dark' ? 'dark' : 'light';
   const themeToggle = document.getElementById('themeToggle');
-  const themeIcon = document.getElementById('themeIcon');
   const themeLabel = document.getElementById('themeLabel');
 
   // Smooth transition to reduce flicker
@@ -578,7 +577,6 @@ function applyThemeMode(mode) {
   document.documentElement.classList.toggle('dark', themeMode === 'dark');
 
   if (themeToggle) themeToggle.setAttribute('aria-pressed', themeMode === 'dark');
-  if (themeIcon) themeIcon.classList.toggle('is-dark', themeMode === 'dark');
   if (themeLabel) themeLabel.textContent = themeMode === 'dark' ? 'Mörkt läge' : 'Ljust läge';
 
   localStorage.setItem('theme-mode', themeMode);

@@ -28,18 +28,8 @@
 
       <div class="theme-controls" aria-label="Utseende">
         <button id="themeToggle" type="button" class="theme-toggle" aria-pressed="false">
-          <span id="themeIcon" aria-hidden="true">
-            <span class="theme-icon sun">
-              <svg class="sts theme-icon-svg" aria-hidden="true" focusable="false">
-                <use href="{{ baseUrl }}/assets/symbols/st-solid.svg#symbol-sun"></use>
-              </svg>
-            </span>
-            <span class="theme-icon moon">
-              <svg class="sts theme-icon-svg" aria-hidden="true" focusable="false">
-                <use href="{{ baseUrl }}/assets/symbols/st-solid.svg#symbol-moon"></use>
-              </svg>
-            </span>
-          </span>
+          <span class="theme-toggle-icon sun" aria-hidden="true">{{ icon('sun') }}</span>
+          <span class="theme-toggle-icon moon" aria-hidden="true">{{ icon('moon') }}</span>
           <span id="themeLabel" class="sr-only">Ljust läge</span>
         </button>
       </div>
